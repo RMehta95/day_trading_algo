@@ -5,7 +5,7 @@
 # rise high enough (meeting our price target) or fall too low (meeting our ‘stop’ level.)
 ###
 
-
+import sys
 import alpaca_trade_api as tradeapi
 import requests
 import time
@@ -17,8 +17,6 @@ from config import * #link to other file
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
-
 
 # Replace these with your API connection info from the dashboard
 base_url = "https://paper-api.alpaca.markets"
@@ -106,7 +104,7 @@ def get_tickers():
         ticker.lastTrade['p'] <= max_share_price and
         ticker.prevDay['v'] * ticker.lastTrade['p'] > min_last_dv and
         ticker.todaysChangePerc >= 3.5
-        #  comment if we're working on this over the weekend
+        # comment if we're working on this over the weekend
     )]
 
 
@@ -124,6 +122,9 @@ def find_stop(current_value, minute_history, now):
 def run(tickers, market_open_dt, market_close_dt):
     # Establish streaming connection
     conn = tradeapi.StreamConn(base_url=base_url, key_id=api_key_id, secret_key=api_secret)
+
+    # Store current date so we can eventually end this call
+    current_dt = datetime.today().astimezone(nyc)
 
     # Update initial state with information from tickers
     volume_today = {}
@@ -174,6 +175,9 @@ def run(tickers, market_open_dt, market_close_dt):
     # Use trade updates to keep track of our portfolio
     @conn.on(r'trade_update')
     async def handle_trade_update(conn, channel, data):
+        # End if market's closed
+        if (current_dt - market_close_dt) // 60 > 15:
+            conn.close('Market has closed')
         print('Looking for updates to existing orders on Alpaca')
         symbol = data.order['symbol']
         last_order = open_orders.get(symbol)
@@ -205,6 +209,10 @@ def run(tickers, market_open_dt, market_close_dt):
 
     @conn.on(r'A$')
     async def handle_second_bar(conn, channel, data):
+        # End if market's closed
+        if (current_dt - market_close_dt) // 60 > 15:
+            conn.close('Market has closed')
+
         symbol = data.symbol
         print('Connecting to second-level data, watching:', symbol)
 
@@ -252,8 +260,8 @@ def run(tickers, market_open_dt, market_close_dt):
         #print('Time since market open:', since_market_open)
         until_market_close = market_close_dt - ts
         if (
-            # since_market_open.seconds // 60 > 15 and
-            # since_market_open.seconds // 60 < 60 and
+            since_market_open.seconds // 60 < 60 and
+            since_market_open.seconds // 60 > 15 and
             1 == 1
         ):
             # Check for buy signals
@@ -325,7 +333,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 if shares_to_buy <= 0:
                     return
 
-                buy_subj = 'Submitting buy for {} shares of {} at {}'.format(
+                buy_subj = 'Submitting buy for {:.0f} shares of {} at {}'.format(
                     shares_to_buy, symbol, data.close
                 )
 
@@ -369,7 +377,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 (data.close >= target_prices[symbol] and hist[-1] <= 0) or
                 (data.close <= latest_cost_basis[symbol] and hist[-1] <= 0)
             ):
-                sell_subj = 'Submitting sell for {} shares of {} at {}'.format(
+                sell_subj = 'Submitting sell for {:.0f} shares of {} at {}'.format(
                     position, symbol, data.close
                 )
 
@@ -417,6 +425,10 @@ def run(tickers, market_open_dt, market_close_dt):
     # Replace aggregated 1s bars with incoming 1m bars
     @conn.on(r'AM$')
     async def handle_minute_bar(conn, channel, data):
+        # End if market's closed
+        if (current_dt - market_close_dt) // 60 > 15:
+            conn.close('Market has closed')
+
         print('Connecting to minute-level data, watching:', data.symbol)
 
         ts = data.start
@@ -444,6 +456,11 @@ def run(tickers, market_open_dt, market_close_dt):
 # Handle failed websocket connections by reconnecting
 def run_ws(conn, channels):
     try:
+        # Close if Polygon won't be available
+        today = datetime.today().astimezone(nyc)
+        if (today.hour < 4 or today.hour > 20 or today.weekday() >4):
+            sys.exit('Outside of Polygon streaming hours')
+
         conn.run(channels)
         print('Running')
     except Exception as e:
