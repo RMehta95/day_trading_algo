@@ -48,9 +48,7 @@ risk = 0.005 #changed from default 0.001
 
 def send_email(subject, body):
 
-    signature = '''
-    
-    This is an automated notification from a Python script.'''
+    signature = '''\n\nThis is an automated notification from a Python script.'''
 
     body = body + signature
 
@@ -176,8 +174,8 @@ def run(tickers, market_open_dt, market_close_dt):
     @conn.on(r'trade_update')
     async def handle_trade_update(conn, channel, data):
         # End if market's closed
-        if (current_dt - market_close_dt) // 60 > 15:
-            conn.close('Market has closed')
+        # if ((current_dt - market_close_dt).seconds // 60) > 15:
+        #     conn.close()
         print('Looking for updates to existing orders on Alpaca')
         symbol = data.order['symbol']
         last_order = open_orders.get(symbol)
@@ -210,8 +208,8 @@ def run(tickers, market_open_dt, market_close_dt):
     @conn.on(r'A$')
     async def handle_second_bar(conn, channel, data):
         # End if market's closed
-        if (current_dt - market_close_dt) // 60 > 15:
-            conn.close('Market has closed')
+        # if ((current_dt - market_close_dt).seconds // 60) > 15:
+        #     conn.close()
 
         symbol = data.symbol
         print('Connecting to second-level data, watching:', symbol)
@@ -337,6 +335,7 @@ def run(tickers, market_open_dt, market_close_dt):
                     shares_to_buy, symbol, data.close
                 )
 
+                # portfolio_value = float(api.get_account().portfolio_value)
                 buy_body = 'Portfolio value = ${:,}'.format(portfolio_value)
 
                 print(buy_subj)
@@ -381,6 +380,7 @@ def run(tickers, market_open_dt, market_close_dt):
                     position, symbol, data.close
                 )
 
+                # portfolio_value = float(api.get_account().portfolio_value)
                 sell_body = 'Portfolio value = ${:,}'.format(portfolio_value)
 
                 send_email(sell_subj, sell_body)
@@ -426,8 +426,8 @@ def run(tickers, market_open_dt, market_close_dt):
     @conn.on(r'AM$')
     async def handle_minute_bar(conn, channel, data):
         # End if market's closed
-        if (current_dt - market_close_dt) // 60 > 15:
-            conn.close('Market has closed')
+        # if ((current_dt - market_close_dt).seconds // 60) > 15:
+        #     conn.close('Market has closed')
 
         print('Connecting to minute-level data, watching:', data.symbol)
 
