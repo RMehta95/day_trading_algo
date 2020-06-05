@@ -1,0 +1,842 @@
+Current time: 2020-06-05 10:01:19.061114-04:00
+Market open time: 2020-06-05 09:30:00.748264-04:00
+Time since market open: 0:31:18.312850
+Getting current ticker data...
+Success.
+LIND   - previous day close:   $9.78 ; volume today:      176,679
+AEG    - previous day close:   $3.24 ; volume today:    1,318,064
+WNC    - previous day close:  $10.80 ; volume today:       75,822
+AXL    - previous day close:   $8.32 ; volume today:      491,766
+AXGN   - previous day close:  $10.02 ; volume today:       17,237
+FTI    - previous day close:   $8.61 ; volume today:    1,369,976
+DSKE   - previous day close:   $2.88 ; volume today:       65,862
+DS     - previous day close:   $2.10 ; volume today:    1,151,286
+RESI   - previous day close:   $8.05 ; volume today:      222,064
+RDI    - previous day close:   $4.03 ; volume today:       33,811
+SDIV   - previous day close:  $11.47 ; volume today:      112,543
+SITC   - previous day close:   $8.04 ; volume today:      329,466
+KYN    - previous day close:   $6.29 ; volume today:      206,977
+ASUR   - previous day close:   $6.37 ; volume today:       22,769
+GOGO   - previous day close:   $3.11 ; volume today:    1,976,428
+TISI   - previous day close:   $6.17 ; volume today:       81,787
+BGR    - previous day close:   $7.75 ; volume today:      130,791
+ETM    - previous day close:   $2.01 ; volume today:      444,649
+MOV    - previous day close:  $12.38 ; volume today:       27,319
+ENBL   - previous day close:   $5.14 ; volume today:      441,490
+YRD    - previous day close:   $4.16 ; volume today:       30,373
+AMPY   - previous day close:   $1.84 ; volume today:      527,042
+FI     - previous day close:   $2.28 ; volume today:      220,048
+MGY    - previous day close:   $6.24 ; volume today:      256,651
+BXC    - previous day close:   $8.03 ; volume today:       99,971
+SVC    - previous day close:   $9.30 ; volume today:    1,118,584
+EEX    - previous day close:   $3.20 ; volume today:      390,491
+RYAM   - previous day close:   $3.21 ; volume today:      365,607
+FMNB   - previous day close:  $12.23 ; volume today:       10,345
+FHN    - previous day close:  $10.96 ; volume today:    1,404,316
+III    - previous day close:   $1.94 ; volume today:       64,220
+ACTG   - previous day close:   $3.19 ; volume today:    1,131,507
+EARN   - previous day close:  $10.40 ; volume today:       14,317
+EBR    - previous day close:   $5.80 ; volume today:      136,588
+AJX    - previous day close:   $9.47 ; volume today:       37,024
+NINE   - previous day close:   $2.26 ; volume today:      143,862
+XAN    - previous day close:   $2.59 ; volume today:    1,267,938
+KDMN   - previous day close:   $4.37 ; volume today:      420,257
+PE     - previous day close:  $11.28 ; volume today:    2,357,747
+IHRT   - previous day close:   $9.56 ; volume today:      383,078
+ADAP   - previous day close:  $11.39 ; volume today:      254,097
+KLR    - previous day close:   $6.54 ; volume today:        2,875
+TPVG   - previous day close:  $10.94 ; volume today:       80,974
+MTRX   - previous day close:  $11.36 ; volume today:       14,946
+BHR    - previous day close:   $4.52 ; volume today:      340,758
+CERC   - previous day close:   $2.65 ; volume today:       63,146
+GLP    - previous day close:  $10.48 ; volume today:       47,649
+TGLS   - previous day close:   $5.35 ; volume today:        7,968
+GT     - previous day close:   $8.94 ; volume today:    2,224,102
+DBE    - previous day close:   $9.10 ; volume today:       13,053
+NMRK   - previous day close:   $5.60 ; volume today:      598,731
+CPLG   - previous day close:   $4.82 ; volume today:       50,816
+OII    - previous day close:   $6.95 ; volume today:      486,719
+BBVA   - previous day close:   $3.63 ; volume today:    1,570,111
+GTX    - previous day close:   $6.11 ; volume today:      200,645
+ELVT   - previous day close:   $2.20 ; volume today:      157,605
+EVFM   - previous day close:   $3.29 ; volume today:    1,229,978
+MX     - previous day close:  $11.57 ; volume today:      136,077
+AMC    - previous day close:   $5.38 ; volume today:    1,898,158
+WBT    - previous day close:   $7.09 ; volume today:      474,614
+NGS    - previous day close:   $6.68 ; volume today:       15,065
+FCAU   - previous day close:   $9.88 ; volume today:      586,686
+DNOW   - previous day close:   $7.94 ; volume today:      142,301
+MFA    - previous day close:   $2.32 ; volume today:   25,949,110
+TGI    - previous day close:   $9.77 ; volume today:    1,271,602
+UGP    - previous day close:   $3.68 ; volume today:      169,413
+MTG    - previous day close:   $9.28 ; volume today:    1,081,075
+SM     - previous day close:   $4.20 ; volume today:    2,127,290
+CENX   - previous day close:   $6.74 ; volume today:      363,489
+LBAI   - previous day close:  $11.68 ; volume today:       33,052
+EGLE   - previous day close:   $2.30 ; volume today:      247,786
+REZI   - previous day close:   $8.66 ; volume today:      473,988
+ADMS   - previous day close:   $2.64 ; volume today:      623,975
+RBS    - previous day close:   $3.27 ; volume today:      898,636
+HTBK   - previous day close:   $8.80 ; volume today:       16,434
+OPK    - previous day close:   $2.27 ; volume today:    2,644,059
+SRET   - previous day close:   $8.36 ; volume today:      264,447
+BNO    - previous day close:  $10.39 ; volume today:      860,810
+HUD    - previous day close:   $6.35 ; volume today:      265,593
+TRVG   - previous day close:   $2.32 ; volume today:      342,235
+SMFG   - previous day close:   $5.92 ; volume today:      311,019
+AEY    - previous day close:   $2.31 ; volume today:       90,646
+ESEA   - previous day close:   $2.67 ; volume today:      436,155
+QUOT   - previous day close:   $7.39 ; volume today:       38,765
+CNR    - previous day close:   $6.22 ; volume today:      166,256
+BLDP   - previous day close:  $11.95 ; volume today:      824,999
+ARR    - previous day close:   $8.99 ; volume today:      496,192
+QUAD   - previous day close:   $3.45 ; volume today:       84,089
+CRESY  - previous day close:   $3.92 ; volume today:       16,299
+ICD    - previous day close:   $5.98 ; volume today:       98,561
+TV     - previous day close:   $6.47 ; volume today:      136,320
+WTI    - previous day close:   $2.82 ; volume today:    2,390,647
+GEL    - previous day close:   $9.57 ; volume today:      208,398
+NESR   - previous day close:   $5.89 ; volume today:       53,559
+IRT    - previous day close:  $10.92 ; volume today:      119,616
+BAK    - previous day close:  $10.70 ; volume today:       29,914
+ANGO   - previous day close:  $10.59 ; volume today:       15,606
+DBO    - previous day close:   $6.81 ; volume today:      386,016
+NR     - previous day close:   $2.48 ; volume today:      232,368
+SRNE   - previous day close:   $3.86 ; volume today:    9,881,421
+GER    - previous day close:   $8.71 ; volume today:       30,995
+JRS    - previous day close:   $7.93 ; volume today:       28,200
+ASX    - previous day close:   $4.35 ; volume today:      287,759
+DZSI   - previous day close:   $8.65 ; volume today:       63,098
+CAAP   - previous day close:   $3.26 ; volume today:       77,204
+BDN    - previous day close:  $11.12 ; volume today:      351,541
+BANC   - previous day close:  $12.29 ; volume today:       53,006
+KMF    - previous day close:   $5.29 ; volume today:      113,287
+SONN   - previous day close:   $3.99 ; volume today:      424,474
+SNDE   - previous day close:   $2.76 ; volume today:      121,086
+SLCA   - previous day close:   $3.57 ; volume today:      580,860
+GLOG   - previous day close:   $3.33 ; volume today:      400,760
+FNB    - previous day close:   $8.40 ; volume today:      494,397
+EMO    - previous day close:   $2.84 ; volume today:       92,567
+MG     - previous day close:   $4.91 ; volume today:       52,268
+HPE    - previous day close:  $10.48 ; volume today:    2,393,844
+VIV    - previous day close:   $9.26 ; volume today:      431,806
+CMLS   - previous day close:   $5.75 ; volume today:       37,518
+CVA    - previous day close:  $10.07 ; volume today:      215,600
+EBSB   - previous day close:  $11.54 ; volume today:       24,692
+XCUR   - previous day close:   $2.79 ; volume today:      165,475
+GPX    - previous day close:   $8.31 ; volume today:        5,770
+CORR   - previous day close:  $10.59 ; volume today:      175,061
+FFIC   - previous day close:  $12.21 ; volume today:       13,924
+WTTR   - previous day close:   $5.63 ; volume today:       34,047
+RES    - previous day close:   $3.66 ; volume today:      370,756
+OVV    - previous day close:   $8.81 ; volume today:    3,850,608
+MTC    - previous day close:   $3.04 ; volume today:      201,004
+JAX    - previous day close:   $5.48 ; volume today:      120,967
+TBBK   - previous day close:   $9.70 ; volume today:      102,779
+EC     - previous day close:  $12.00 ; volume today:      309,714
+NGL    - previous day close:   $6.36 ; volume today:      417,765
+BRG    - previous day close:   $7.46 ; volume today:      131,814
+SOHO   - previous day close:   $3.28 ; volume today:      119,870
+KLXE   - previous day close:   $2.13 ; volume today:      341,862
+EXTN   - previous day close:   $7.58 ; volume today:       77,920
+CRHM   - previous day close:   $2.23 ; volume today:       31,286
+HOME   - previous day close:   $6.20 ; volume today:    1,231,961
+GAB    - previous day close:   $5.57 ; volume today:      200,466
+KOS    - previous day close:   $2.27 ; volume today:    3,041,448
+LPL    - previous day close:   $4.87 ; volume today:      157,412
+MDLQ   - previous day close:   $4.02 ; volume today:       11,204
+WES    - previous day close:   $9.70 ; volume today:      783,194
+NAT    - previous day close:   $4.38 ; volume today:    2,851,911
+PAA    - previous day close:  $10.86 ; volume today:    1,657,938
+NDLS   - previous day close:   $6.35 ; volume today:       46,811
+MIST   - previous day close:   $3.58 ; volume today:      294,387
+WETF   - previous day close:   $3.54 ; volume today:      177,864
+OIS    - previous day close:   $6.33 ; volume today:    1,487,892
+CEIX   - previous day close:   $7.26 ; volume today:       99,247
+ISBC   - previous day close:   $9.23 ; volume today:      428,354
+CELC   - previous day close:   $9.95 ; volume today:       21,420
+HCHC   - previous day close:   $3.06 ; volume today:      226,039
+HONE   - previous day close:   $8.49 ; volume today:       47,992
+ALDX   - previous day close:   $4.63 ; volume today:      310,423
+ERF    - previous day close:   $3.01 ; volume today:      321,361
+BBD    - previous day close:   $4.26 ; volume today:    3,500,898
+NCMI   - previous day close:   $3.12 ; volume today:      331,807
+TVTY   - previous day close:  $10.81 ; volume today:      113,117
+HBAN   - previous day close:  $10.47 ; volume today:    3,323,643
+LK     - previous day close:   $4.05 ; volume today:   75,977,272
+AMAL   - previous day close:  $11.53 ; volume today:        4,396
+AMSC   - previous day close:   $8.22 ; volume today:       65,747
+CGBD   - previous day close:   $9.41 ; volume today:       53,165
+TUP    - previous day close:   $4.96 ; volume today:    1,508,627
+CTT    - previous day close:   $8.80 ; volume today:       23,549
+ATI    - previous day close:  $11.09 ; volume today:      755,933
+LPG    - previous day close:   $7.72 ; volume today:       89,468
+DSLV   - previous day close:   $9.76 ; volume today:      314,384
+TDW    - previous day close:   $6.64 ; volume today:      136,407
+MTW    - previous day close:  $11.25 ; volume today:       96,916
+UA     - previous day close:   $9.30 ; volume today:    2,298,997
+DESP   - previous day close:   $8.41 ; volume today:      161,634
+LC     - previous day close:   $6.16 ; volume today:      232,326
+PCOM   - previous day close:   $9.17 ; volume today:       41,192
+FEI    - previous day close:   $6.57 ; volume today:       63,976
+NVGS   - previous day close:   $7.39 ; volume today:       32,656
+SMSI   - previous day close:   $4.65 ; volume today:      167,507
+MCF    - previous day close:   $3.06 ; volume today:      125,975
+REVG   - previous day close:   $7.29 ; volume today:       91,396
+DRN    - previous day close:  $11.37 ; volume today:      852,856
+PSTI   - previous day close:   $7.86 ; volume today:       88,942
+LBRT   - previous day close:   $6.10 ; volume today:       80,254
+CCH    - previous day close:  $10.90 ; volume today:    8,619,967
+PFLT   - previous day close:   $8.72 ; volume today:       31,533
+LXP    - previous day close:  $10.34 ; volume today:      247,842
+CFB    - previous day close:   $9.57 ; volume today:       60,259
+FDD    - previous day close:  $11.23 ; volume today:       26,385
+CHS    - previous day close:   $1.83 ; volume today:    1,177,869
+ISEE   - previous day close:   $3.97 ; volume today:       89,258
+AGRO   - previous day close:   $4.57 ; volume today:       25,634
+GNPX   - previous day close:   $3.24 ; volume today:    1,858,687
+NEBU   - previous day close:  $10.25 ; volume today:       17,137
+SBS    - previous day close:  $10.47 ; volume today:      144,019
+BRY    - previous day close:   $4.79 ; volume today:      151,979
+SMHI   - previous day close:   $2.45 ; volume today:      906,014
+GNK    - previous day close:   $6.49 ; volume today:       63,293
+IVR    - previous day close:   $3.58 ; volume today:   19,781,439
+HT     - previous day close:   $6.80 ; volume today:      604,090
+PGP    - previous day close:   $8.50 ; volume today:       15,260
+FLXN   - previous day close:  $11.88 ; volume today:      155,927
+OI     - previous day close:  $10.12 ; volume today:      317,386
+BSIG   - previous day close:   $9.31 ; volume today:       35,616
+NOA    - previous day close:   $6.86 ; volume today:       34,205
+FTSI   - previous day close:   $7.38 ; volume today:       78,493
+REML   - previous day close:   $3.86 ; volume today:    2,026,783
+FCF    - previous day close:   $8.77 ; volume today:       68,306
+M      - previous day close:   $8.21 ; volume today:   24,225,325
+AXTI   - previous day close:   $5.37 ; volume today:       59,726
+BBX    - previous day close:   $2.11 ; volume today:       61,871
+RPAI   - previous day close:   $7.08 ; volume today:      310,035
+AGS    - previous day close:   $4.89 ; volume today:      354,779
+SNR    - previous day close:   $3.51 ; volume today:      166,810
+CYH    - previous day close:   $3.26 ; volume today:      625,066
+BZH    - previous day close:  $10.40 ; volume today:       90,018
+EAF    - previous day close:   $8.27 ; volume today:      232,935
+LBC    - previous day close:  $10.40 ; volume today:        5,619
+SMHB   - previous day close:   $6.00 ; volume today:       59,466
+TACO   - previous day close:   $7.11 ; volume today:      126,395
+TEN    - previous day close:   $9.08 ; volume today:      614,529
+VET    - previous day close:   $5.81 ; volume today:      587,191
+AXDX   - previous day close:   $8.53 ; volume today:       97,568
+FCX    - previous day close:  $10.20 ; volume today:    5,740,939
+SAN    - previous day close:   $2.61 ; volume today:    4,460,897
+ESTE   - previous day close:   $3.11 ; volume today:      114,773
+CLSD   - previous day close:   $2.22 ; volume today:      443,373
+BRKL   - previous day close:  $10.12 ; volume today:       39,764
+AVCT   - previous day close:   $1.97 ; volume today:      119,137
+ENIC   - previous day close:   $3.99 ; volume today:       42,900
+JMIA   - previous day close:   $5.95 ; volume today:    1,083,100
+ATNX   - previous day close:  $11.90 ; volume today:      114,111
+RLGY   - previous day close:   $7.46 ; volume today:      870,153
+BDRY   - previous day close:   $5.05 ; volume today:      120,521
+PBFX   - previous day close:  $11.97 ; volume today:       65,432
+MWA    - previous day close:   $9.78 ; volume today:      172,601
+PGRE   - previous day close:   $8.82 ; volume today:      236,191
+HEBT   - previous day close:  $11.78 ; volume today:       80,247
+MITT   - previous day close:   $2.75 ; volume today:    5,014,881
+TAST   - previous day close:   $4.79 ; volume today:      240,401
+YPF    - previous day close:   $5.78 ; volume today:      251,582
+SCOR   - previous day close:   $3.59 ; volume today:      104,853
+CBAY   - previous day close:   $3.85 ; volume today:      489,427
+LJPC   - previous day close:   $5.01 ; volume today:      353,238
+PTEN   - previous day close:   $5.17 ; volume today:    1,731,889
+ASNA   - previous day close:   $1.92 ; volume today:      490,584
+KRNY   - previous day close:   $8.97 ; volume today:       22,410
+HTZ    - previous day close:   $1.50 ; volume today:  142,133,247
+VHI    - previous day close:  $11.67 ; volume today:       11,414
+LTM    - previous day close:   $1.94 ; volume today:   11,046,442
+MLVF   - previous day close:  $11.79 ; volume today:        3,655
+MR     - previous day close:   $5.85 ; volume today:      316,679
+CTL    - previous day close:  $10.60 ; volume today:    2,329,521
+PBI    - previous day close:   $2.69 ; volume today:      343,153
+MTDR   - previous day close:   $8.85 ; volume today:    1,213,647
+FBP    - previous day close:   $6.09 ; volume today:      367,822
+ABEV   - previous day close:   $2.64 ; volume today:    6,679,578
+RQI    - previous day close:  $11.49 ; volume today:      215,492
+COTY   - previous day close:   $4.84 ; volume today:    8,072,715
+HOPE   - previous day close:   $9.80 ; volume today:       93,054
+SOI    - previous day close:   $7.69 ; volume today:       29,707
+CNXM   - previous day close:   $7.78 ; volume today:      159,471
+CNCE   - previous day close:   $9.01 ; volume today:        6,290
+NXGN   - previous day close:  $11.27 ; volume today:       23,799
+WPX    - previous day close:   $6.82 ; volume today:    2,435,904
+CMRE   - previous day close:   $5.00 ; volume today:      115,489
+TROX   - previous day close:   $7.88 ; volume today:      328,009
+FRTA   - previous day close:   $9.71 ; volume today:      105,269
+PRMW   - previous day close:  $12.46 ; volume today:      262,405
+TTPH   - previous day close:   $2.13 ; volume today:    4,139,441
+BHLB   - previous day close:  $12.03 ; volume today:       84,371
+CIG    - previous day close:   $2.21 ; volume today:      321,880
+ADES   - previous day close:   $5.31 ; volume today:       59,725
+DBVT   - previous day close:   $5.17 ; volume today:      101,812
+XSPA   - previous day close:   $1.90 ; volume today:   70,027,367
+AGTC   - previous day close:   $5.10 ; volume today:      112,987
+FRGI   - previous day close:   $9.27 ; volume today:       40,341
+REV    - previous day close:  $11.36 ; volume today:       53,635
+VEL    - previous day close:   $5.09 ; volume today:       49,751
+NRGX   - previous day close:   $8.50 ; volume today:       16,474
+TILE   - previous day close:   $9.45 ; volume today:      148,002
+HLX    - previous day close:   $4.27 ; volume today:    1,927,639
+LTRPA  - previous day close:   $2.85 ; volume today:      968,308
+GPRK   - previous day close:   $9.14 ; volume today:       35,441
+TPRE   - previous day close:   $8.09 ; volume today:       32,666
+NNBR   - previous day close:   $5.24 ; volume today:      135,024
+CRMD   - previous day close:   $5.13 ; volume today:       43,860
+SPWH   - previous day close:  $11.81 ; volume today:      611,720
+FLDM   - previous day close:   $3.85 ; volume today:      211,013
+NRGU   - previous day close:   $5.38 ; volume today:    1,981,691
+APLE   - previous day close:  $11.95 ; volume today:      905,406
+HALL   - previous day close:   $3.75 ; volume today:      268,635
+SSP    - previous day close:   $9.78 ; volume today:       33,888
+RC     - previous day close:   $8.24 ; volume today:      297,607
+CKPT   - previous day close:   $1.99 ; volume today:       24,497
+SXC    - previous day close:   $3.64 ; volume today:      107,925
+IBN    - previous day close:   $9.31 ; volume today:    1,795,708
+COMM   - previous day close:  $10.28 ; volume today:      716,133
+FLY    - previous day close:  $10.09 ; volume today:      304,892
+PBR.A  - previous day close:   $8.38 ; volume today:    2,837,369
+VNOM   - previous day close:  $11.56 ; volume today:      157,340
+ARA    - previous day close:   $6.44 ; volume today:       38,965
+AHH    - previous day close:   $9.28 ; volume today:       94,108
+TGNA   - previous day close:  $12.22 ; volume today:      277,441
+ASPN   - previous day close:   $6.60 ; volume today:       22,718
+ETRN   - previous day close:   $8.86 ; volume today:      381,638
+KRP    - previous day close:   $8.52 ; volume today:      212,042
+JNCE   - previous day close:   $5.76 ; volume today:       67,978
+FSP    - previous day close:   $5.72 ; volume today:       33,427
+ACRE   - previous day close:   $9.69 ; volume today:      164,893
+GHL    - previous day close:  $10.73 ; volume today:       13,364
+TEAF   - previous day close:  $11.61 ; volume today:        3,200
+PUMP   - previous day close:   $5.66 ; volume today:      693,133
+SYRS   - previous day close:   $8.60 ; volume today:       30,593
+FIF    - previous day close:  $11.37 ; volume today:        4,961
+IDT    - previous day close:   $6.80 ; volume today:       26,953
+CADE   - previous day close:   $9.15 ; volume today:      524,166
+USEG   - previous day close:   $6.46 ; volume today:       50,022
+PARR   - previous day close:  $10.12 ; volume today:       78,910
+INN    - previous day close:   $8.05 ; volume today:      612,539
+CASA   - previous day close:   $4.73 ; volume today:       26,792
+BPFH   - previous day close:   $7.58 ; volume today:       96,059
+ECC    - previous day close:   $7.10 ; volume today:      178,352
+SHO    - previous day close:   $9.69 ; volume today:      781,978
+FPRX   - previous day close:   $4.69 ; volume today:       20,665
+TRUE   - previous day close:   $2.78 ; volume today:       70,847
+AI     - previous day close:   $2.83 ; volume today:      339,623
+SPWR   - previous day close:   $7.59 ; volume today:      494,449
+EXTR   - previous day close:   $4.11 ; volume today:      609,872
+GNSS   - previous day close:   $5.43 ; volume today:       28,612
+PGZ    - previous day close:  $11.73 ; volume today:       16,819
+ATAX   - previous day close:   $4.79 ; volume today:       22,253
+AMAG   - previous day close:   $8.63 ; volume today:       59,768
+CNHI   - previous day close:   $7.13 ; volume today:      637,614
+LMPX   - previous day close:   $9.83 ; volume today:       29,280
+XENT   - previous day close:  $11.84 ; volume today:       35,923
+FCEL   - previous day close:   $2.54 ; volume today:    4,101,407
+AMKR   - previous day close:  $11.73 ; volume today:      316,646
+VRAY   - previous day close:   $2.09 ; volume today:      477,207
+ATRA   - previous day close:   $9.66 ; volume today:      242,591
+PBPB   - previous day close:   $2.85 ; volume today:      325,762
+PBYI   - previous day close:  $10.54 ; volume today:      112,132
+CLDT   - previous day close:   $8.12 ; volume today:      195,931
+ACCO   - previous day close:   $6.87 ; volume today:      104,313
+RIG    - previous day close:   $1.66 ; volume today:   21,457,988
+LGF.A  - previous day close:   $8.55 ; volume today:      210,280
+ENDP   - previous day close:   $3.98 ; volume today:      980,054
+MAT    - previous day close:  $10.13 ; volume today:      719,586
+FRAN   - previous day close:   $3.65 ; volume today:      107,881
+FLEX   - previous day close:  $11.04 ; volume today:    1,123,417
+IO     - previous day close:   $2.58 ; volume today:      311,047
+ARLP   - previous day close:   $3.27 ; volume today:      515,231
+PBR    - previous day close:   $8.72 ; volume today:    4,674,441
+VYGR   - previous day close:  $11.79 ; volume today:       33,232
+IVZ    - previous day close:   $9.56 ; volume today:    2,320,663
+BCLI   - previous day close:   $8.50 ; volume today:      177,583
+TUFN   - previous day close:  $10.40 ; volume today:       10,860
+VIOT   - previous day close:   $5.36 ; volume today:       53,929
+HMLP   - previous day close:  $10.20 ; volume today:       39,801
+XFLT   - previous day close:   $5.43 ; volume today:       25,683
+SPNE   - previous day close:  $11.34 ; volume today:        4,432
+TEF    - previous day close:   $5.26 ; volume today:      446,328
+TWO    - previous day close:   $5.46 ; volume today:    3,596,703
+ROIC   - previous day close:  $12.15 ; volume today:      344,925
+UMC    - previous day close:   $2.69 ; volume today:      319,794
+CARS   - previous day close:   $7.14 ; volume today:      651,469
+AR     - previous day close:   $3.20 ; volume today:    2,352,351
+ODP    - previous day close:   $2.69 ; volume today:      732,234
+SDC    - previous day close:   $8.47 ; volume today:    1,800,553
+MWK    - previous day close:   $5.20 ; volume today:       28,665
+GLNG   - previous day close:   $8.06 ; volume today:      525,705
+SRV    - previous day close:   $5.64 ; volume today:       25,072
+RUTH   - previous day close:  $10.06 ; volume today:      989,568
+CLNC   - previous day close:   $6.54 ; volume today:      202,625
+TZOO   - previous day close:   $6.47 ; volume today:       78,419
+FARM   - previous day close:   $8.74 ; volume today:       10,038
+WMC    - previous day close:   $2.57 ; volume today:    1,782,541
+CERS   - previous day close:   $5.85 ; volume today:      342,645
+UMPQ   - previous day close:  $12.27 ; volume today:      214,933
+MFIN   - previous day close:   $2.89 ; volume today:      100,228
+SLM    - previous day close:   $8.12 ; volume today:      430,297
+PNNT   - previous day close:   $3.60 ; volume today:       92,292
+BGSF   - previous day close:  $12.07 ; volume today:       13,952
+HAFC   - previous day close:  $10.09 ; volume today:       24,414
+ET     - previous day close:   $8.82 ; volume today:    8,689,986
+XHR    - previous day close:  $10.72 ; volume today:      403,645
+AFIN   - previous day close:   $8.68 ; volume today:       65,540
+LFC    - previous day close:   $9.90 ; volume today:       67,962
+ENLC   - previous day close:   $2.76 ; volume today:      676,005
+VRA    - previous day close:   $6.36 ; volume today:       79,937
+GPRE   - previous day close:   $9.66 ; volume today:       50,746
+ITUB   - previous day close:   $5.25 ; volume today:    7,810,489
+DBI    - previous day close:   $8.13 ; volume today:      334,165
+VRML   - previous day close:   $3.30 ; volume today:      200,588
+FENC   - previous day close:   $7.55 ; volume today:      136,468
+ESI    - previous day close:  $11.60 ; volume today:      503,196
+ACBI   - previous day close:  $11.40 ; volume today:      165,095
+CEM    - previous day close:   $3.86 ; volume today:      213,109
+GTT    - previous day close:   $8.52 ; volume today:       79,634
+CURO   - previous day close:   $8.50 ; volume today:      108,920
+BW     - previous day close:   $2.55 ; volume today:       30,523
+IGT    - previous day close:  $10.30 ; volume today:      871,116
+MFGP   - previous day close:   $6.08 ; volume today:      549,344
+CAL    - previous day close:   $9.49 ; volume today:      390,556
+ESRT   - previous day close:   $7.85 ; volume today:      518,058
+APTS   - previous day close:   $8.23 ; volume today:      123,758
+NYMT   - previous day close:   $2.69 ; volume today:    7,292,670
+CINR   - previous day close:  $12.25 ; volume today:        4,813
+APPS   - previous day close:   $8.63 ; volume today:      718,375
+SONA   - previous day close:  $10.70 ; volume today:        3,918
+EB     - previous day close:  $10.08 ; volume today:      346,276
+OSW    - previous day close:   $6.88 ; volume today:      162,425
+ABR    - previous day close:   $9.33 ; volume today:      884,409
+OMP    - previous day close:   $8.62 ; volume today:      162,068
+CONN   - previous day close:   $8.57 ; volume today:      281,599
+AZUL   - previous day close:  $11.14 ; volume today:    2,558,075
+F      - previous day close:   $6.57 ; volume today:   39,441,271
+FULT   - previous day close:  $11.65 ; volume today:      283,772
+MCBC   - previous day close:   $7.70 ; volume today:       11,693
+BSMX   - previous day close:   $3.90 ; volume today:       86,095
+BPY    - previous day close:  $11.97 ; volume today:      973,304
+SFL    - previous day close:  $10.13 ; volume today:      185,435
+CNDT   - previous day close:   $2.66 ; volume today:      238,039
+BCSF   - previous day close:  $11.20 ; volume today:       67,812
+BRT    - previous day close:  $12.09 ; volume today:        8,341
+GSKY   - previous day close:   $5.00 ; volume today:      127,919
+LILA   - previous day close:  $10.37 ; volume today:       73,378
+MRKR   - previous day close:   $2.19 ; volume today:      145,375
+RPT    - previous day close:   $8.03 ; volume today:      144,110
+PSO    - previous day close:   $6.49 ; volume today:       90,087
+SKT    - previous day close:   $8.23 ; volume today:    1,727,337
+TTM    - previous day close:   $6.68 ; volume today:    1,340,890
+AA     - previous day close:  $11.64 ; volume today:    5,890,765
+BTU    - previous day close:   $3.33 ; volume today:      524,836
+FLL    - previous day close:   $1.99 ; volume today:      153,555
+BLNK   - previous day close:   $2.17 ; volume today:      278,393
+HLIT   - previous day close:   $5.43 ; volume today:       73,283
+CIM    - previous day close:  $10.12 ; volume today:    2,970,298
+BBAR   - previous day close:   $3.97 ; volume today:      156,142
+MIK    - previous day close:   $4.99 ; volume today:    1,628,433
+X      - previous day close:   $9.32 ; volume today:    6,811,687
+BCS    - previous day close:   $6.23 ; volume today:    1,949,200
+PACB   - previous day close:   $3.76 ; volume today:      376,092
+CHU    - previous day close:   $5.74 ; volume today:       90,290
+SABR   - previous day close:   $9.02 ; volume today:    4,150,796
+CVE    - previous day close:   $4.82 ; volume today:    1,592,305
+RDUS   - previous day close:  $12.25 ; volume today:       79,420
+KIN    - previous day close:   $4.77 ; volume today:       32,672
+VLRS   - previous day close:   $5.90 ; volume today:      138,446
+BGCP   - previous day close:   $3.09 ; volume today:      970,702
+ARCO   - previous day close:   $4.59 ; volume today:      202,823
+CHX    - previous day close:  $10.96 ; volume today:    1,910,597
+LILAK  - previous day close:  $10.00 ; volume today:      221,234
+CSTM   - previous day close:   $9.56 ; volume today:      546,017
+MESA   - previous day close:   $3.89 ; volume today:      790,961
+DLTH   - previous day close:   $6.53 ; volume today:      260,464
+BXG    - previous day close:   $4.63 ; volume today:       51,305
+LGF.B  - previous day close:   $8.10 ; volume today:       95,543
+ING    - previous day close:   $7.45 ; volume today:    1,981,709
+FMO    - previous day close:   $2.27 ; volume today:       61,840
+AROC   - previous day close:   $6.65 ; volume today:      284,442
+GOL    - previous day close:   $6.63 ; volume today:      952,008
+MRLN   - previous day close:   $8.50 ; volume today:       19,021
+RGS    - previous day close:  $10.43 ; volume today:      221,939
+UAA    - previous day close:  $10.41 ; volume today:    2,831,902
+NPTN   - previous day close:   $8.99 ; volume today:      348,937
+SBLK   - previous day close:   $6.32 ; volume today:      130,992
+QRTEA  - previous day close:   $9.27 ; volume today:      425,686
+NAVI   - previous day close:   $8.22 ; volume today:      408,379
+PEO    - previous day close:  $11.82 ; volume today:       31,800
+LCI    - previous day close:   $7.40 ; volume today:       90,208
+BSBR   - previous day close:   $5.99 ; volume today:      300,696
+WNEB   - previous day close:   $5.75 ; volume today:        4,810
+TCS    - previous day close:   $3.25 ; volume today:       61,390
+ZAGG   - previous day close:   $2.94 ; volume today:      109,197
+MAC    - previous day close:   $9.36 ; volume today:    5,049,508
+VLY    - previous day close:   $8.72 ; volume today:      584,086
+GROW   - previous day close:   $2.64 ; volume today:      112,919
+DRAD   - previous day close:   $2.38 ; volume today:        9,995
+OPTN   - previous day close:   $5.29 ; volume today:       26,603
+LADR   - previous day close:   $9.12 ; volume today:      539,625
+DRH    - previous day close:   $6.84 ; volume today:      667,543
+GOGL   - previous day close:   $3.64 ; volume today:      138,058
+AINV   - previous day close:  $10.95 ; volume today:      153,487
+HBM    - previous day close:   $3.01 ; volume today:      276,787
+QFIN   - previous day close:   $9.43 ; volume today:       61,336
+ATMP   - previous day close:  $12.42 ; volume today:        1,806
+SIEN   - previous day close:   $3.82 ; volume today:      399,774
+DFIN   - previous day close:   $8.98 ; volume today:       25,412
+SSL    - previous day close:   $8.00 ; volume today:    3,481,933
+BSET   - previous day close:   $7.36 ; volume today:       33,316
+MGTA   - previous day close:   $9.29 ; volume today:       23,951
+STRL   - previous day close:   $9.91 ; volume today:      129,980
+EIGI   - previous day close:   $3.65 ; volume today:      139,786
+SID    - previous day close:   $2.02 ; volume today:      646,402
+FXN    - previous day close:   $7.31 ; volume today:      137,197
+ERJ    - previous day close:   $7.00 ; volume today:    1,651,318
+OSBC   - previous day close:   $8.25 ; volume today:       20,450
+PAGP   - previous day close:  $11.30 ; volume today:      510,845
+TAC    - previous day close:   $6.22 ; volume today:       36,874
+OPRA   - previous day close:   $6.73 ; volume today:       78,104
+GPMT   - previous day close:   $6.52 ; volume today:      726,368
+FPH    - previous day close:   $5.45 ; volume today:       28,955
+GE     - previous day close:   $7.74 ; volume today:   39,922,668
+HMHC   - previous day close:   $2.17 ; volume today:      250,278
+EFC    - previous day close:  $11.43 ; volume today:      122,001
+LE     - previous day close:   $8.17 ; volume today:       98,790
+HBNC   - previous day close:  $11.13 ; volume today:       12,930
+RMBL   - previous day close:   $8.16 ; volume today:      102,059
+CLF    - previous day close:   $5.93 ; volume today:    4,133,212
+RMT    - previous day close:   $7.37 ; volume today:       28,417
+VER    - previous day close:   $6.42 ; volume today:    1,795,030
+SBOW   - previous day close:   $4.01 ; volume today:       55,604
+FCG    - previous day close:   $8.17 ; volume today:      392,552
+AEO    - previous day close:  $12.33 ; volume today:    1,868,293
+LX     - previous day close:   $8.09 ; volume today:      879,545
+EVRI   - previous day close:   $6.62 ; volume today:    1,022,674
+WSR    - previous day close:   $7.58 ; volume today:      105,469
+RUBI   - previous day close:   $7.16 ; volume today:      584,744
+SUPV   - previous day close:   $2.47 ; volume today:       98,968
+FOSL   - previous day close:   $4.36 ; volume today:      383,235
+TECK   - previous day close:  $10.71 ; volume today:    1,286,768
+PRTS   - previous day close:   $8.30 ; volume today:      228,085
+FNKO   - previous day close:   $6.35 ; volume today:      423,328
+LAUR   - previous day close:  $11.05 ; volume today:       76,425
+RTLR   - previous day close:   $9.93 ; volume today:       64,308
+MRC    - previous day close:   $6.76 ; volume today:      111,374
+ENT    - previous day close:   $4.95 ; volume today:      473,657
+MOD    - previous day close:   $6.02 ; volume today:       77,987
+ARLO   - previous day close:   $2.61 ; volume today:      251,181
+ARI    - previous day close:  $10.33 ; volume today:      419,826
+AVAL   - previous day close:   $4.91 ; volume today:       71,403
+BBDO   - previous day close:   $3.88 ; volume today:       82,919
+RWT    - previous day close:   $6.64 ; volume today:    2,280,589
+MBT    - previous day close:   $9.07 ; volume today:      889,544
+NEX    - previous day close:   $3.17 ; volume today:      418,155
+NRO    - previous day close:   $3.77 ; volume today:      153,054
+KEP    - previous day close:   $8.95 ; volume today:       15,768
+IRWD   - previous day close:   $9.79 ; volume today:      104,653
+GGB    - previous day close:   $3.03 ; volume today:    1,057,439
+BSM    - previous day close:   $7.80 ; volume today:       90,145
+GNFT   - previous day close:   $5.26 ; volume today:       55,402
+OXLC   - previous day close:   $4.00 ; volume today:      616,967
+FENY   - previous day close:  $10.91 ; volume today:      792,849
+SOHU   - previous day close:   $8.12 ; volume today:       44,962
+NRZ    - previous day close:   $8.26 ; volume today:    3,011,684
+USDP   - previous day close:   $3.42 ; volume today:       89,499
+CARE   - previous day close:   $8.15 ; volume today:       43,968
+NHF    - previous day close:  $11.45 ; volume today:       37,335
+CATO   - previous day close:  $10.17 ; volume today:       23,876
+GRBK   - previous day close:  $11.00 ; volume today:       36,998
+MUFG   - previous day close:   $4.17 ; volume today:      333,381
+IVC    - previous day close:   $7.24 ; volume today:       22,813
+MRO    - previous day close:   $6.23 ; volume today:   12,830,271
+NBL    - previous day close:  $10.14 ; volume today:    2,229,655
+BBBY   - previous day close:   $8.73 ; volume today:    7,085,022
+TRTX   - previous day close:   $9.01 ; volume today:      386,047
+DBD    - previous day close:   $6.16 ; volume today:      331,822
+IEZ    - previous day close:   $9.65 ; volume today:       92,032
+NBLX   - previous day close:  $10.03 ; volume today:      183,143
+Tracking 559 symbols.
+Getting historical data...
+1/559 : LIND
+2/559 : AEG
+3/559 : WNC
+4/559 : AXL
+5/559 : AXGN
+6/559 : FTI
+7/559 : DSKE
+8/559 : DS
+9/559 : RESI
+10/559 : RDI
+11/559 : SDIV
+12/559 : SITC
+13/559 : KYN
+14/559 : ASUR
+15/559 : GOGO
+16/559 : TISI
+17/559 : BGR
+18/559 : ETM
+19/559 : MOV
+20/559 : ENBL
+21/559 : YRD
+22/559 : AMPY
+23/559 : FI
+24/559 : MGY
+25/559 : BXC
+26/559 : SVC
+27/559 : EEX
+28/559 : RYAM
+29/559 : FMNB
+30/559 : FHN
+31/559 : III
+32/559 : ACTG
+33/559 : EARN
+34/559 : EBR
+35/559 : AJX
+36/559 : NINE
+37/559 : XAN
+38/559 : KDMN
+39/559 : PE
+40/559 : IHRT
+41/559 : ADAP
+42/559 : KLR
+43/559 : TPVG
+44/559 : MTRX
+45/559 : BHR
+46/559 : CERC
+47/559 : GLP
+48/559 : TGLS
+49/559 : GT
+50/559 : DBE
+51/559 : NMRK
+52/559 : CPLG
+53/559 : OII
+54/559 : BBVA
+55/559 : GTX
+56/559 : ELVT
+57/559 : EVFM
+58/559 : MX
+59/559 : AMC
+60/559 : WBT
+61/559 : NGS
+62/559 : FCAU
+63/559 : DNOW
+64/559 : MFA
+65/559 : TGI
+66/559 : UGP
+67/559 : MTG
+68/559 : SM
+69/559 : CENX
+70/559 : LBAI
+71/559 : EGLE
+72/559 : REZI
+73/559 : ADMS
+74/559 : RBS
+75/559 : HTBK
+76/559 : OPK
+77/559 : SRET
+78/559 : BNO
+79/559 : HUD
+80/559 : TRVG
+81/559 : SMFG
+82/559 : AEY
+83/559 : ESEA
+84/559 : QUOT
+85/559 : CNR
+86/559 : BLDP
+87/559 : ARR
+88/559 : QUAD
+89/559 : CRESY
+90/559 : ICD
+91/559 : TV
+92/559 : WTI
+93/559 : GEL
+94/559 : NESR
+95/559 : IRT
+96/559 : BAK
+97/559 : ANGO
+98/559 : DBO
+99/559 : NR
+100/559 : SRNE
+101/559 : GER
+102/559 : JRS
+103/559 : ASX
+104/559 : DZSI
+105/559 : CAAP
+106/559 : BDN
+107/559 : BANC
+108/559 : KMF
+109/559 : SONN
+110/559 : SNDE
+111/559 : SLCA
+112/559 : GLOG
+113/559 : FNB
+114/559 : EMO
+115/559 : MG
+116/559 : HPE
+117/559 : VIV
+118/559 : CMLS
+119/559 : CVA
+120/559 : EBSB
+121/559 : XCUR
+122/559 : GPX
+123/559 : CORR
+124/559 : FFIC
+125/559 : WTTR
+126/559 : RES
+127/559 : OVV
+128/559 : MTC
+129/559 : JAX
+130/559 : TBBK
+131/559 : EC
+132/559 : NGL
+133/559 : BRG
+134/559 : SOHO
+135/559 : KLXE
+136/559 : EXTN
+137/559 : CRHM
+138/559 : HOME
+139/559 : GAB
+140/559 : KOS
+141/559 : LPL
+142/559 : MDLQ
+143/559 : WES
+144/559 : NAT
+145/559 : PAA
+146/559 : NDLS
+147/559 : MIST
+148/559 : WETF
+149/559 : OIS
+150/559 : CEIX
+151/559 : ISBC
+152/559 : CELC
+153/559 : HCHC
+154/559 : HONE
+155/559 : ALDX
+156/559 : ERF
+157/559 : BBD
+158/559 : NCMI
+159/559 : TVTY
+160/559 : HBAN
+161/559 : LK
+162/559 : AMAL
+163/559 : AMSC
+164/559 : CGBD
+165/559 : TUP
+166/559 : CTT
+167/559 : ATI
+168/559 : LPG
+169/559 : DSLV
+170/559 : TDW
+171/559 : MTW
+172/559 : UA
+173/559 : DESP
+174/559 : LC
+175/559 : PCOM
+176/559 : FEI
+177/559 : NVGS
+178/559 : SMSI
+179/559 : MCF
+180/559 : REVG
+181/559 : DRN
+182/559 : PSTI
+183/559 : LBRT
+184/559 : CCH
+185/559 : PFLT
+186/559 : LXP
+187/559 : CFB
+188/559 : FDD
+189/559 : CHS
+190/559 : ISEE
+191/559 : AGRO
+192/559 : GNPX
+193/559 : NEBU
+194/559 : SBS
+195/559 : BRY
+196/559 : SMHI
+197/559 : GNK
+198/559 : IVR
+199/559 : HT
+200/559 : PGP
+201/559 : FLXN
+202/559 : OI
+203/559 : BSIG
+204/559 : NOA
+205/559 : FTSI
+206/559 : REML
+207/559 : FCF
+208/559 : M
+209/559 : AXTI
+210/559 : BBX
+211/559 : RPAI
+212/559 : AGS
+213/559 : SNR
+214/559 : CYH
+215/559 : BZH
+216/559 : EAF
+217/559 : LBC
+218/559 : SMHB
+219/559 : TACO
+220/559 : TEN
+221/559 : VET
+222/559 : AXDX
+223/559 : FCX
+224/559 : SAN
+225/559 : ESTE
+226/559 : CLSD
+227/559 : BRKL
+228/559 : AVCT
+229/559 : ENIC
+230/559 : JMIA
+231/559 : ATNX
+232/559 : RLGY
+233/559 : BDRY
+234/559 : PBFX
+235/559 : MWA
+236/559 : PGRE
+237/559 : HEBT
+238/559 : MITT
+239/559 : TAST
+240/559 : YPF
+241/559 : SCOR
+242/559 : CBAY
+243/559 : LJPC
+244/559 : PTEN
+245/559 : ASNA
+246/559 : KRNY
+247/559 : HTZ
+248/559 : VHI
+249/559 : LTM
+250/559 : MLVF
+251/559 : MR
+252/559 : CTL
+253/559 : PBI
+254/559 : MTDR
+255/559 : FBP
+256/559 : ABEV
+257/559 : RQI
+258/559 : COTY
+259/559 : HOPE
+260/559 : SOI
+261/559 : CNXM
+262/559 : CNCE
+263/559 : NXGN
+264/559 : WPX
+265/559 : CMRE
+266/559 : TROX
+267/559 : FRTA
+268/559 : PRMW
+269/559 : TTPH
+270/559 : BHLB
+271/559 : CIG
+272/559 : ADES
+273/559 : DBVT
+274/559 : XSPA
+275/559 : AGTC
+276/559 : FRGI

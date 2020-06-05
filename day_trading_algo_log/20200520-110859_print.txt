@@ -1,0 +1,5 @@
+Current time: 2020-05-20 12:09:00.067848-04:00
+Market open time: 2020-05-20 09:30:00.771067-04:00
+Time since market open: 2:38:59.296781
+Getting current ticker data...
+Success.
