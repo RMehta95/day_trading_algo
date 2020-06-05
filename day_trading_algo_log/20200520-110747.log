@@ -1,0 +1,11 @@
+2020-05-20 11:07:47,310 DEBUG   : Debug messages are only sent to the logfile.
+2020-05-20 11:07:47,310 INFO    : Info messages are not shown on the console, too.
+2020-05-20 11:07:47,310 WARNING : Warnings appear both on the console and in the logfile.
+2020-05-20 11:07:47,310 ERROR   : Errors get the same treatment.
+2020-05-20 11:07:47,310 CRITICAL: And critical messages, of course.
+2020-05-20 11:07:47,394 DEBUG   : Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+2020-05-20 11:07:47,677 DEBUG   : https://paper-api.alpaca.markets:443 "GET /v2/calendar?start=2020-05-20&end=2020-05-20 HTTP/1.1" 200 99
+2020-05-20 11:07:47,709 DEBUG   : Starting new HTTPS connection (1): api.polygon.io:443
+2020-05-20 11:07:48,998 DEBUG   : https://api.polygon.io:443 "GET /v2/snapshot/locale/us/markets/stocks/tickers?apiKey=PKTRG7HFFCPGZEYUJPQR HTTP/1.1" 200 None
+2020-05-20 11:07:50,397 DEBUG   : https://paper-api.alpaca.markets:443 "GET /v2/assets HTTP/1.1" 200 None
+2020-05-20 11:07:51,644 DEBUG   : Using selector: KqueueSelector

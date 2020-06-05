@@ -1,0 +1,5 @@
+2020-05-20 10:08:33,267 DEBUG   : Debug messages are only sent to the logfile.
+2020-05-20 10:08:33,268 INFO    : Info messages are not shown on the console, too.
+2020-05-20 10:08:33,268 WARNING : Warnings appear both on the console and in the logfile.
+2020-05-20 10:08:33,268 ERROR   : Errors get the same treatment.
+2020-05-20 10:08:33,268 CRITICAL: And critical messages, of course.

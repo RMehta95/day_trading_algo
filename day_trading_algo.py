@@ -1,4 +1,4 @@
-####
+﻿####
 # DESCRIPTION
 # Between 9:45 - 10:45am we'll look for stocks that have increased at least 4 % from their close on the previous day.
 # If they’ve done that and they meet some other criteria, we’ll buy them, and we’ll hold them until they either
@@ -17,16 +17,41 @@ from config import * #link to other file
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+# Import the duallog package to set up simultaneous logging to screen and console.
+import duallog
+
+# Import the logging package to generate log messages.
+import logging
+
+# Set up dual logging and tell duallog where to store the logfiles.
+duallog.setup('day_trading_algo_log')
+
+# Generate some log messages.
+logging.debug('Debug messages are only sent to the logfile.')
+logging.info('Info messages are not shown on the console, too.')
+logging.warning('Warnings appear both on the console and in the logfile.')
+logging.error('Errors get the same treatment.')
+logging.critical('And critical messages, of course.')
+
+# Redirect print
+t = datetime.today()
+file_name_format = '{year:04d}{month:02d}{day:02d}-'\
+    '{hour:02d}{minute:02d}{second:02d}_print.txt'
+file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
+                                    hour=t.hour, minute=t.minute, second=t.second)
+
+print_log = open("day_trading_algo_log/"+file_name, "a")
+sys.stdout = print_log
 
 # Replace these with your API connection info from the dashboard
-base_url = "https://paper-api.alpaca.markets"
-api_key_id = API_KEY
-api_secret = SECRET_KEY
+# base_url = "https://paper-api.alpaca.markets"
+# api_key_id = API_KEY
+# api_secret = SECRET_KEY
 
 # Switch to these parameters when going to live trading
-# base_url = "https://api.alpaca.markets"
-# api_key_id = LIVE_API_KEY
-# api_secret = LIVE_SECRET_KEY
+base_url = "https://api.alpaca.markets"
+api_key_id = LIVE_API_KEY
+api_secret = LIVE_SECRET_KEY
 
 api = tradeapi.REST(
     base_url=base_url,
@@ -131,7 +156,7 @@ def run(tickers, market_open_dt, market_close_dt):
         symbol = ticker.ticker
         prev_closes[symbol] = ticker.prevDay['c']
         volume_today[symbol] = ticker.day['v']
-        print(symbol,' - previous day close:',prev_closes[symbol],'; volume today:',volume_today[symbol])
+        print(symbol.ljust(6,' '),'- previous day close:', '${:.2f}'.format(prev_closes[symbol]).rjust(7, ' '),'; volume today:','{:,}'.format(volume_today[symbol]).rjust(12, ' '))
 
     symbols = [ticker.ticker for ticker in tickers]
     print('Tracking {} symbols.'.format(len(symbols)))
@@ -163,8 +188,8 @@ def run(tickers, market_open_dt, market_close_dt):
             stop_prices[position.symbol] = (
                 float(position.cost_basis) * default_stop
             )
-            print('Latest cost basis:',latest_cost_basis[position.symbol])
-            print('Stop prices:',stop_prices[position.symbol])
+            print('Latest cost basis = ${:0,.2f}'.format(latest_cost_basis[position.symbol]))
+            print('Stop price = ${:0,.2f}'.format(stop_prices[position.symbol]))
 
     # Keep track of what we're buying/selling
     target_prices = {}
@@ -331,12 +356,12 @@ def run(tickers, market_open_dt, market_close_dt):
                 if shares_to_buy <= 0:
                     return
 
-                buy_subj = 'Submitting buy for {:.0f} shares of {} at {}'.format(
+                buy_subj = 'Submitting buy for {:.0f} shares of {} at ${:0,.2f}'.format(
                     shares_to_buy, symbol, data.close
                 )
 
-                # portfolio_value = float(api.get_account().portfolio_value)
-                buy_body = 'Portfolio value = ${:,}'.format(portfolio_value)
+                curr_portfolio_value = float(api.get_account().portfolio_value)
+                buy_body = 'Portfolio value = ${:,}'.format(curr_portfolio_value)
 
                 print(buy_subj)
                 send_email(buy_subj, buy_body)
@@ -376,12 +401,12 @@ def run(tickers, market_open_dt, market_close_dt):
                 (data.close >= target_prices[symbol] and hist[-1] <= 0) or
                 (data.close <= latest_cost_basis[symbol] and hist[-1] <= 0)
             ):
-                sell_subj = 'Submitting sell for {:.0f} shares of {} at {}'.format(
+                sell_subj = 'Submitting sell for {:.0f} shares of {} at ${:0,.2f}'.format(
                     position, symbol, data.close
                 )
 
-                # portfolio_value = float(api.get_account().portfolio_value)
-                sell_body = 'Portfolio value = ${:,}'.format(portfolio_value)
+                curr_portfolio_value = float(api.get_account().portfolio_value)
+                sell_body = 'Portfolio value = ${:,}'.format(curr_portfolio_value)
 
                 send_email(sell_subj, sell_body)
 
