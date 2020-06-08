@@ -41,7 +41,7 @@ file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
                                     hour=t.hour, minute=t.minute, second=t.second)
 
 print_log = open("day_trading_algo_log/"+file_name, "a")
-sys.stdout = print_log
+sys.stdout = print_log # set to sys.__stdout__ if you want to print to console
 
 # Replace these with your API connection info from the dashboard
 # base_url = "https://paper-api.alpaca.markets"
@@ -85,7 +85,7 @@ def send_email(subject, body):
     # The body and the attachments for the mail
     message.attach(MIMEText(body, 'plain'))
     # Create SMTP session for sending the mail
-    session = smtplib.SMTP_SSL('smtp.gmail.com', 587)  # use gmail with port
+    session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
     session.starttls()  # enable security
     session.login(sender_address, sender_pass)  # login with mail_id and password
     text = message.as_string()
