@@ -85,7 +85,7 @@ def send_email(subject, body):
     # The body and the attachments for the mail
     message.attach(MIMEText(body, 'plain'))
     # Create SMTP session for sending the mail
-    session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
+    session = smtplib.SMTP_SSL('smtp.gmail.com', 587)  # use gmail with port
     session.starttls()  # enable security
     session.login(sender_address, sender_pass)  # login with mail_id and password
     text = message.as_string()
