@@ -165,8 +165,8 @@ def run(tickers, market_open_dt, market_close_dt):
     # print(minute_history) # prints top and bottom 10 if you want to see open, close, etc.
 
     cash_value = float(api.get_account().cash)
-    # portfolio_value = float(api.get_account().portfolio_value)
-    print('Portfolio value = ${:,}'.format(cash_value))
+    equity = float(api.get_account().equity)
+    print('Portfolio value = ${:,}'.format(equity))
 
     open_orders = {}
     positions = {}
@@ -343,12 +343,13 @@ def run(tickers, market_open_dt, market_close_dt):
 
                 stop_prices[symbol] = stop_price
                 target_prices[symbol] = data.close + (
-                    (data.close - stop_price) * 3 # 3x positive multiplier on the downside threshold
+                    (data.close - stop_price) * 3 # goal is to sell 3x more than downside threshold
                 )
 
                 print('Stop price for {}: ${:.2f}'.format(symbol, stop_prices[symbol]))
                 print('Target price for {}: ${:.2f}'.format(symbol, target_prices[symbol]))
 
+                # only trade with cash on hand, or max_to_trade_with if that's lower
                 shares_to_buy = min(cash_value, max_to_trade_with) * risk // (
                     data.close - stop_price
                 )
@@ -362,8 +363,8 @@ def run(tickers, market_open_dt, market_close_dt):
                     shares_to_buy, symbol, data.close
                 )
 
-                curr_portfolio_value = float(api.get_account().cash_value)
-                buy_body = 'Portfolio cash value = ${:,}'.format(curr_portfolio_value)
+                curr_equity = float(api.get_account().equity)
+                buy_body = 'Portfolio value = ${:,}'.format(curr_equity)
 
                 print(buy_subj)
                 send_email(buy_subj, buy_body)
@@ -407,8 +408,8 @@ def run(tickers, market_open_dt, market_close_dt):
                     position, symbol, data.close
                 )
 
-                curr_portfolio_value = float(api.get_account().cash)
-                sell_body = 'Portfolio cash value = ${:,}'.format(curr_portfolio_value)
+                curr_equity = float(api.get_account().equity)
+                sell_body = 'Portfolio value = ${:,}'.format(curr_equity)
 
                 send_email(sell_subj, sell_body)
 
