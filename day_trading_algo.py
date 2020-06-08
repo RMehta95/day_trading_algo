@@ -69,7 +69,8 @@ min_last_dv = 500000
 # Stop limit to default to
 default_stop = .95
 # How much of our portfolio to allocate to any one position
-risk = 0.005 #changed from default 0.001
+risk = 0.001 # can change parameter to adjust
+max_to_trade_with = 2000 # max to trade with, or limit to portfolio value
 
 def send_email(subject, body):
 
@@ -163,8 +164,9 @@ def run(tickers, market_open_dt, market_close_dt):
     minute_history = get_1000m_history_data(symbols)
     # print(minute_history) # prints top and bottom 10 if you want to see open, close, etc.
 
-    portfolio_value = float(api.get_account().portfolio_value)
-    print('Portfolio value = ${:,}'.format(portfolio_value))
+    cash_value = float(api.get_account().cash)
+    # portfolio_value = float(api.get_account().portfolio_value)
+    print('Portfolio value = ${:,}'.format(cash_value))
 
     open_orders = {}
     positions = {}
@@ -347,7 +349,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 print('Stop price for {}: ${:.2f}'.format(symbol, stop_prices[symbol]))
                 print('Target price for {}: ${:.2f}'.format(symbol, target_prices[symbol]))
 
-                shares_to_buy = portfolio_value * risk // (
+                shares_to_buy = min(cash_value, max_to_trade_with) * risk // (
                     data.close - stop_price
                 )
                 if shares_to_buy == 0:
@@ -360,8 +362,8 @@ def run(tickers, market_open_dt, market_close_dt):
                     shares_to_buy, symbol, data.close
                 )
 
-                curr_portfolio_value = float(api.get_account().portfolio_value)
-                buy_body = 'Portfolio value = ${:,}'.format(curr_portfolio_value)
+                curr_portfolio_value = float(api.get_account().cash_value)
+                buy_body = 'Portfolio cash value = ${:,}'.format(curr_portfolio_value)
 
                 print(buy_subj)
                 send_email(buy_subj, buy_body)
@@ -405,8 +407,8 @@ def run(tickers, market_open_dt, market_close_dt):
                     position, symbol, data.close
                 )
 
-                curr_portfolio_value = float(api.get_account().portfolio_value)
-                sell_body = 'Portfolio value = ${:,}'.format(curr_portfolio_value)
+                curr_portfolio_value = float(api.get_account().cash)
+                sell_body = 'Portfolio cash value = ${:,}'.format(curr_portfolio_value)
 
                 send_email(sell_subj, sell_body)
 
