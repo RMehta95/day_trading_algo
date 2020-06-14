@@ -1,0 +1,2278 @@
+Current time: 2020-06-08 14:20:51.765097-04:00
+Market open time: 2020-06-08 09:30:00.645210-04:00
+Time since market open: 4:50:51.119887
+Getting current ticker data...
+Success.
+WPX    - previous day close:   $7.73 ; volume today:   11,223,135
+HROW   - previous day close:   $5.95 ; volume today:      111,756
+CMRE   - previous day close:   $5.30 ; volume today:      383,110
+TROX   - previous day close:   $8.46 ; volume today:      659,098
+AIM    - previous day close:   $2.55 ; volume today:    3,748,495
+FRTA   - previous day close:  $10.26 ; volume today:      182,907
+ORC    - previous day close:   $4.54 ; volume today:    1,318,540
+CEPU   - previous day close:   $2.79 ; volume today:      351,920
+APDN   - previous day close:   $7.36 ; volume today:      621,450
+BGFV   - previous day close:   $2.28 ; volume today:      904,402
+DGII   - previous day close:  $11.69 ; volume today:       96,269
+CIG    - previous day close:   $2.29 ; volume today:    2,066,210
+OCCI   - previous day close:  $10.27 ; volume today:       53,182
+PYX    - previous day close:   $3.60 ; volume today:    1,820,263
+DBVT   - previous day close:   $5.46 ; volume today:      225,561
+DL     - previous day close:   $7.22 ; volume today:      323,585
+OCUL   - previous day close:   $7.24 ; volume today:      680,872
+HLX    - previous day close:   $5.11 ; volume today:    5,230,820
+NAVB   - previous day close:   $3.20 ; volume today:      861,922
+GPRK   - previous day close:  $10.93 ; volume today:      447,896
+NNBR   - previous day close:   $5.90 ; volume today:      603,975
+SBT    - previous day close:   $3.78 ; volume today:       96,697
+NRGU   - previous day close:   $6.96 ; volume today:   10,303,182
+ADTN   - previous day close:  $11.51 ; volume today:      398,811
+AVDL   - previous day close:   $8.38 ; volume today:      408,466
+HALL   - previous day close:   $4.06 ; volume today:    1,388,039
+RC     - previous day close:   $8.54 ; volume today:      852,618
+XERS   - previous day close:   $4.83 ; volume today:      287,716
+RYI    - previous day close:   $6.37 ; volume today:      196,373
+OCSL   - previous day close:   $4.66 ; volume today:      428,306
+SD     - previous day close:   $1.80 ; volume today:    1,074,635
+IMV    - previous day close:   $2.91 ; volume today:      178,023
+BORR   - previous day close:   $1.16 ; volume today:   35,066,176
+TNP    - previous day close:   $2.73 ; volume today:    1,151,256
+SXC    - previous day close:   $3.97 ; volume today:      588,119
+COMM   - previous day close:  $10.99 ; volume today:    3,033,969
+FLY    - previous day close:  $10.09 ; volume today:      488,894
+ARA    - previous day close:   $6.90 ; volume today:       71,025
+AHH    - previous day close:  $10.19 ; volume today:      311,551
+PSEC   - previous day close:   $5.45 ; volume today:    2,176,676
+ASPN   - previous day close:   $6.99 ; volume today:      273,321
+GWRS   - previous day close:  $11.06 ; volume today:       12,945
+NWHM   - previous day close:   $3.56 ; volume today:       84,296
+MNK    - previous day close:   $2.82 ; volume today:    2,291,782
+RUBY   - previous day close:   $6.38 ; volume today:      153,753
+KRP    - previous day close:   $9.51 ; volume today:      135,547
+ABEO   - previous day close:   $2.92 ; volume today:      613,201
+SNGX   - previous day close:   $2.12 ; volume today:      688,438
+SWN    - previous day close:   $3.34 ; volume today:   13,891,209
+FSP    - previous day close:   $6.33 ; volume today:      150,656
+ACRE   - previous day close:  $10.14 ; volume today:      697,804
+NEXT   - previous day close:   $2.04 ; volume today:      276,203
+GHL    - previous day close:  $12.13 ; volume today:      121,984
+PUMP   - previous day close:   $6.36 ; volume today:    3,170,979
+UIHC   - previous day close:   $7.98 ; volume today:      142,858
+CADE   - previous day close:   $9.86 ; volume today:    1,718,077
+CLVS   - previous day close:   $6.68 ; volume today:    5,723,056
+PARR   - previous day close:  $11.37 ; volume today:      307,568
+INN    - previous day close:   $8.02 ; volume today:    1,209,545
+TMST   - previous day close:   $4.10 ; volume today:      344,221
+STAY   - previous day close:  $12.10 ; volume today:    1,805,412
+GECC   - previous day close:   $4.60 ; volume today:      188,874
+ECC    - previous day close:   $7.23 ; volume today:      508,231
+SHO    - previous day close:   $9.86 ; volume today:    4,661,254
+SYNL   - previous day close:   $8.62 ; volume today:       59,402
+CANF   - previous day close:   $1.92 ; volume today:      584,628
+AI     - previous day close:   $3.22 ; volume today:    1,063,039
+BDSI   - previous day close:   $4.81 ; volume today:      923,624
+SPWR   - previous day close:   $8.00 ; volume today:    1,979,986
+VNE    - previous day close:  $12.12 ; volume today:      389,097
+DGLY   - previous day close:   $2.54 ; volume today:   80,624,506
+LMPX   - previous day close:  $10.07 ; volume today:      288,358
+CNHI   - previous day close:   $7.60 ; volume today:    4,404,510
+FCEL   - previous day close:   $2.62 ; volume today:   11,748,779
+OBSV   - previous day close:   $4.79 ; volume today:      904,288
+VRAY   - previous day close:   $2.38 ; volume today:    1,895,249
+ATRA   - previous day close:   $9.74 ; volume today:      556,337
+PBPB   - previous day close:   $2.89 ; volume today:      551,065
+PBYI   - previous day close:  $10.62 ; volume today:      814,703
+ACCO   - previous day close:   $7.17 ; volume today:      343,281
+RIG    - previous day close:   $2.50 ; volume today:   82,693,697
+ENDP   - previous day close:   $4.23 ; volume today:    4,623,545
+LQDA   - previous day close:   $7.56 ; volume today:      384,466
+AHC    - previous day close:   $1.88 ; volume today:      116,790
+TRIL   - previous day close:   $7.15 ; volume today:      967,029
+EURN   - previous day close:   $9.95 ; volume today:    2,319,678
+FRAN   - previous day close:   $4.51 ; volume today:      257,107
+TLYS   - previous day close:   $6.40 ; volume today:      308,099
+CYCC   - previous day close:   $4.88 ; volume today:      472,422
+IO     - previous day close:   $2.96 ; volume today:    2,001,021
+ARLP   - previous day close:   $3.77 ; volume today:    2,015,414
+EVLO   - previous day close:   $4.03 ; volume today:       38,709
+VYGR   - previous day close:  $12.02 ; volume today:      186,819
+IVZ    - previous day close:  $10.41 ; volume today:    7,322,295
+DSSI   - previous day close:  $10.20 ; volume today:      368,889
+MIXT   - previous day close:   $9.48 ; volume today:      121,694
+HMLP   - previous day close:  $11.21 ; volume today:      169,691
+GENE   - previous day close:   $2.01 ; volume today:      764,347
+TWO    - previous day close:   $5.51 ; volume today:   20,785,775
+ADRO   - previous day close:   $2.28 ; volume today:    1,335,792
+CARS   - previous day close:   $7.67 ; volume today:      988,866
+AR     - previous day close:   $3.22 ; volume today:   13,117,475
+CAMP   - previous day close:   $8.57 ; volume today:      202,754
+VSLR   - previous day close:   $8.98 ; volume today:    1,403,319
+ODP    - previous day close:   $2.77 ; volume today:    5,552,271
+SDC    - previous day close:   $8.81 ; volume today:    5,703,054
+MWK    - previous day close:   $5.23 ; volume today:      263,023
+SRV    - previous day close:   $6.10 ; volume today:      141,529
+MCEP   - previous day close:   $2.89 ; volume today:      621,266
+PERI   - previous day close:   $5.78 ; volume today:      259,057
+DHC    - previous day close:   $6.10 ; volume today:    3,691,863
+HOOK   - previous day close:  $11.56 ; volume today:       26,000
+RNET   - previous day close:   $1.32 ; volume today:    5,267,305
+CLNC   - previous day close:   $6.92 ; volume today:      744,447
+CDEV   - previous day close:   $1.49 ; volume today:   36,738,409
+TZOO   - previous day close:   $7.15 ; volume today:      370,615
+FARM   - previous day close:   $9.56 ; volume today:      183,003
+CSPR   - previous day close:   $9.00 ; volume today:      215,742
+WMC    - previous day close:   $2.93 ; volume today:    8,270,392
+PNNT   - previous day close:   $3.78 ; volume today:      373,810
+LAZY   - previous day close:   $6.40 ; volume today:      139,348
+HAFC   - previous day close:  $10.75 ; volume today:      144,610
+QLGN   - previous day close:   $5.13 ; volume today:    1,445,067
+IDYA   - previous day close:   $8.04 ; volume today:      104,402
+GLYC   - previous day close:   $2.95 ; volume today:      354,230
+AFIN   - previous day close:   $8.89 ; volume today:      321,302
+ENLC   - previous day close:   $3.41 ; volume today:    5,288,100
+VIST   - previous day close:   $3.61 ; volume today:      237,207
+INSG   - previous day close:   $9.96 ; volume today:    3,175,000
+ITUB   - previous day close:   $5.53 ; volume today:   19,300,872
+VRML   - previous day close:   $3.60 ; volume today:      693,479
+BGG    - previous day close:   $2.34 ; volume today:    4,424,490
+PRTY   - previous day close:   $1.78 ; volume today:   22,077,680
+HFFG   - previous day close:   $7.50 ; volume today:      984,164
+CEM    - previous day close:   $4.06 ; volume today:      388,253
+MIE    - previous day close:   $2.76 ; volume today:      255,249
+GTT    - previous day close:   $8.97 ; volume today:      377,330
+BSGM   - previous day close:  $10.57 ; volume today:      569,730
+CURO   - previous day close:   $8.91 ; volume today:      384,145
+BW     - previous day close:   $2.75 ; volume today:      225,602
+PLYA   - previous day close:   $3.67 ; volume today:    1,807,112
+GTES   - previous day close:  $11.37 ; volume today:      158,430
+BB     - previous day close:   $5.47 ; volume today:    3,787,123
+GNW    - previous day close:   $3.43 ; volume today:    4,415,585
+RDHL   - previous day close:   $6.82 ; volume today:      234,475
+BXRX   - previous day close:   $3.95 ; volume today:    1,393,491
+IGT    - previous day close:  $10.80 ; volume today:    2,724,774
+MFGP   - previous day close:   $6.48 ; volume today:    1,013,520
+CAL    - previous day close:  $10.19 ; volume today:    1,181,613
+ESRT   - previous day close:   $8.10 ; volume today:    7,815,755
+APTS   - previous day close:   $8.75 ; volume today:      519,807
+BBW    - previous day close:   $2.64 ; volume today:      243,575
+CLPR   - previous day close:   $7.99 ; volume today:       72,410
+VMD    - previous day close:   $8.63 ; volume today:      330,357
+NYMT   - previous day close:   $2.86 ; volume today:   19,008,713
+APPS   - previous day close:   $9.53 ; volume today:    3,137,521
+PGNX   - previous day close:   $4.51 ; volume today:      297,823
+TUSK   - previous day close:   $1.51 ; volume today:    1,096,850
+NLY    - previous day close:   $6.82 ; volume today:   15,443,717
+AVID   - previous day close:   $7.89 ; volume today:      504,581
+OSW    - previous day close:   $7.46 ; volume today:      539,088
+ABR    - previous day close:   $9.73 ; volume today:    3,124,614
+IDN    - previous day close:   $7.14 ; volume today:      188,624
+PFSW   - previous day close:   $6.75 ; volume today:      253,304
+OMP    - previous day close:   $9.60 ; volume today:      624,666
+AGI    - previous day close:   $7.46 ; volume today:    2,741,214
+ARAV   - previous day close:  $12.15 ; volume today:       67,394
+CONN   - previous day close:   $9.20 ; volume today:    1,348,216
+XONE   - previous day close:   $8.95 ; volume today:       92,458
+ONCY   - previous day close:   $2.12 ; volume today:      719,577
+CMCM   - previous day close:   $3.07 ; volume today:    1,315,427
+QEP    - previous day close:   $1.78 ; volume today:   23,171,424
+CNDT   - previous day close:   $2.92 ; volume today:    3,637,757
+YOLO   - previous day close:  $11.20 ; volume today:      142,912
+BCSF   - previous day close:  $11.80 ; volume today:      447,014
+SRT    - previous day close:   $4.67 ; volume today:       93,961
+GSKY   - previous day close:   $5.65 ; volume today:    1,679,252
+LILA   - previous day close:  $11.34 ; volume today:      237,632
+FPL    - previous day close:   $5.30 ; volume today:      151,129
+OXSQ   - previous day close:   $3.44 ; volume today:      400,364
+CTRA   - previous day close:   $5.50 ; volume today:      516,829
+RPT    - previous day close:   $9.00 ; volume today:    1,274,001
+GME    - previous day close:   $4.14 ; volume today:    5,744,335
+TSQ    - previous day close:   $5.35 ; volume today:      185,528
+SKT    - previous day close:   $8.81 ; volume today:    6,213,708
+VERI   - previous day close:  $11.16 ; volume today:      744,224
+STXS   - previous day close:   $4.55 ; volume today:      163,395
+TTM    - previous day close:   $7.45 ; volume today:    2,611,423
+AA     - previous day close:  $12.07 ; volume today:    8,405,510
+BTU    - previous day close:   $4.32 ; volume today:    3,004,803
+MDRX   - previous day close:   $6.94 ; volume today:    2,148,294
+CS     - previous day close:  $10.47 ; volume today:    2,857,635
+BSVN   - previous day close:  $11.15 ; volume today:       11,051
+FLXS   - previous day close:  $11.10 ; volume today:       90,793
+DSS    - previous day close:   $8.77 ; volume today:      500,065
+CIM    - previous day close:  $10.62 ; volume today:    6,841,213
+MIK    - previous day close:   $5.51 ; volume today:   18,318,075
+BBAR   - previous day close:   $4.09 ; volume today:      694,497
+X      - previous day close:  $10.19 ; volume today:    9,317,613
+CLSK   - previous day close:   $2.09 ; volume today:    1,710,907
+USAP   - previous day close:   $8.80 ; volume today:       10,759
+UEPS   - previous day close:   $3.40 ; volume today:      186,715
+LMRK   - previous day close:  $10.68 ; volume today:      103,364
+CVE    - previous day close:   $5.24 ; volume today:   11,929,476
+NIO    - previous day close:   $5.59 ; volume today:   72,720,241
+GSB    - previous day close:  $10.44 ; volume today:      108,685
+KIN    - previous day close:   $4.70 ; volume today:      261,605
+NH     - previous day close:   $2.77 ; volume today:      151,820
+ARCO   - previous day close:   $4.69 ; volume today:    1,515,617
+LILAK  - previous day close:  $10.96 ; volume today:    1,174,757
+SLNO   - previous day close:   $3.26 ; volume today:      430,282
+GLAD   - previous day close:   $7.74 ; volume today:      153,583
+MMLP   - previous day close:   $2.80 ; volume today:      348,832
+SPPI   - previous day close:   $3.08 ; volume today:      744,585
+MESA   - previous day close:   $4.31 ; volume today:    2,808,534
+EPM    - previous day close:   $2.99 ; volume today:      360,029
+DLTH   - previous day close:   $7.24 ; volume today:      559,425
+BXG    - previous day close:   $5.31 ; volume today:      224,423
+CTSO   - previous day close:   $8.78 ; volume today:      266,829
+TLRD   - previous day close:   $1.84 ; volume today:    4,674,966
+PEI    - previous day close:   $1.99 ; volume today:    5,723,869
+HOTH   - previous day close:   $2.80 ; volume today:      862,371
+AROC   - previous day close:   $6.85 ; volume today:    1,608,251
+HIMX   - previous day close:   $3.32 ; volume today:    1,297,028
+FMO    - previous day close:   $2.43 ; volume today:      371,085
+GOL    - previous day close:   $7.56 ; volume today:    4,692,302
+RGS    - previous day close:  $11.76 ; volume today:      551,362
+TK     - previous day close:   $2.98 ; volume today:    1,868,139
+NPTN   - previous day close:   $9.60 ; volume today:    1,694,574
+PLUG   - previous day close:   $4.88 ; volume today:   12,444,008
+QRTEA  - previous day close:   $9.17 ; volume today:    3,258,990
+NAVI   - previous day close:   $8.81 ; volume today:    2,135,400
+GCI    - previous day close:   $2.81 ; volume today:   13,594,659
+LCI    - previous day close:   $7.93 ; volume today:      327,857
+KERN   - previous day close:   $9.16 ; volume today:      126,889
+FRBK   - previous day close:   $2.85 ; volume today:      116,001
+CRK    - previous day close:   $5.61 ; volume today:    2,002,166
+BSBR   - previous day close:   $6.29 ; volume today:      980,499
+RMCF   - previous day close:   $5.06 ; volume today:       51,264
+TCS    - previous day close:   $3.64 ; volume today:      299,901
+SEAC   - previous day close:   $1.99 ; volume today:      607,374
+ZAGG   - previous day close:   $3.17 ; volume today:    1,714,656
+VNCE   - previous day close:   $7.06 ; volume today:       79,451
+IVAC   - previous day close:   $5.64 ; volume today:       71,060
+GROW   - previous day close:   $2.86 ; volume today:      317,164
+EVH    - previous day close:   $6.19 ; volume today:    1,407,619
+APHA   - previous day close:   $4.39 ; volume today:    9,387,349
+IRS    - previous day close:   $3.58 ; volume today:      155,847
+CAPR   - previous day close:   $4.28 ; volume today:    1,303,399
+DRH    - previous day close:   $7.38 ; volume today:    3,920,696
+LADR   - previous day close:   $9.41 ; volume today:    2,129,869
+AINV   - previous day close:  $11.40 ; volume today:      508,697
+SIEN   - previous day close:   $4.51 ; volume today:      826,440
+SSL    - previous day close:   $9.05 ; volume today:    7,407,169
+DFIN   - previous day close:   $9.44 ; volume today:      285,129
+CRON   - previous day close:   $6.60 ; volume today:   11,634,028
+BSET   - previous day close:   $8.23 ; volume today:      150,939
+MFG    - previous day close:   $2.59 ; volume today:      210,855
+STRL   - previous day close:  $10.35 ; volume today:      218,885
+SID    - previous day close:   $2.11 ; volume today:    1,857,946
+FSK    - previous day close:   $4.02 ; volume today:    4,172,654
+FXN    - previous day close:   $8.11 ; volume today:      328,918
+CPST   - previous day close:   $2.56 ; volume today:      196,208
+ERJ    - previous day close:   $7.29 ; volume today:    7,389,433
+ORN    - previous day close:   $3.00 ; volume today:      197,940
+VTVT   - previous day close:   $2.84 ; volume today:      931,667
+PAGP   - previous day close:  $11.77 ; volume today:    1,866,457
+CIO    - previous day close:  $10.48 ; volume today:      192,043
+ORBC   - previous day close:   $3.88 ; volume today:    3,357,015
+CLMT   - previous day close:   $3.10 ; volume today:      187,346
+GPMT   - previous day close:   $7.55 ; volume today:    2,720,919
+FPH    - previous day close:   $5.59 ; volume today:      310,804
+CEMI   - previous day close:   $8.20 ; volume today:      842,676
+GE     - previous day close:   $7.88 ; volume today:  106,040,311
+IMH    - previous day close:   $2.14 ; volume today:      304,903
+VTSI   - previous day close:   $3.06 ; volume today:      195,088
+EFC    - previous day close:  $11.80 ; volume today:      594,956
+LE     - previous day close:   $8.74 ; volume today:      214,889
+PIXY   - previous day close:   $5.49 ; volume today:    1,242,697
+SPKE   - previous day close:   $7.90 ; volume today:       91,167
+SLS    - previous day close:   $3.41 ; volume today:      285,186
+AM     - previous day close:   $5.65 ; volume today:    5,541,246
+RMBL   - previous day close:   $9.23 ; volume today:      236,681
+SGLB   - previous day close:   $2.67 ; volume today:    1,014,801
+CLF    - previous day close:   $6.48 ; volume today:   11,258,707
+VER    - previous day close:   $6.88 ; volume today:   12,470,384
+SBOW   - previous day close:   $4.55 ; volume today:      326,014
+TEO    - previous day close:  $10.02 ; volume today:       99,582
+TESS   - previous day close:   $5.54 ; volume today:      115,769
+FCG    - previous day close:   $9.15 ; volume today:    1,988,573
+EVRI   - previous day close:   $7.00 ; volume today:    2,877,015
+NMM    - previous day close:   $7.52 ; volume today:       98,498
+WSR    - previous day close:   $8.05 ; volume today:      458,028
+INVE   - previous day close:   $5.01 ; volume today:      107,005
+SUPV   - previous day close:   $2.61 ; volume today:      858,244
+FOSL   - previous day close:   $5.25 ; volume today:    7,476,634
+CHMI   - previous day close:   $9.97 ; volume today:      449,837
+TECK   - previous day close:  $11.66 ; volume today:    2,741,604
+REPH   - previous day close:   $4.95 ; volume today:      620,647
+PRTS   - previous day close:   $7.70 ; volume today:      853,547
+FNKO   - previous day close:   $7.11 ; volume today:    1,092,947
+LIQT   - previous day close:   $6.15 ; volume today:       56,951
+RTLR   - previous day close:  $10.52 ; volume today:      428,574
+MRC    - previous day close:   $7.61 ; volume today:      464,666
+ENT    - previous day close:   $5.75 ; volume today:      836,190
+MOD    - previous day close:   $6.49 ; volume today:      330,086
+ARI    - previous day close:  $10.93 ; volume today:    1,406,199
+AXLA   - previous day close:   $5.33 ; volume today:      180,192
+RWT    - previous day close:   $7.08 ; volume today:    8,561,773
+GLMD   - previous day close:   $5.15 ; volume today:      124,550
+NRO    - previous day close:   $3.89 ; volume today:      520,561
+CNX    - previous day close:  $10.84 ; volume today:    3,957,173
+ASC    - previous day close:   $5.57 ; volume today:      150,491
+EOLS   - previous day close:   $5.45 ; volume today:    1,466,886
+MCRB   - previous day close:   $4.68 ; volume today:      178,124
+LL     - previous day close:  $11.23 ; volume today:      929,918
+GRIN   - previous day close:   $2.92 ; volume today:      486,212
+ATHX   - previous day close:   $2.78 ; volume today:    2,135,248
+GNFT   - previous day close:   $5.40 ; volume today:      321,427
+TH     - previous day close:   $2.93 ; volume today:      365,968
+SVRA   - previous day close:   $2.43 ; volume today:      642,757
+OXLC   - previous day close:   $4.20 ; volume today:    3,370,717
+PSCE   - previous day close:   $4.43 ; volume today:      344,761
+CIA    - previous day close:   $5.97 ; volume today:       95,012
+THMO   - previous day close:   $5.87 ; volume today:    3,270,584
+CVGI   - previous day close:   $2.65 ; volume today:      347,527
+NRZ    - previous day close:   $8.44 ; volume today:   13,040,028
+USDP   - previous day close:   $3.61 ; volume today:      353,424
+MDLX   - previous day close:   $3.99 ; volume today:      114,356
+WVE    - previous day close:   $9.23 ; volume today:      367,407
+MTA    - previous day close:   $5.66 ; volume today:      129,818
+SUP    - previous day close:   $1.73 ; volume today:      422,715
+CFRX   - previous day close:   $5.04 ; volume today:    1,009,566
+MUFG   - previous day close:   $4.34 ; volume today:    3,234,229
+MRO    - previous day close:   $7.32 ; volume today:   56,367,429
+NBL    - previous day close:  $11.26 ; volume today:   10,405,738
+BBBY   - previous day close:   $9.32 ; volume today:   11,416,503
+TRTX   - previous day close:   $9.63 ; volume today:    1,490,376
+DBD    - previous day close:   $6.33 ; volume today:    1,228,822
+PLX    - previous day close:   $3.59 ; volume today:      439,937
+PCB    - previous day close:   $9.94 ; volume today:       30,093
+CBIO   - previous day close:   $7.75 ; volume today:      129,086
+IEZ    - previous day close:  $10.69 ; volume today:      571,341
+NBLX   - previous day close:  $11.61 ; volume today:      893,514
+MLSS   - previous day close:   $2.07 ; volume today:    1,005,791
+LIND   - previous day close:  $10.22 ; volume today:      381,992
+CTR    - previous day close:   $3.36 ; volume today:      190,371
+RMTI   - previous day close:   $2.10 ; volume today:      489,385
+AXL    - previous day close:   $8.75 ; volume today:    1,656,499
+DS     - previous day close:   $2.38 ; volume today:    3,503,445
+UROV   - previous day close:  $11.12 ; volume today:       73,645
+SMM    - previous day close:   $4.95 ; volume today:       65,849
+KYN    - previous day close:   $6.73 ; volume today:    1,047,191
+VFF    - previous day close:   $6.04 ; volume today:    1,477,387
+SITC   - previous day close:   $8.83 ; volume today:    1,770,458
+ARDX   - previous day close:   $6.92 ; volume today:      291,222
+GOGO   - previous day close:   $3.17 ; volume today:    3,140,160
+CLNY   - previous day close:   $2.96 ; volume today:    5,470,689
+PCYG   - previous day close:   $5.17 ; volume today:       77,477
+ENBL   - previous day close:   $6.43 ; volume today:    1,772,654
+APT    - previous day close:   $9.87 ; volume today:    1,005,059
+YRD    - previous day close:   $4.29 ; volume today:      112,055
+FI     - previous day close:   $2.77 ; volume today:    1,027,552
+WTRH   - previous day close:   $2.06 ; volume today:    2,607,182
+TWI    - previous day close:   $1.86 ; volume today:      801,206
+LXRX   - previous day close:   $1.95 ; volume today:    1,877,165
+TCPC   - previous day close:  $10.36 ; volume today:      261,523
+KLDO   - previous day close:   $7.05 ; volume today:      177,495
+PHX    - previous day close:   $4.27 ; volume today:      137,501
+PGEN   - previous day close:   $3.21 ; volume today:    3,533,388
+RYAM   - previous day close:   $2.73 ; volume today:      661,635
+FHN    - previous day close:  $11.53 ; volume today:    5,862,576
+TLRY   - previous day close:   $9.48 ; volume today:   11,748,565
+OPBK   - previous day close:   $6.68 ; volume today:       41,890
+CPTA   - previous day close:   $3.05 ; volume today:      372,419
+EBR    - previous day close:   $6.02 ; volume today:      557,378
+EARN   - previous day close:  $10.22 ; volume today:      143,578
+AJX    - previous day close:   $9.86 ; volume today:      126,006
+NINE   - previous day close:   $2.62 ; volume today:    3,625,072
+IMGN   - previous day close:   $4.55 ; volume today:    1,548,627
+XAN    - previous day close:   $2.86 ; volume today:    6,470,539
+IDXG   - previous day close:   $5.54 ; volume today:       80,432
+KDMN   - previous day close:   $4.48 ; volume today:    1,509,269
+PE     - previous day close:  $12.22 ; volume today:    9,767,579
+IHRT   - previous day close:  $10.61 ; volume today:    1,205,455
+LPTH   - previous day close:   $2.53 ; volume today:      629,642
+MTRX   - previous day close:  $11.71 ; volume today:      189,241
+BHR    - previous day close:   $4.78 ; volume today:      874,700
+CERC   - previous day close:   $2.73 ; volume today:      574,822
+PROS   - previous day close:  $10.25 ; volume today:       86,938
+GLP    - previous day close:  $11.29 ; volume today:      148,801
+GT     - previous day close:   $9.89 ; volume today:    6,064,071
+CPLG   - previous day close:   $4.89 ; volume today:      317,990
+OII    - previous day close:   $7.83 ; volume today:    1,536,648
+GTX    - previous day close:   $6.49 ; volume today:      592,808
+SWIR   - previous day close:  $10.04 ; volume today:      326,252
+ELVT   - previous day close:   $2.33 ; volume today:      492,919
+EVFM   - previous day close:   $3.31 ; volume today:    7,826,796
+AMC    - previous day close:   $5.91 ; volume today:    7,180,354
+FDUS   - previous day close:  $10.34 ; volume today:      184,430
+NGS    - previous day close:   $7.73 ; volume today:       79,563
+MFA    - previous day close:   $2.83 ; volume today:   56,919,503
+KRMD   - previous day close:  $10.41 ; volume today:      350,767
+TGI    - previous day close:  $11.18 ; volume today:    2,986,947
+UGP    - previous day close:   $3.79 ; volume today:      780,204
+MTG    - previous day close:   $9.79 ; volume today:    3,578,202
+SM     - previous day close:   $5.49 ; volume today:    8,683,600
+QMCO   - previous day close:   $4.39 ; volume today:      277,182
+RGP    - previous day close:  $12.23 ; volume today:       95,043
+EGLE   - previous day close:   $2.39 ; volume today:    1,116,512
+REZI   - previous day close:   $9.17 ; volume today:    1,176,717
+ADMS   - previous day close:   $2.98 ; volume today:      609,702
+RBS    - previous day close:   $3.52 ; volume today:    3,878,242
+OPK    - previous day close:   $2.35 ; volume today:   19,712,674
+SRET   - previous day close:   $8.73 ; volume today:      765,748
+HUD    - previous day close:   $7.02 ; volume today:      772,730
+TRVG   - previous day close:   $2.51 ; volume today:      723,034
+SMFG   - previous day close:   $6.15 ; volume today:    1,062,957
+RRC    - previous day close:   $6.59 ; volume today:   11,309,694
+VAL    - previous day close:   $0.93 ; volume today:  180,358,057
+AEY    - previous day close:   $2.37 ; volume today:    1,988,150
+CPE    - previous day close:   $1.38 ; volume today:  152,132,399
+ARR    - previous day close:   $9.20 ; volume today:    2,042,300
+QUAD   - previous day close:   $3.95 ; volume today:      599,834
+NSCO   - previous day close:   $3.05 ; volume today:       76,546
+ICD    - previous day close:   $6.70 ; volume today:    1,637,182
+THCX   - previous day close:  $10.94 ; volume today:       44,903
+WTI    - previous day close:   $3.30 ; volume today:    9,051,667
+GEL    - previous day close:  $10.66 ; volume today:      854,423
+MERC   - previous day close:   $8.87 ; volume today:      219,037
+NESR   - previous day close:   $6.60 ; volume today:      210,465
+BPT    - previous day close:   $4.20 ; volume today:      278,250
+CDTX   - previous day close:   $3.53 ; volume today:      111,168
+SNCR   - previous day close:   $3.21 ; volume today:    1,132,669
+IRT    - previous day close:  $11.62 ; volume today:      364,940
+VNTR   - previous day close:   $2.24 ; volume today:      500,284
+LEDS   - previous day close:   $3.07 ; volume today:      850,767
+ESCA   - previous day close:  $11.67 ; volume today:       11,183
+AKTS   - previous day close:   $7.83 ; volume today:      576,363
+NR     - previous day close:   $2.83 ; volume today:    1,225,377
+SRNE   - previous day close:   $4.12 ; volume today:   43,136,752
+GER    - previous day close:   $9.08 ; volume today:      116,837
+EXPR   - previous day close:   $2.05 ; volume today:    2,623,949
+DZSI   - previous day close:   $9.20 ; volume today:      102,494
+ANH    - previous day close:   $1.89 ; volume today:    3,727,288
+TCON   - previous day close:   $2.03 ; volume today:      329,221
+BDN    - previous day close:  $11.47 ; volume today:    1,248,078
+MMX    - previous day close:   $4.18 ; volume today:      121,544
+KMF    - previous day close:   $5.53 ; volume today:      231,622
+ACIU   - previous day close:   $6.57 ; volume today:       99,494
+LEU    - previous day close:  $10.95 ; volume today:       44,540
+SNDE   - previous day close:   $3.33 ; volume today:    3,609,216
+OSG    - previous day close:   $2.30 ; volume today:      463,954
+GLOG   - previous day close:   $3.90 ; volume today:    1,439,028
+VRRM   - previous day close:  $12.37 ; volume today:      883,244
+EMO    - previous day close:   $2.96 ; volume today:      409,002
+MG     - previous day close:   $5.54 ; volume today:      337,202
+CEI    - previous day close:   $1.64 ; volume today:    6,550,371
+HPE    - previous day close:  $11.11 ; volume today:   10,295,842
+VIV    - previous day close:   $9.55 ; volume today:    1,359,586
+CMLS   - previous day close:   $7.43 ; volume today:      296,984
+HMI    - previous day close:  $10.08 ; volume today:      273,487
+XCUR   - previous day close:   $2.96 ; volume today:      435,289
+SY     - previous day close:   $9.93 ; volume today:      246,566
+CULP   - previous day close:   $8.00 ; volume today:      305,429
+ATCO   - previous day close:   $8.51 ; volume today:      309,140
+OPRX   - previous day close:  $12.07 ; volume today:      158,621
+OVV    - previous day close:  $10.51 ; volume today:   12,529,725
+MTC    - previous day close:   $4.49 ; volume today:      237,832
+CRC    - previous day close:   $2.01 ; volume today:   20,035,327
+JAX    - previous day close:   $6.16 ; volume today:      234,006
+NYCB   - previous day close:  $10.94 ; volume today:    1,986,722
+BBCP   - previous day close:   $3.68 ; volume today:      120,690
+SMLP   - previous day close:   $1.68 ; volume today:    1,096,030
+GEOS   - previous day close:   $8.48 ; volume today:       87,954
+OFS    - previous day close:   $5.26 ; volume today:      106,518
+BRG    - previous day close:   $8.32 ; volume today:      271,042
+NK     - previous day close:   $5.54 ; volume today:      639,282
+DB     - previous day close:   $9.69 ; volume today:    7,763,440
+GNCA   - previous day close:   $2.44 ; volume today:      143,243
+CLDX   - previous day close:   $3.08 ; volume today:    1,468,586
+SOHO   - previous day close:   $3.47 ; volume today:      376,786
+KLXE   - previous day close:   $2.62 ; volume today:    2,561,987
+CRHM   - previous day close:   $2.30 ; volume today:      215,197
+HOME   - previous day close:   $6.88 ; volume today:    4,564,031
+KOS    - previous day close:   $2.82 ; volume today:   14,980,682
+LPL    - previous day close:   $5.14 ; volume today:      262,221
+WES    - previous day close:  $11.20 ; volume today:    3,822,753
+NAT    - previous day close:   $4.72 ; volume today:    8,080,945
+CTMX   - previous day close:   $8.06 ; volume today:      309,240
+PAA    - previous day close:  $11.36 ; volume today:    3,132,643
+RESN   - previous day close:   $2.52 ; volume today:    1,107,556
+MIST   - previous day close:   $3.74 ; volume today:    2,744,511
+SOLY   - previous day close:  $10.97 ; volume today:      296,144
+MNLO   - previous day close:   $2.06 ; volume today:    5,100,634
+CEIX   - previous day close:   $8.14 ; volume today:      624,275
+HCHC   - previous day close:   $3.23 ; volume today:      454,684
+HONE   - previous day close:   $9.05 ; volume today:      457,110
+GPRO   - previous day close:   $4.86 ; volume today:    3,502,868
+BBD    - previous day close:   $4.50 ; volume today:   11,013,440
+CRNT   - previous day close:   $2.19 ; volume today:      853,679
+SZC    - previous day close:   $8.26 ; volume today:      292,501
+WIT    - previous day close:   $3.33 ; volume today:      934,515
+GGAL   - previous day close:  $10.37 ; volume today:    1,490,671
+CGBD   - previous day close:   $9.60 ; volume today:      608,106
+AMSC   - previous day close:   $7.96 ; volume today:       99,004
+TUP    - previous day close:   $6.49 ; volume today:    6,293,791
+NEXA   - previous day close:   $4.83 ; volume today:       72,091
+NMFC   - previous day close:  $10.07 ; volume today:      602,840
+TTMI   - previous day close:  $12.04 ; volume today:      339,489
+GMLP   - previous day close:   $3.04 ; volume today:      441,198
+LPG    - previous day close:   $8.30 ; volume today:      472,813
+AYRO   - previous day close:   $2.63 ; volume today:    2,702,626
+CCAP   - previous day close:  $12.42 ; volume today:       26,545
+GPOR   - previous day close:   $1.69 ; volume today:   11,875,881
+PLSE   - previous day close:   $8.61 ; volume today:       99,625
+SPCB   - previous day close:   $1.26 ; volume today:   28,991,840
+LC     - previous day close:   $6.21 ; volume today:      980,064
+SMSI   - previous day close:   $4.76 ; volume today:      618,728
+MCF    - previous day close:   $3.57 ; volume today:    1,233,149
+PAM    - previous day close:  $11.41 ; volume today:      641,899
+ZIXI   - previous day close:   $7.36 ; volume today:      355,537
+SELB   - previous day close:   $3.63 ; volume today:      770,434
+BCRX   - previous day close:   $4.17 ; volume today:    4,692,039
+LBRT   - previous day close:   $7.01 ; volume today:    1,235,711
+PFLT   - previous day close:   $8.90 ; volume today:      167,227
+GMRE   - previous day close:  $12.08 ; volume today:      191,940
+YRCW   - previous day close:   $2.07 ; volume today:    2,473,785
+PRQR   - previous day close:   $5.33 ; volume today:      113,188
+CHS    - previous day close:   $2.17 ; volume today:    3,955,704
+CFB    - previous day close:  $10.25 ; volume today:      189,199
+AGRO   - previous day close:   $4.96 ; volume today:      554,302
+GNLN   - previous day close:   $3.86 ; volume today:      209,261
+SNES   - previous day close:   $1.93 ; volume today:      689,484
+NEBU   - previous day close:  $10.30 ; volume today:      584,267
+VSTO   - previous day close:  $11.24 ; volume today:    1,005,915
+SBS    - previous day close:  $10.60 ; volume today:    1,451,487
+BRY    - previous day close:   $5.64 ; volume today:      998,304
+AMRN   - previous day close:   $6.68 ; volume today:   10,456,965
+SMHI   - previous day close:   $3.31 ; volume today:    1,495,113
+IVR    - previous day close:   $4.23 ; volume today:  112,010,524
+HT     - previous day close:   $9.09 ; volume today:    1,392,817
+TPCO   - previous day close:  $10.15 ; volume today:      151,556
+SIC    - previous day close:   $3.59 ; volume today:      251,429
+XFOR   - previous day close:   $8.77 ; volume today:      100,288
+NNA    - previous day close:   $4.86 ; volume today:      194,804
+FTSI   - previous day close:   $9.48 ; volume today:    1,096,612
+REML   - previous day close:   $4.12 ; volume today:    6,971,452
+APTX   - previous day close:   $3.53 ; volume today:      199,081
+CO     - previous day close:   $2.91 ; volume today:      879,920
+OMI    - previous day close:   $7.89 ; volume today:    1,573,642
+M      - previous day close:   $8.77 ; volume today:   44,818,679
+SPN    - previous day close:   $1.46 ; volume today:    2,070,524
+CECE   - previous day close:   $6.47 ; volume today:       94,954
+EXPI   - previous day close:  $11.66 ; volume today:      270,913
+CRBP   - previous day close:   $6.89 ; volume today:    1,497,137
+RPAI   - previous day close:   $7.80 ; volume today:    1,217,394
+AGS    - previous day close:   $5.28 ; volume today:      807,683
+CPG    - previous day close:   $1.95 ; volume today:    3,678,189
+SNR    - previous day close:   $3.77 ; volume today:      991,490
+CYH    - previous day close:   $3.27 ; volume today:    2,718,623
+DTIL   - previous day close:   $7.13 ; volume today:    1,710,157
+GAIA   - previous day close:   $8.01 ; volume today:       43,271
+AXGT   - previous day close:   $3.22 ; volume today:      170,514
+SMHB   - previous day close:   $6.73 ; volume today:      262,675
+APG    - previous day close:  $12.00 ; volume today:    2,114,451
+BKCC   - previous day close:   $3.38 ; volume today:      336,572
+WLL    - previous day close:   $1.38 ; volume today:   76,529,221
+WISA   - previous day close:   $2.33 ; volume today:    2,127,137
+TEN    - previous day close:  $10.23 ; volume today:    3,640,294
+VET    - previous day close:   $6.79 ; volume today:    2,196,001
+AXDX   - previous day close:   $9.19 ; volume today:      288,150
+ESTE   - previous day close:   $3.42 ; volume today:      535,681
+AVCT   - previous day close:   $2.12 ; volume today:      393,913
+ENZ    - previous day close:   $2.56 ; volume today:      328,478
+SCM    - previous day close:   $8.33 ; volume today:      153,845
+GLOP   - previous day close:   $5.34 ; volume today:      645,429
+RLGY   - previous day close:   $7.59 ; volume today:    2,124,325
+CSTE   - previous day close:  $12.29 ; volume today:       85,871
+MLND   - previous day close:   $2.23 ; volume today:    1,246,834
+TLSA   - previous day close:   $5.80 ; volume today:      115,754
+PGRE   - previous day close:   $9.21 ; volume today:      873,215
+MITT   - previous day close:   $3.60 ; volume today:   26,893,739
+FRO    - previous day close:   $8.16 ; volume today:    5,124,858
+YPF    - previous day close:   $5.74 ; volume today:    1,790,420
+CMO    - previous day close:   $5.67 ; volume today:      728,299
+SCOR   - previous day close:   $3.88 ; volume today:      406,412
+LLNW   - previous day close:   $4.70 ; volume today:    4,242,658
+LJPC   - previous day close:   $5.41 ; volume today:      490,791
+PTEN   - previous day close:   $5.79 ; volume today:    5,628,664
+SECO   - previous day close:   $3.01 ; volume today:      638,712
+HTZ    - previous day close:   $2.57 ; volume today:  390,217,010
+TGP    - previous day close:  $12.13 ; volume today:      299,524
+VHI    - previous day close:  $11.36 ; volume today:       50,812
+SONO   - previous day close:  $11.05 ; volume today:    3,108,199
+LTM    - previous day close:   $2.11 ; volume today:   36,794,521
+CTL    - previous day close:  $10.81 ; volume today:    5,301,281
+PBI    - previous day close:   $2.90 ; volume today:    1,717,733
+MTDR   - previous day close:  $11.05 ; volume today:    5,231,707
+RIGL   - previous day close:   $1.92 ; volume today:    1,865,032
+FBP    - previous day close:   $6.48 ; volume today:      996,006
+MFAC   - previous day close:  $10.38 ; volume today:      150,808
+TWIN   - previous day close:   $6.02 ; volume today:      133,232
+OGI    - previous day close:   $1.76 ; volume today:   12,858,740
+ABEV   - previous day close:   $2.82 ; volume today:   35,855,796
+COTY   - previous day close:   $5.08 ; volume today:   34,324,715
+SOI    - previous day close:   $8.17 ; volume today:      428,686
+HOPE   - previous day close:  $10.40 ; volume today:      472,196
+CNXM   - previous day close:   $8.64 ; volume today:      323,958
+GLDD   - previous day close:  $10.21 ; volume today:      346,428
+CNCE   - previous day close:   $9.39 ; volume today:       57,851
+STIM   - previous day close:   $2.02 ; volume today:      306,925
+DHT    - previous day close:   $5.89 ; volume today:    3,370,605
+NXGN   - previous day close:  $11.61 ; volume today:      252,646
+Tracking 614 symbols.
+Getting historical data...
+1/614 : WPX
+2/614 : HROW
+3/614 : CMRE
+4/614 : TROX
+5/614 : AIM
+6/614 : FRTA
+7/614 : ORC
+8/614 : CEPU
+9/614 : APDN
+10/614 : BGFV
+11/614 : DGII
+12/614 : CIG
+13/614 : OCCI
+14/614 : PYX
+15/614 : DBVT
+16/614 : DL
+17/614 : OCUL
+18/614 : HLX
+19/614 : NAVB
+20/614 : GPRK
+21/614 : NNBR
+22/614 : SBT
+23/614 : NRGU
+24/614 : ADTN
+25/614 : AVDL
+26/614 : HALL
+27/614 : RC
+28/614 : XERS
+29/614 : RYI
+30/614 : OCSL
+31/614 : SD
+32/614 : IMV
+33/614 : BORR
+34/614 : TNP
+35/614 : SXC
+36/614 : COMM
+37/614 : FLY
+38/614 : ARA
+39/614 : AHH
+40/614 : PSEC
+41/614 : ASPN
+42/614 : GWRS
+43/614 : NWHM
+44/614 : MNK
+45/614 : RUBY
+46/614 : KRP
+47/614 : ABEO
+48/614 : SNGX
+49/614 : SWN
+50/614 : FSP
+51/614 : ACRE
+52/614 : NEXT
+53/614 : GHL
+54/614 : PUMP
+55/614 : UIHC
+56/614 : CADE
+57/614 : CLVS
+58/614 : PARR
+59/614 : INN
+60/614 : TMST
+61/614 : STAY
+62/614 : GECC
+63/614 : ECC
+64/614 : SHO
+65/614 : SYNL
+66/614 : CANF
+67/614 : AI
+68/614 : BDSI
+69/614 : SPWR
+70/614 : VNE
+71/614 : DGLY
+72/614 : LMPX
+73/614 : CNHI
+74/614 : FCEL
+75/614 : OBSV
+76/614 : VRAY
+77/614 : ATRA
+78/614 : PBPB
+79/614 : PBYI
+80/614 : ACCO
+81/614 : RIG
+82/614 : ENDP
+83/614 : LQDA
+84/614 : AHC
+85/614 : TRIL
+86/614 : EURN
+87/614 : FRAN
+88/614 : TLYS
+89/614 : CYCC
+90/614 : IO
+91/614 : ARLP
+92/614 : EVLO
+93/614 : VYGR
+94/614 : IVZ
+95/614 : DSSI
+96/614 : MIXT
+97/614 : HMLP
+98/614 : GENE
+99/614 : TWO
+100/614 : ADRO
+101/614 : CARS
+102/614 : AR
+103/614 : CAMP
+104/614 : VSLR
+105/614 : ODP
+106/614 : SDC
+107/614 : MWK
+108/614 : SRV
+109/614 : MCEP
+110/614 : PERI
+111/614 : DHC
+112/614 : HOOK
+113/614 : RNET
+114/614 : CLNC
+115/614 : CDEV
+116/614 : TZOO
+117/614 : FARM
+118/614 : CSPR
+119/614 : WMC
+120/614 : PNNT
+121/614 : LAZY
+122/614 : HAFC
+123/614 : QLGN
+124/614 : IDYA
+125/614 : GLYC
+126/614 : AFIN
+127/614 : ENLC
+128/614 : VIST
+129/614 : INSG
+130/614 : ITUB
+131/614 : VRML
+132/614 : BGG
+133/614 : PRTY
+134/614 : HFFG
+135/614 : CEM
+136/614 : MIE
+137/614 : GTT
+138/614 : BSGM
+139/614 : CURO
+140/614 : BW
+141/614 : PLYA
+142/614 : GTES
+143/614 : BB
+144/614 : GNW
+145/614 : RDHL
+146/614 : BXRX
+147/614 : IGT
+148/614 : MFGP
+149/614 : CAL
+150/614 : ESRT
+151/614 : APTS
+152/614 : BBW
+153/614 : CLPR
+154/614 : VMD
+155/614 : NYMT
+156/614 : APPS
+157/614 : PGNX
+158/614 : TUSK
+159/614 : NLY
+160/614 : AVID
+161/614 : OSW
+162/614 : ABR
+163/614 : IDN
+164/614 : PFSW
+165/614 : OMP
+166/614 : AGI
+167/614 : ARAV
+168/614 : CONN
+169/614 : XONE
+170/614 : ONCY
+171/614 : CMCM
+172/614 : QEP
+173/614 : CNDT
+174/614 : YOLO
+175/614 : BCSF
+176/614 : SRT
+177/614 : GSKY
+178/614 : LILA
+179/614 : FPL
+180/614 : OXSQ
+181/614 : CTRA
+182/614 : RPT
+183/614 : GME
+184/614 : TSQ
+185/614 : SKT
+186/614 : VERI
+187/614 : STXS
+188/614 : TTM
+189/614 : AA
+190/614 : BTU
+191/614 : MDRX
+192/614 : CS
+193/614 : BSVN
+194/614 : FLXS
+195/614 : DSS
+196/614 : CIM
+197/614 : MIK
+198/614 : BBAR
+199/614 : X
+200/614 : CLSK
+201/614 : USAP
+202/614 : UEPS
+203/614 : LMRK
+204/614 : CVE
+205/614 : NIO
+206/614 : GSB
+207/614 : KIN
+208/614 : NH
+209/614 : ARCO
+210/614 : LILAK
+211/614 : SLNO
+212/614 : GLAD
+213/614 : MMLP
+214/614 : SPPI
+215/614 : MESA
+216/614 : EPM
+217/614 : DLTH
+218/614 : BXG
+219/614 : CTSO
+220/614 : TLRD
+221/614 : PEI
+222/614 : HOTH
+223/614 : AROC
+224/614 : HIMX
+225/614 : FMO
+226/614 : GOL
+227/614 : RGS
+228/614 : TK
+229/614 : NPTN
+230/614 : PLUG
+231/614 : QRTEA
+232/614 : NAVI
+233/614 : GCI
+234/614 : LCI
+235/614 : KERN
+236/614 : FRBK
+237/614 : CRK
+238/614 : BSBR
+239/614 : RMCF
+240/614 : TCS
+241/614 : SEAC
+242/614 : ZAGG
+243/614 : VNCE
+244/614 : IVAC
+245/614 : GROW
+246/614 : EVH
+247/614 : APHA
+248/614 : IRS
+249/614 : CAPR
+250/614 : DRH
+251/614 : LADR
+252/614 : AINV
+253/614 : SIEN
+254/614 : SSL
+255/614 : DFIN
+256/614 : CRON
+257/614 : BSET
+258/614 : MFG
+259/614 : STRL
+260/614 : SID
+261/614 : FSK
+262/614 : FXN
+263/614 : CPST
+264/614 : ERJ
+265/614 : ORN
+266/614 : VTVT
+267/614 : PAGP
+268/614 : CIO
+269/614 : ORBC
+270/614 : CLMT
+271/614 : GPMT
+272/614 : FPH
+273/614 : CEMI
+274/614 : GE
+275/614 : IMH
+276/614 : VTSI
+277/614 : EFC
+278/614 : LE
+279/614 : PIXY
+280/614 : SPKE
+281/614 : SLS
+282/614 : AM
+283/614 : RMBL
+284/614 : SGLB
+285/614 : CLF
+286/614 : VER
+287/614 : SBOW
+288/614 : TEO
+289/614 : TESS
+290/614 : FCG
+291/614 : EVRI
+292/614 : NMM
+293/614 : WSR
+294/614 : INVE
+295/614 : SUPV
+296/614 : FOSL
+297/614 : CHMI
+298/614 : TECK
+299/614 : REPH
+300/614 : PRTS
+301/614 : FNKO
+302/614 : LIQT
+303/614 : RTLR
+304/614 : MRC
+305/614 : ENT
+306/614 : MOD
+307/614 : ARI
+308/614 : AXLA
+309/614 : RWT
+310/614 : GLMD
+311/614 : NRO
+312/614 : CNX
+313/614 : ASC
+314/614 : EOLS
+315/614 : MCRB
+316/614 : LL
+317/614 : GRIN
+318/614 : ATHX
+319/614 : GNFT
+320/614 : TH
+321/614 : SVRA
+322/614 : OXLC
+323/614 : PSCE
+324/614 : CIA
+325/614 : THMO
+326/614 : CVGI
+327/614 : NRZ
+328/614 : USDP
+329/614 : MDLX
+330/614 : WVE
+331/614 : MTA
+332/614 : SUP
+333/614 : CFRX
+334/614 : MUFG
+335/614 : MRO
+336/614 : NBL
+337/614 : BBBY
+338/614 : TRTX
+339/614 : DBD
+340/614 : PLX
+341/614 : PCB
+342/614 : CBIO
+343/614 : IEZ
+344/614 : NBLX
+345/614 : MLSS
+346/614 : LIND
+347/614 : CTR
+348/614 : RMTI
+349/614 : AXL
+350/614 : DS
+351/614 : UROV
+352/614 : SMM
+353/614 : KYN
+354/614 : VFF
+355/614 : SITC
+356/614 : ARDX
+357/614 : GOGO
+358/614 : CLNY
+359/614 : PCYG
+360/614 : ENBL
+361/614 : APT
+362/614 : YRD
+363/614 : FI
+364/614 : WTRH
+365/614 : TWI
+366/614 : LXRX
+367/614 : TCPC
+368/614 : KLDO
+369/614 : PHX
+370/614 : PGEN
+371/614 : RYAM
+372/614 : FHN
+373/614 : TLRY
+374/614 : OPBK
+375/614 : CPTA
+376/614 : EBR
+377/614 : EARN
+378/614 : AJX
+379/614 : NINE
+380/614 : IMGN
+381/614 : XAN
+382/614 : IDXG
+383/614 : KDMN
+384/614 : PE
+385/614 : IHRT
+386/614 : LPTH
+387/614 : MTRX
+388/614 : BHR
+389/614 : CERC
+390/614 : PROS
+391/614 : GLP
+392/614 : GT
+393/614 : CPLG
+394/614 : OII
+395/614 : GTX
+396/614 : SWIR
+397/614 : ELVT
+398/614 : EVFM
+399/614 : AMC
+400/614 : FDUS
+401/614 : NGS
+402/614 : MFA
+403/614 : KRMD
+404/614 : TGI
+405/614 : UGP
+406/614 : MTG
+407/614 : SM
+408/614 : QMCO
+409/614 : RGP
+410/614 : EGLE
+411/614 : REZI
+412/614 : ADMS
+413/614 : RBS
+414/614 : OPK
+415/614 : SRET
+416/614 : HUD
+417/614 : TRVG
+418/614 : SMFG
+419/614 : RRC
+420/614 : VAL
+421/614 : AEY
+422/614 : CPE
+423/614 : ARR
+424/614 : QUAD
+425/614 : NSCO
+426/614 : ICD
+427/614 : THCX
+428/614 : WTI
+429/614 : GEL
+430/614 : MERC
+431/614 : NESR
+432/614 : BPT
+433/614 : CDTX
+434/614 : SNCR
+435/614 : IRT
+436/614 : VNTR
+437/614 : LEDS
+438/614 : ESCA
+439/614 : AKTS
+440/614 : NR
+441/614 : SRNE
+442/614 : GER
+443/614 : EXPR
+444/614 : DZSI
+445/614 : ANH
+446/614 : TCON
+447/614 : BDN
+448/614 : MMX
+449/614 : KMF
+450/614 : ACIU
+451/614 : LEU
+452/614 : SNDE
+453/614 : OSG
+454/614 : GLOG
+455/614 : VRRM
+456/614 : EMO
+457/614 : MG
+458/614 : CEI
+459/614 : HPE
+460/614 : VIV
+461/614 : CMLS
+462/614 : HMI
+463/614 : XCUR
+464/614 : SY
+465/614 : CULP
+466/614 : ATCO
+467/614 : OPRX
+468/614 : OVV
+469/614 : MTC
+470/614 : CRC
+471/614 : JAX
+472/614 : NYCB
+473/614 : BBCP
+474/614 : SMLP
+475/614 : GEOS
+476/614 : OFS
+477/614 : BRG
+478/614 : NK
+479/614 : DB
+480/614 : GNCA
+481/614 : CLDX
+482/614 : SOHO
+483/614 : KLXE
+484/614 : CRHM
+485/614 : HOME
+486/614 : KOS
+487/614 : LPL
+488/614 : WES
+489/614 : NAT
+490/614 : CTMX
+491/614 : PAA
+492/614 : RESN
+493/614 : MIST
+494/614 : SOLY
+495/614 : MNLO
+496/614 : CEIX
+497/614 : HCHC
+498/614 : HONE
+499/614 : GPRO
+500/614 : BBD
+501/614 : CRNT
+502/614 : SZC
+503/614 : WIT
+504/614 : GGAL
+505/614 : CGBD
+506/614 : AMSC
+507/614 : TUP
+508/614 : NEXA
+509/614 : NMFC
+510/614 : TTMI
+511/614 : GMLP
+512/614 : LPG
+513/614 : AYRO
+514/614 : CCAP
+515/614 : GPOR
+516/614 : PLSE
+517/614 : SPCB
+518/614 : LC
+519/614 : SMSI
+520/614 : MCF
+521/614 : PAM
+522/614 : ZIXI
+523/614 : SELB
+524/614 : BCRX
+525/614 : LBRT
+526/614 : PFLT
+527/614 : GMRE
+528/614 : YRCW
+529/614 : PRQR
+530/614 : CHS
+531/614 : CFB
+532/614 : AGRO
+533/614 : GNLN
+534/614 : SNES
+535/614 : NEBU
+536/614 : VSTO
+537/614 : SBS
+538/614 : BRY
+539/614 : AMRN
+540/614 : SMHI
+541/614 : IVR
+542/614 : HT
+543/614 : TPCO
+544/614 : SIC
+545/614 : XFOR
+546/614 : NNA
+547/614 : FTSI
+548/614 : REML
+549/614 : APTX
+550/614 : CO
+551/614 : OMI
+552/614 : M
+553/614 : SPN
+554/614 : CECE
+555/614 : EXPI
+556/614 : CRBP
+557/614 : RPAI
+558/614 : AGS
+559/614 : CPG
+560/614 : SNR
+561/614 : CYH
+562/614 : DTIL
+563/614 : GAIA
+564/614 : AXGT
+565/614 : SMHB
+566/614 : APG
+567/614 : BKCC
+568/614 : WLL
+569/614 : WISA
+570/614 : TEN
+571/614 : VET
+572/614 : AXDX
+573/614 : ESTE
+574/614 : AVCT
+575/614 : ENZ
+576/614 : SCM
+577/614 : GLOP
+578/614 : RLGY
+579/614 : CSTE
+580/614 : MLND
+581/614 : TLSA
+582/614 : PGRE
+583/614 : MITT
+584/614 : FRO
+585/614 : YPF
+586/614 : CMO
+587/614 : SCOR
+588/614 : LLNW
+589/614 : LJPC
+590/614 : PTEN
+591/614 : SECO
+592/614 : HTZ
+593/614 : TGP
+594/614 : VHI
+595/614 : SONO
+596/614 : LTM
+597/614 : CTL
+598/614 : PBI
+599/614 : MTDR
+600/614 : RIGL
+601/614 : FBP
+602/614 : MFAC
+603/614 : TWIN
+604/614 : OGI
+605/614 : ABEV
+606/614 : COTY
+607/614 : SOI
+608/614 : HOPE
+609/614 : CNXM
+610/614 : GLDD
+611/614 : CNCE
+612/614 : STIM
+613/614 : DHT
+614/614 : NXGN
+Success.
+Portfolio value = $-479.83
+Latest cost basis = $156.51
+Stop price = $148.69
+Latest cost basis = $156.06
+Stop price = $148.25
+Latest cost basis = $148.24
+Stop price = $140.83
+Latest cost basis = $286.20
+Stop price = $271.89
+Latest cost basis = $156.19
+Stop price = $148.38
+Latest cost basis = $206.53
+Stop price = $196.20
+Latest cost basis = $87.60
+Stop price = $83.22
+Watching 614 symbols.
+Connecting to second-level data, watching: PLUG
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: ARCO
+Connecting to second-level data, watching: NINE
+Connecting to second-level data, watching: NMFC
+Connecting to second-level data, watching: NYMT
+Connecting to second-level data, watching: FNKO
+Connecting to second-level data, watching: AA
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: AR
+Connecting to second-level data, watching: CNX
+Connecting to second-level data, watching: QUAD
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: CADE
+Connecting to second-level data, watching: AEY
+Connecting to second-level data, watching: GLOP
+Connecting to second-level data, watching: MESA
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: IRT
+Connecting to second-level data, watching: COMM
+Connecting to second-level data, watching: RC
+Connecting to second-level data, watching: SMHI
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: TECK
+Connecting to second-level data, watching: MIK
+Connecting to second-level data, watching: FCEL
+Connecting to second-level data, watching: DRH
+Connecting to second-level data, watching: CMLS
+Connecting to second-level data, watching: RNET
+Connecting to second-level data, watching: COTY
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: APPS
+Connecting to second-level data, watching: FHN
+Connecting to second-level data, watching: XAN
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: TLRY
+Connecting to second-level data, watching: BBBY
+Connecting to second-level data, watching: LC
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: SITC
+Connecting to second-level data, watching: MFA
+Connecting to second-level data, watching: TRTX
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: APTX
+Connecting to second-level data, watching: CDEV
+Connecting to second-level data, watching: NLY
+Connecting to second-level data, watching: APTS
+Connecting to second-level data, watching: SOHO
+Connecting to second-level data, watching: FI
+Connecting to second-level data, watching: ATHX
+Connecting to second-level data, watching: DGLY
+Connecting to second-level data, watching: MIXT
+Connecting to second-level data, watching: SPCB
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: MESA
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: SKT
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: CIG
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: APPS
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: WLL
+Connecting to second-level data, watching: CARS
+Connecting to second-level data, watching: GLOG
+Connecting to second-level data, watching: M
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: AMC
+Connecting to second-level data, watching: TUP
+Submitting sell for 27 shares of TUP at $7.67
+new orders are rejected by user request
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: PTEN
+Connecting to second-level data, watching: FBP
+Connecting to second-level data, watching: NRZ
+Connecting to second-level data, watching: DTIL
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: CTL
+Connecting to second-level data, watching: TRTX
+Connecting to second-level data, watching: BB
+Connecting to second-level data, watching: HFFG
+Connecting to second-level data, watching: CDEV
+Connecting to second-level data, watching: COMM
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CFRX
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: IRT
+Connecting to second-level data, watching: OMI
+Connecting to second-level data, watching: APT
+Connecting to second-level data, watching: CRON
+Connecting to second-level data, watching: BCRX
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: PLUG
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: BDSI
+Connecting to second-level data, watching: MTC
+Connecting to second-level data, watching: BB
+Connecting to second-level data, watching: SXC
+Connecting to second-level data, watching: GT
+Connecting to second-level data, watching: BBBY
+Connecting to second-level data, watching: FBP
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: MNLO
+Connecting to second-level data, watching: NNBR
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: APDN
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: THMO
+Connecting to second-level data, watching: KYN
+Connecting to second-level data, watching: PGRE
+Connecting to second-level data, watching: NAT
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: ZAGG
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: DS
+Connecting to second-level data, watching: ADRO
+Connecting to second-level data, watching: SRNE
+Connecting to second-level data, watching: AYRO
+Connecting to second-level data, watching: DFIN
+Connecting to second-level data, watching: VAL
+Connecting to second-level data, watching: TUP
+Submitting sell for 27 shares of TUP at $7.67
+new orders are rejected by user request
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: COTY
+Connecting to second-level data, watching: ABEV
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: GTX
+Connecting to second-level data, watching: EPM
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: M
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: IRT
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: MTG
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: AMC
+Connecting to second-level data, watching: MTDR
+Connecting to second-level data, watching: AR
+Connecting to second-level data, watching: MTC
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: APG
+Connecting to second-level data, watching: SPCB
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: INN
+Connecting to second-level data, watching: DB
+Connecting to second-level data, watching: GPRO
+Connecting to second-level data, watching: IGT
+Connecting to second-level data, watching: MNLO
+Connecting to second-level data, watching: TROX
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: SRNE
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: OSW
+Connecting to second-level data, watching: BHR
+Connecting to second-level data, watching: ABEV
+Connecting to second-level data, watching: AIM
+Connecting to second-level data, watching: TUP
+Submitting sell for 27 shares of TUP at $7.67
+new orders are rejected by user request
+Connecting to second-level data, watching: WLL
+Connecting to second-level data, watching: NBL
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: IVZ
+Connecting to second-level data, watching: RRC
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: CVE
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: SPPI
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: EVFM
+Connecting to second-level data, watching: MIK
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: CIO
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: QMCO
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: NYMT
+Connecting to second-level data, watching: VAL
+Connecting to second-level data, watching: ABEV
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: HLX
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: NAT
+Connecting to second-level data, watching: COMM
+Connecting to second-level data, watching: SITC
+Connecting to second-level data, watching: SBS
+Connecting to second-level data, watching: MITT
+Connecting to second-level data, watching: BBBY
+Connecting to second-level data, watching: MFA
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: ZIXI
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: CRK
+Connecting to second-level data, watching: DB
+Connecting to second-level data, watching: PUMP
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: WTI
+Submitting sell for 52 shares of WTI at $3.75
+new orders are rejected by user request
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: RC
+Connecting to second-level data, watching: OPK
+Connecting to second-level data, watching: CMCM
+Connecting to second-level data, watching: DRH
+Connecting to second-level data, watching: GLOG
+Connecting to second-level data, watching: SPN
+Connecting to second-level data, watching: RNET
+Connecting to second-level data, watching: IMGN
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: QRTEA
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: M
+Connecting to second-level data, watching: HLX
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: AMC
+Connecting to second-level data, watching: APTS
+Connecting to second-level data, watching: MTC
+Connecting to second-level data, watching: SBS
+Connecting to second-level data, watching: ENLC
+Connecting to second-level data, watching: CLVS
+Connecting to second-level data, watching: FRTA
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: SMSI
+Connecting to second-level data, watching: PLYA
+Connecting to second-level data, watching: STAY
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: DHC
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: FOSL
+Connecting to second-level data, watching: GCI
+Connecting to second-level data, watching: COTY
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: HPE
+Connecting to second-level data, watching: WES
+Connecting to second-level data, watching: OVV
+Submitting sell for 30 shares of OVV at $11.64
+new orders are rejected by user request
+Connecting to second-level data, watching: CRON
+Connecting to second-level data, watching: SMLP
+Connecting to second-level data, watching: AHH
+Connecting to second-level data, watching: PTEN
+Connecting to second-level data, watching: TECK
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: AR
+Connecting to second-level data, watching: GCI
+Connecting to second-level data, watching: GME
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: EBR
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: CEMI
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: DRH
+Connecting to second-level data, watching: CAPR
+Connecting to second-level data, watching: GTES
+Connecting to second-level data, watching: ANH
+Connecting to second-level data, watching: GGAL
+Submitting sell for 19 shares of GGAL at $11.31
+new orders are rejected by user request
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: AIM
+Connecting to second-level data, watching: MTG
+Connecting to second-level data, watching: ABEV
+Connecting to second-level data, watching: RWT
+Connecting to second-level data, watching: RGS
+Connecting to second-level data, watching: STIM
+Connecting to second-level data, watching: QRTEA
+Connecting to second-level data, watching: NLY
+Connecting to second-level data, watching: HOME
+Connecting to second-level data, watching: TUSK
+Connecting to second-level data, watching: SLS
+Connecting to second-level data, watching: CDEV
+Connecting to second-level data, watching: WMC
+Connecting to second-level data, watching: DS
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: FOSL
+Connecting to second-level data, watching: CLNY
+Connecting to second-level data, watching: BCRX
+Connecting to second-level data, watching: CPST
+Connecting to second-level data, watching: GNW
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: MNLO
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: LPG
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: SEAC
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: MIST
+Connecting to second-level data, watching: MDRX
+Connecting to second-level data, watching: HOPE
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: AIM
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: NLY
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: AGI
+Connecting to second-level data, watching: STIM
+Connecting to second-level data, watching: TECK
+Connecting to second-level data, watching: LMRK
+Connecting to second-level data, watching: GPOR
+Connecting to second-level data, watching: MFA
+Connecting to second-level data, watching: TRTX
+Connecting to second-level data, watching: IVZ
+Connecting to second-level data, watching: BRG
+Connecting to second-level data, watching: ZAGG
+Connecting to second-level data, watching: PRTY
+Connecting to second-level data, watching: AHH
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: SXC
+Connecting to second-level data, watching: FRO
+Connecting to second-level data, watching: WMC
+Connecting to second-level data, watching: OMI
+Connecting to second-level data, watching: OVV
+Submitting sell for 30 shares of OVV at $11.64
+new orders are rejected by user request
+Connecting to second-level data, watching: DS
+Connecting to second-level data, watching: X
+Connecting to second-level data, watching: NBL
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: CRON
+Connecting to second-level data, watching: ADMS
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: SPPI
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: APDN
+Connecting to second-level data, watching: RYAM
+Connecting to second-level data, watching: GPMT
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: TWIN
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: SWN
+Connecting to second-level data, watching: DTIL
+Connecting to second-level data, watching: FRO
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: EVRI
+Connecting to second-level data, watching: EXPR
+Connecting to second-level data, watching: CERC
+Connecting to second-level data, watching: OSG
+Connecting to second-level data, watching: TZOO
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: AR
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: NAT
+Connecting to second-level data, watching: LPG
+Connecting to second-level data, watching: GENE
+Connecting to second-level data, watching: EVFM
+Connecting to second-level data, watching: MITT
+Connecting to second-level data, watching: VAL
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: PE
+Connecting to second-level data, watching: CYH
+Connecting to second-level data, watching: AA
+Connecting to second-level data, watching: WES
+Connecting to second-level data, watching: WVE
+Connecting to second-level data, watching: DS
+Connecting to second-level data, watching: HPE
+Connecting to second-level data, watching: ADMS
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: TLRY
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: NYMT
+Connecting to second-level data, watching: CTL
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: EMO
+Connecting to second-level data, watching: CVE
+Connecting to second-level data, watching: MCF
+Connecting to second-level data, watching: VFF
+Connecting to second-level data, watching: RC
+Connecting to second-level data, watching: EVRI
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: MIK
+Connecting to second-level data, watching: GPRK
+Connecting to second-level data, watching: APHA
+Connecting to second-level data, watching: FCEL
+Connecting to second-level data, watching: RNET
+Connecting to second-level data, watching: ZAGG
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: KDMN
+Connecting to second-level data, watching: RTLR
+Connecting to second-level data, watching: NBLX
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: WTRH
+Connecting to second-level data, watching: GGAL
+Submitting sell for 19 shares of GGAL at $11.31
+new orders are rejected by user request
+Connecting to second-level data, watching: LPG
+Connecting to second-level data, watching: STIM
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: NLY
+Connecting to second-level data, watching: MTG
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: MNLO
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: PLUG
+Connecting to second-level data, watching: NINE
+Connecting to second-level data, watching: M
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: SPN
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: AXDX
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: MFGP
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: CLNY
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: ARR
+Connecting to second-level data, watching: WLL
+Connecting to second-level data, watching: CNHI
+Connecting to second-level data, watching: DTIL
+Connecting to second-level data, watching: OSG
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: CMLS
+Connecting to second-level data, watching: GT
+Connecting to second-level data, watching: IRT
+Connecting to second-level data, watching: AGS
+Connecting to second-level data, watching: ADMS
+Connecting to second-level data, watching: MTDR
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: EVFM
+Connecting to second-level data, watching: IVZ
+Connecting to second-level data, watching: RRC
+Connecting to second-level data, watching: AXL
+Connecting to second-level data, watching: MITT
+Connecting to second-level data, watching: OVV
+Submitting sell for 30 shares of OVV at $11.64
+new orders are rejected by user request
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: CMO
+Connecting to second-level data, watching: MFA
+Connecting to second-level data, watching: DS
+Connecting to minute-level data, watching: MDRX
+Connecting to minute-level data, watching: VNE
+Connecting to minute-level data, watching: CEI
+Connecting to minute-level data, watching: COTY
+Connecting to minute-level data, watching: RIG
+Connecting to minute-level data, watching: CONN
+Connecting to minute-level data, watching: MNLO
+Connecting to minute-level data, watching: FHN
+Connecting to minute-level data, watching: GME
+Connecting to minute-level data, watching: ABR
+Connecting to minute-level data, watching: NSCO
+Connecting to minute-level data, watching: MTC
+Connecting to minute-level data, watching: VFF
+Connecting to minute-level data, watching: MIK
+Connecting to minute-level data, watching: PCYG
+Connecting to minute-level data, watching: ARCO
+Connecting to minute-level data, watching: APTX
+Connecting to minute-level data, watching: FSK
+Connecting to minute-level data, watching: PIXY
+Connecting to minute-level data, watching: CHS
+Connecting to minute-level data, watching: ASPN
+Connecting to minute-level data, watching: SOHO
+Connecting to minute-level data, watching: CMLS
+Connecting to minute-level data, watching: TTM
+Connecting to minute-level data, watching: OSW
+Connecting to minute-level data, watching: SITC
+Connecting to minute-level data, watching: CEMI
+Connecting to minute-level data, watching: RPAI
+Connecting to minute-level data, watching: CLF
+Connecting to minute-level data, watching: ITUB
+Connecting to minute-level data, watching: CIM
+Connecting to minute-level data, watching: DFIN
+Connecting to minute-level data, watching: PRTY
+Connecting to minute-level data, watching: VAL
+Connecting to minute-level data, watching: CNCE
+Connecting to minute-level data, watching: AHH
+Connecting to minute-level data, watching: OII
+Connecting to minute-level data, watching: SSL
+Connecting to minute-level data, watching: OXLC
+Connecting to minute-level data, watching: CYCC
+Connecting to minute-level data, watching: BBD
+Connecting to minute-level data, watching: BXG
+Connecting to minute-level data, watching: VRML
+Connecting to minute-level data, watching: OGI
+Connecting to minute-level data, watching: MFAC
+Connecting to minute-level data, watching: NK
+Connecting to minute-level data, watching: ATRA
+Connecting to minute-level data, watching: LC
+Connecting to minute-level data, watching: TLRY
+Connecting to minute-level data, watching: PSEC
+Connecting to minute-level data, watching: HFFG
+Connecting to minute-level data, watching: TK
+Connecting to minute-level data, watching: OSG
+Connecting to minute-level data, watching: BW
+Connecting to minute-level data, watching: LILAK
+Connecting to minute-level data, watching: ENT
+Connecting to minute-level data, watching: PRTS
+Connecting to minute-level data, watching: MTDR
+Connecting to minute-level data, watching: IVZ
+Connecting to minute-level data, watching: RNET
+Connecting to minute-level data, watching: LEDS
+Connecting to minute-level data, watching: SEAC
+Connecting to minute-level data, watching: SECO
+Connecting to minute-level data, watching: OBSV
+Connecting to minute-level data, watching: USDP
+Connecting to minute-level data, watching: APPS
+Connecting to minute-level data, watching: RIGL
+Connecting to minute-level data, watching: GEOS
+Connecting to minute-level data, watching: IGT
+Connecting to minute-level data, watching: TWIN
+Connecting to minute-level data, watching: PHX
+Connecting to minute-level data, watching: NINE
+Connecting to minute-level data, watching: SBOW
+Connecting to minute-level data, watching: SIEN
+Connecting to minute-level data, watching: PARR
+Connecting to minute-level data, watching: BTU
+Connecting to minute-level data, watching: GLOG
+Connecting to minute-level data, watching: M
+Connecting to minute-level data, watching: PTEN
+Connecting to minute-level data, watching: AIM
+Connecting to minute-level data, watching: YPF
+Connecting to minute-level data, watching: TUP
+Connecting to minute-level data, watching: HUD
+Connecting to minute-level data, watching: GNFT
+Connecting to minute-level data, watching: VSLR
+Connecting to minute-level data, watching: DS
+Connecting to minute-level data, watching: CTR
+Connecting to minute-level data, watching: TEN
+Connecting to minute-level data, watching: TRTX
+Connecting to minute-level data, watching: NH
+Connecting to minute-level data, watching: ARAV
+Connecting to minute-level data, watching: RGS
+Connecting to minute-level data, watching: BB
+Connecting to minute-level data, watching: BDSI
+Connecting to minute-level data, watching: LL
+Connecting to minute-level data, watching: WMC
+Connecting to minute-level data, watching: RGP
+Connecting to minute-level data, watching: HOPE
+Connecting to minute-level data, watching: VET
+Connecting to minute-level data, watching: SD
+Connecting to minute-level data, watching: LLNW
+Connecting to minute-level data, watching: RC
+Connecting to minute-level data, watching: CIG
+Connecting to minute-level data, watching: MLSS
+Connecting to minute-level data, watching: SMFG
+Connecting to minute-level data, watching: GENE
+Connecting to minute-level data, watching: TUSK
+Connecting to minute-level data, watching: BBBY
+Connecting to minute-level data, watching: ATHX
+Connecting to minute-level data, watching: BGG
+Connecting to minute-level data, watching: CPE
+Connecting to minute-level data, watching: APG
+Connecting to minute-level data, watching: MMX
+Connecting to minute-level data, watching: GEL
+Connecting to minute-level data, watching: APHA
+Connecting to minute-level data, watching: WISA
+Connecting to minute-level data, watching: FCEL
+Connecting to minute-level data, watching: RLGY
+Connecting to minute-level data, watching: DRH
+Connecting to minute-level data, watching: PLUG
+Connecting to minute-level data, watching: SNGX
+Connecting to minute-level data, watching: ARI
+Connecting to minute-level data, watching: ACCO
+Connecting to minute-level data, watching: GPRK
+Connecting to minute-level data, watching: TZOO
+Connecting to minute-level data, watching: AMRN
+Connecting to minute-level data, watching: NEXA
+Connecting to minute-level data, watching: JAX
+Connecting to minute-level data, watching: INN
+Connecting to minute-level data, watching: NBLX
+Connecting to minute-level data, watching: SYNL
+Connecting to minute-level data, watching: VTSI
+Connecting to minute-level data, watching: MMLP
+Connecting to minute-level data, watching: SLS
+Connecting to minute-level data, watching: DB
+Connecting to minute-level data, watching: CLNC
+Connecting to minute-level data, watching: PUMP
+Connecting to minute-level data, watching: QMCO
+Connecting to minute-level data, watching: RTLR
+Connecting to minute-level data, watching: FBP
+Connecting to minute-level data, watching: TWI
+Connecting to minute-level data, watching: NRZ
+Connecting to minute-level data, watching: MFGP
+Connecting to minute-level data, watching: SNDE
+Connecting to minute-level data, watching: SPCB
+Connecting to minute-level data, watching: PGRE
+Connecting to minute-level data, watching: CS
+Connecting to minute-level data, watching: EURN
+Connecting to minute-level data, watching: MRO
+Connecting to minute-level data, watching: LMRK
+Connecting to minute-level data, watching: HTZ
+Connecting to minute-level data, watching: KDMN
+Connecting to minute-level data, watching: TTMI
+Connecting to minute-level data, watching: TGI
+Connecting to minute-level data, watching: CRC
+Connecting to minute-level data, watching: TLYS
+Connecting to minute-level data, watching: NGS
+Connecting to minute-level data, watching: SM
+Connecting to minute-level data, watching: ZIXI
+Connecting to minute-level data, watching: CAPR
+Connecting to minute-level data, watching: DBD
+Connecting to minute-level data, watching: VTVT
+Connecting to minute-level data, watching: TNP
+Connecting to minute-level data, watching: CNX
+Connecting to minute-level data, watching: OPRX
+Connecting to minute-level data, watching: EMO
+Connecting to minute-level data, watching: LADR
+Connecting to minute-level data, watching: MIST
+Connecting to minute-level data, watching: APTS
+Connecting to minute-level data, watching: BRG
+Connecting to minute-level data, watching: UEPS
+Connecting to minute-level data, watching: CYH
+Connecting to minute-level data, watching: MG
+Connecting to minute-level data, watching: CLMT
+Connecting to minute-level data, watching: ABEO
+Connecting to minute-level data, watching: PBI
+Connecting to minute-level data, watching: ENDP
+Connecting to minute-level data, watching: NLY
+Connecting to minute-level data, watching: CERC
+Connecting to minute-level data, watching: FRTA
+Connecting to minute-level data, watching: HOME
+Connecting to minute-level data, watching: OMI
+Connecting to minute-level data, watching: LIND
+Connecting to minute-level data, watching: AGI
+Connecting to minute-level data, watching: CHMI
+Connecting to minute-level data, watching: TECK
+Connecting to minute-level data, watching: STIM
+Connecting to minute-level data, watching: AROC
+Connecting to minute-level data, watching: MUFG
+Connecting to minute-level data, watching: FI
+Connecting to minute-level data, watching: BCRX
+Connecting to minute-level data, watching: SONO
+Connecting to minute-level data, watching: NXGN
+Connecting to minute-level data, watching: IMGN
+Connecting to minute-level data, watching: CFRX
+Connecting to minute-level data, watching: AEY
+Connecting to minute-level data, watching: MCF
+Connecting to minute-level data, watching: SBS
+Connecting to minute-level data, watching: CTRA
+Connecting to minute-level data, watching: CLSK
+Connecting to minute-level data, watching: ACRE
+Connecting to minute-level data, watching: APT
+Connecting to minute-level data, watching: GCI
+Connecting to minute-level data, watching: LPG
+Connecting to minute-level data, watching: MWK
+Connecting to minute-level data, watching: SMHI
+Connecting to minute-level data, watching: RBS
+Connecting to minute-level data, watching: FRO
+Connecting to minute-level data, watching: BBW
+Connecting to minute-level data, watching: CURO
+Connecting to minute-level data, watching: ARLP
+Connecting to minute-level data, watching: CTL
+Connecting to minute-level data, watching: OXSQ
+Connecting to minute-level data, watching: BSGM
+Connecting to minute-level data, watching: VER
+Connecting to minute-level data, watching: CADE
+Connecting to minute-level data, watching: MTG
+Connecting to minute-level data, watching: COMM
+Connecting to minute-level data, watching: ENLC
+Connecting to minute-level data, watching: DSS
+Connecting to minute-level data, watching: REML
+Connecting to minute-level data, watching: CRBP
+Connecting to minute-level data, watching: PE
+Connecting to minute-level data, watching: ASC
+Connecting to minute-level data, watching: SNR
+Connecting to minute-level data, watching: VIV
+Connecting to minute-level data, watching: GGAL
+Connecting to minute-level data, watching: CIO
+Connecting to minute-level data, watching: IDN
+Connecting to minute-level data, watching: GHL
+Connecting to minute-level data, watching: PGNX
+Connecting to minute-level data, watching: GT
+Connecting to minute-level data, watching: IRT
+Connecting to minute-level data, watching: ADTN
+Connecting to minute-level data, watching: AGS
+Connecting to minute-level data, watching: ANH
+Connecting to minute-level data, watching: MESA
+Connecting to minute-level data, watching: OPK
+Connecting to minute-level data, watching: KIN
+Connecting to minute-level data, watching: PAA
+Connecting to minute-level data, watching: GNW
+Connecting to minute-level data, watching: SHO
+Connecting to minute-level data, watching: PBYI
+Connecting to minute-level data, watching: SLNO
+Connecting to minute-level data, watching: CAL
+Connecting to minute-level data, watching: STRL
+Connecting to minute-level data, watching: EOLS
+Connecting to minute-level data, watching: ENBL
+Connecting to minute-level data, watching: SPN
+Connecting to minute-level data, watching: IVR
+Connecting to minute-level data, watching: AMC
+Connecting to minute-level data, watching: ERJ
+Connecting to minute-level data, watching: DSSI
+Connecting to minute-level data, watching: CEIX
+Connecting to minute-level data, watching: EBR
+Connecting to minute-level data, watching: ARR
+Connecting to minute-level data, watching: FNKO
+Connecting to minute-level data, watching: TH
+Connecting to minute-level data, watching: GOGO
+Connecting to minute-level data, watching: PAGP
+Connecting to minute-level data, watching: SPPI
+Connecting to minute-level data, watching: CLNY
+Connecting to minute-level data, watching: X
+Connecting to minute-level data, watching: CRK
+Connecting to minute-level data, watching: CRNT
+Connecting to minute-level data, watching: FSP
+Connecting to minute-level data, watching: AR
+Connecting to minute-level data, watching: QUAD
+Connecting to minute-level data, watching: APDN
+Connecting to minute-level data, watching: RYAM
+Connecting to minute-level data, watching: VNTR
+Connecting to minute-level data, watching: DHT
+Connecting to minute-level data, watching: EPM
+Connecting to minute-level data, watching: PAM
+Connecting to minute-level data, watching: NPTN
+Connecting to minute-level data, watching: KLXE
+Connecting to minute-level data, watching: CTMX
+Connecting to minute-level data, watching: CLVS
+Connecting to minute-level data, watching: ACIU
+Connecting to minute-level data, watching: DGLY
+Connecting to minute-level data, watching: MIXT
+Connecting to minute-level data, watching: NNBR
+Connecting to minute-level data, watching: WSR
+Connecting to minute-level data, watching: CVE
+Connecting to minute-level data, watching: UGP
+Connecting to minute-level data, watching: TLRD
+Connecting to minute-level data, watching: INSG
+Connecting to minute-level data, watching: ABEV
+Connecting to minute-level data, watching: LXRX
+Connecting to minute-level data, watching: AFIN
+Connecting to minute-level data, watching: SNCR
+Connecting to minute-level data, watching: SGLB
+Connecting to minute-level data, watching: THMO
+Connecting to minute-level data, watching: SDC
+Connecting to minute-level data, watching: SXC
+Connecting to minute-level data, watching: SRNE
+Connecting to minute-level data, watching: HONE
+Connecting to minute-level data, watching: MITT
+Connecting to minute-level data, watching: MRC
+Connecting to minute-level data, watching: FLY
+Connecting to minute-level data, watching: WES
+Connecting to minute-level data, watching: NIO
+Connecting to minute-level data, watching: FOSL
+Connecting to minute-level data, watching: OMP
+Connecting to minute-level data, watching: NBL
+Connecting to minute-level data, watching: EARN
+Connecting to minute-level data, watching: HCHC
+Connecting to minute-level data, watching: HT
+Connecting to minute-level data, watching: GPMT
+Connecting to minute-level data, watching: NR
+Connecting to minute-level data, watching: DBVT
+Connecting to minute-level data, watching: GE
+Connecting to minute-level data, watching: DLTH
+Connecting to minute-level data, watching: CNHI
+Connecting to minute-level data, watching: SKT
+Connecting to minute-level data, watching: EVRI
+Connecting to minute-level data, watching: HPE
+Connecting to minute-level data, watching: TCPC
+Connecting to minute-level data, watching: NMFC
+Connecting to minute-level data, watching: NYMT
+Connecting to minute-level data, watching: ESRT
+Connecting to minute-level data, watching: PGEN
+Connecting to minute-level data, watching: TWO
+Connecting to minute-level data, watching: LCI
+Connecting to minute-level data, watching: BRY
+Connecting to minute-level data, watching: RPT
+Connecting to minute-level data, watching: CDEV
+Connecting to minute-level data, watching: GLOP
+Connecting to minute-level data, watching: GSB
+Connecting to minute-level data, watching: LILA
+Connecting to minute-level data, watching: WLL
+Connecting to minute-level data, watching: GTES
+Connecting to minute-level data, watching: FXN
+Connecting to minute-level data, watching: AM
+Connecting to minute-level data, watching: TSQ
+Connecting to minute-level data, watching: IRS
+Connecting to minute-level data, watching: NRGU
+Connecting to minute-level data, watching: AXGT
+Connecting to minute-level data, watching: WTI
+Connecting to minute-level data, watching: CMCM
+Connecting to minute-level data, watching: SWN
+Connecting to minute-level data, watching: NYCB
+Connecting to minute-level data, watching: ADMS
+Connecting to minute-level data, watching: CBIO
+Connecting to minute-level data, watching: XERS
+Connecting to minute-level data, watching: KYN
+Connecting to minute-level data, watching: GPRO
+Connecting to minute-level data, watching: SPWR
+Connecting to minute-level data, watching: CRON
+Connecting to minute-level data, watching: BXRX
+Connecting to minute-level data, watching: ORBC
+Connecting to minute-level data, watching: CARS
+Connecting to minute-level data, watching: RRC
+Connecting to minute-level data, watching: QRTEA
+Connecting to minute-level data, watching: CNDT
+Connecting to minute-level data, watching: STAY
+Connecting to minute-level data, watching: AYRO
+Connecting to minute-level data, watching: YRCW
+Connecting to minute-level data, watching: HLX
+Connecting to minute-level data, watching: GOL
+Connecting to minute-level data, watching: FARM
+Connecting to minute-level data, watching: OCUL
+Connecting to minute-level data, watching: ARDX
+Connecting to minute-level data, watching: CPST
+Connecting to minute-level data, watching: CPTA
+Connecting to minute-level data, watching: REZI
+Connecting to minute-level data, watching: TLSA
+Connecting to minute-level data, watching: YRD
+Connecting to minute-level data, watching: OVV
+Connecting to minute-level data, watching: EXPR
+Connecting to minute-level data, watching: SCM
+Connecting to minute-level data, watching: WPX
+Connecting to minute-level data, watching: RWT
+Connecting to minute-level data, watching: ESTE
+Connecting to minute-level data, watching: DHC
+Connecting to minute-level data, watching: GLP
+Connecting to minute-level data, watching: BORR
+Connecting to minute-level data, watching: CMO
+Connecting to minute-level data, watching: ZAGG
+Connecting to minute-level data, watching: PYX
+Connecting to minute-level data, watching: GTX
+Connecting to minute-level data, watching: WTRH
+Connecting to minute-level data, watching: AXDX
+Connecting to minute-level data, watching: TGP
+Connecting to minute-level data, watching: KOS
+Connecting to minute-level data, watching: LTM
+Connecting to minute-level data, watching: TROX
+Connecting to minute-level data, watching: DTIL
+Connecting to minute-level data, watching: AKTS
+Connecting to minute-level data, watching: NAT
+Connecting to minute-level data, watching: CMRE
+Connecting to minute-level data, watching: AXL
+Connecting to minute-level data, watching: HMI
+Connecting to minute-level data, watching: QEP
+Connecting to minute-level data, watching: AJX
+Connecting to minute-level data, watching: SCOR
+Connecting to minute-level data, watching: ODP
+Connecting to minute-level data, watching: WVE
+Connecting to minute-level data, watching: ADRO
+Connecting to minute-level data, watching: WIT
+Connecting to minute-level data, watching: SID
+Connecting to minute-level data, watching: AA
+Connecting to minute-level data, watching: BDN
+Connecting to minute-level data, watching: VERI
+Connecting to minute-level data, watching: EFC
+Connecting to minute-level data, watching: RESN
+Connecting to minute-level data, watching: MFA
+Connecting to minute-level data, watching: SMLP
+Connecting to minute-level data, watching: IMV
+Connecting to minute-level data, watching: GPOR
+Connecting to minute-level data, watching: EVFM
+Connecting to minute-level data, watching: EGLE
+Connecting to minute-level data, watching: IMH
+Connecting to minute-level data, watching: VSTO
+Connecting to minute-level data, watching: AI
+Connecting to minute-level data, watching: XCUR
+Connecting to minute-level data, watching: AVCT
+Connecting to minute-level data, watching: SMSI
+Connecting to minute-level data, watching: GMLP
+Connecting to minute-level data, watching: NAVI
+Connecting to minute-level data, watching: PLYA
+Connecting to minute-level data, watching: BSET
+Connecting to minute-level data, watching: XAN
+Connecting to minute-level data, watching: BHR
+Connecting to second-level data, watching: FRO
+Connecting to second-level data, watching: APPS
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: IVR
+Connecting to second-level data, watching: NYMT
+Connecting to second-level data, watching: CNX
+Connecting to second-level data, watching: ACIU
+Connecting to second-level data, watching: DGLY
+Connecting to second-level data, watching: SKT
+Connecting to second-level data, watching: EVRI
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: NAT
+Connecting to second-level data, watching: FSK
+Connecting to second-level data, watching: MTG
+Connecting to second-level data, watching: CONN
+Connecting to second-level data, watching: WMC
+Connecting to second-level data, watching: MFA
+Connecting to second-level data, watching: VERI
+Connecting to second-level data, watching: OPK
+Connecting to second-level data, watching: TLRY
+Connecting to second-level data, watching: SBOW
+Connecting to second-level data, watching: CRON
+Connecting to second-level data, watching: VAL
+Connecting to second-level data, watching: SONO
+Connecting to second-level data, watching: CDEV
+Connecting to second-level data, watching: CHS
+Connecting to second-level data, watching: PLUG
+Connecting to second-level data, watching: NAVI
+Connecting to second-level data, watching: GPMT
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: JAX
+Connecting to second-level data, watching: ABR
+Connecting to second-level data, watching: WLL
+Connecting to second-level data, watching: SM
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: LPG
+Connecting to second-level data, watching: BRY
+Connecting to second-level data, watching: VET
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: NIO
+Connecting to second-level data, watching: QEP
+Connecting to second-level data, watching: RIG
+Connecting to second-level data, watching: OCUL
+Connecting to second-level data, watching: COTY
+Connecting to second-level data, watching: VER
+Connecting to second-level data, watching: MIST
+Connecting to second-level data, watching: DRH
+Connecting to second-level data, watching: APPS
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: OSG
+Connecting to second-level data, watching: PHX
+Connecting to second-level data, watching: SHO
+Connecting to second-level data, watching: M
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: FSP
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: PGEN
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: CONN
+Connecting to second-level data, watching: GT
+Connecting to second-level data, watching: MTG
+Connecting to second-level data, watching: ENLC
+Connecting to second-level data, watching: HT
+Connecting to second-level data, watching: GPMT
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: MTC
+Connecting to second-level data, watching: MDRX
+Connecting to second-level data, watching: CVE
+Connecting to second-level data, watching: SRNE
+Connecting to second-level data, watching: MITT
+Connecting to second-level data, watching: BORR
+Connecting to second-level data, watching: IMGN
+Connecting to second-level data, watching: EURN
+Connecting to second-level data, watching: MRO
+Connecting to second-level data, watching: GME
+Connecting to second-level data, watching: CRON
+Connecting to second-level data, watching: NAVI
+Connecting to second-level data, watching: CLNY
+Connecting to second-level data, watching: ANH
+Connecting to second-level data, watching: ACCO
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: HLX
+Connecting to second-level data, watching: FRO
+Connecting to second-level data, watching: TLRY
+Connecting to second-level data, watching: CPE
+Connecting to second-level data, watching: BHR
+Connecting to second-level data, watching: WPX
+Connecting to second-level data, watching: NLY
+Connecting to second-level data, watching: BRY
+Connecting to second-level data, watching: OCUL
+Connecting to second-level data, watching: NBL
+Connecting to second-level data, watching: WLL
+Connecting to second-level data, watching: NYMT
+Connecting to second-level data, watching: TWO
+Connecting to second-level data, watching: BGG
+Connecting to second-level data, watching: WTI
+Submitting sell for 52 shares of WTI at $3.75
+new orders are rejected by user request
+Connecting to second-level data, watching: SWN
+Connecting to second-level data, watching: GE
+Connecting to second-level data, watching: IRT
+Connecting to second-level data, watching: VNTR
+Connecting to second-level data, watching: OPK
+Connecting to second-level data, watching: PAA
+Connecting to second-level data, watching: ENDP
+Connecting to second-level data, watching: CERC
+Connecting to second-level data, watching: CONN
+Connecting to second-level data, watching: MNLO
+Connecting to second-level data, watching: CHMI
+Connecting to second-level data, watching: CLF
+Connecting to second-level data, watching: SBT
+Connecting to second-level data, watching: ABEV
+Connecting to second-level data, watching: ANH
+Connecting to second-level data, watching: AJX
+Connecting to second-level data, watching: PRTY
+Connecting to second-level data, watching: VAL
+Connecting to second-level data, watching: HTZ
+Connecting to second-level data, watching: CRC
+Connecting to second-level data, watching: LTM
+Connecting to second-level data, watching: ENT
+Connecting to second-level data, watching: IVZ
+Connecting to second-level data, watching:
