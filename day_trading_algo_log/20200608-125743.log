@@ -1,0 +1,12 @@
+2020-06-08 12:57:43,130 DEBUG   : Debug messages are only sent to the logfile.
+2020-06-08 12:57:43,130 INFO    : Info messages are not shown on the console, too.
+2020-06-08 12:57:43,130 WARNING : Warnings appear both on the console and in the logfile.
+2020-06-08 12:57:43,130 ERROR   : Errors get the same treatment.
+2020-06-08 12:57:43,130 CRITICAL: And critical messages, of course.
+2020-06-08 12:57:43,176 DEBUG   : Starting new HTTPS connection (1): api.alpaca.markets:443
+2020-06-08 12:57:43,562 DEBUG   : https://api.alpaca.markets:443 "GET /v2/calendar?start=2020-06-08&end=2020-06-08 HTTP/1.1" 200 99
+2020-06-08 12:57:43,679 DEBUG   : Starting new HTTPS connection (1): api.polygon.io:443
+2020-06-08 12:57:45,621 DEBUG   : https://api.polygon.io:443 "GET /v2/snapshot/locale/us/markets/stocks/tickers?apiKey=AKHBM7693SBN740K49B1 HTTP/1.1" 200 None
+2020-06-08 12:57:48,058 DEBUG   : https://api.alpaca.markets:443 "GET /v2/assets HTTP/1.1" 200 None
+2020-06-08 12:57:50,496 DEBUG   : Using selector: KqueueSelector
+2020-06-08 12:57:50,630 DEBUG   : https://api.polygon.io:443 "GET /v2/aggs/ticker/ZEUS/range/1/minute/2020-06-06/2020-06-08?unadjusted=False&limit=1000&apiKey=AKHBM7693SBN740K49B1 HTTP/1.1" 200 None
