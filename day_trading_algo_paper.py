@@ -1,6 +1,6 @@
 ﻿####
 # DESCRIPTION
-# Between 9:45 - 10:45am we'll look for stocks that have increased at least 4 % from their close on the previous day.
+# Between 9:45 - 10:30am we'll look for stocks that have increased at least 4 % from their close on the previous day.
 # If they’ve done that and they meet some other criteria, we’ll buy them, and we’ll hold them until they either
 # rise high enough (meeting our price target) or fall too low (meeting our ‘stop’ level.)
 ###
@@ -18,20 +18,20 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 # Import the duallog package to set up simultaneous logging to screen and console.
-import duallog
+# import duallog
 
 # Import the logging package to generate log messages.
-import logging
+# import logging
 
 # Set up dual logging and tell duallog where to store the logfiles.
-duallog.setup('day_trading_algo_paper_log')
+# duallog.setup('day_trading_algo_paper_log')
 
 # Generate some log messages.
-logging.debug('Debug messages are only sent to the logfile.')
-logging.info('Info messages are not shown on the console, too.')
-logging.warning('Warnings appear both on the console and in the logfile.')
-logging.error('Errors get the same treatment.')
-logging.critical('And critical messages, of course.')
+# logging.debug('Debug messages are only sent to the logfile.')
+# logging.info('Info messages are not shown on the console, too.')
+# logging.warning('Warnings appear both on the console and in the logfile.')
+# logging.error('Errors get the same treatment.')
+# logging.critical('And critical messages, of course.')
 
 # Redirect print
 t = datetime.today()
@@ -40,7 +40,7 @@ file_name_format = '{year:04d}{month:02d}{day:02d}-'\
 file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
                                     hour=t.hour, minute=t.minute, second=t.second)
 
-print_log = open("day_trading_algo_paper_log/"+file_name, "a")
+print_log = open("day_trading_algo_paper_print/"+file_name, "a")
 sys.stdout = print_log # set to sys.__stdout__ if you want to print to console
 
 # Replace these with your API connection info from the dashboard
@@ -68,9 +68,9 @@ max_share_price = 13.0
 min_last_dv = 500000
 # Stop limit to default to
 default_stop = .95
-# How much of our portfolio to allocate to any one position
-risk = 0.001 # can change parameter to adjust
-max_to_trade_with = 5000 # max to trade with, or limit to portfolio value
+# How much of our portfolio to allocate to any one position (maximum loss from that position)
+risk = 0.05 # can change parameter to adjust
+max_to_trade_with = 10000 # max to trade with, or limit to portfolio value
 
 def send_email(subject, body):
 
@@ -239,7 +239,7 @@ def run(tickers, market_open_dt, market_close_dt):
         #     conn.close()
 
         symbol = data.symbol
-        print('Connecting to second-level data, watching:', symbol)
+        # print('Connecting to second-level data, watching:', symbol)
 
         # First, aggregate 1s bars for up-to-date MACD calculations
         ts = data.start
@@ -457,7 +457,7 @@ def run(tickers, market_open_dt, market_close_dt):
         # if ((current_dt - market_close_dt).seconds // 60) > 15:
         #     conn.close('Market has closed')
 
-        print('Connecting to minute-level data, watching:', data.symbol)
+        # print('Connecting to minute-level data, watching:', data.symbol)
 
         ts = data.start
         ts -= timedelta(microseconds=ts.microsecond)
