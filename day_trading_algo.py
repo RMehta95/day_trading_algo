@@ -1,6 +1,6 @@
 ﻿####
 # DESCRIPTION
-# Between 9:45 - 10:45am we'll look for stocks that have increased at least 4 % from their close on the previous day.
+# Between 9:45 - 10:30am we'll look for stocks that have increased at least 4 % from their close on the previous day.
 # If they’ve done that and they meet some other criteria, we’ll buy them, and we’ll hold them until they either
 # rise high enough (meeting our price target) or fall too low (meeting our ‘stop’ level.)
 ###
@@ -24,14 +24,14 @@ import duallog
 import logging
 
 # Set up dual logging and tell duallog where to store the logfiles.
-duallog.setup('day_trading_algo_log')
+# duallog.setup('day_trading_algo_log')
 
 # Generate some log messages.
-logging.debug('Debug messages are only sent to the logfile.')
-logging.info('Info messages are not shown on the console, too.')
-logging.warning('Warnings appear both on the console and in the logfile.')
-logging.error('Errors get the same treatment.')
-logging.critical('And critical messages, of course.')
+# logging.debug('Debug messages are only sent to the logfile.')
+# logging.info('Info messages are not shown on the console, too.')
+# logging.warning('Warnings appear both on the console and in the logfile.')
+# logging.error('Errors get the same treatment.')
+# logging.critical('And critical messages, of course.')
 
 # Redirect print
 t = datetime.today()
@@ -40,7 +40,7 @@ file_name_format = '{year:04d}{month:02d}{day:02d}-'\
 file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
                                     hour=t.hour, minute=t.minute, second=t.second)
 
-print_log = open("day_trading_algo_log/"+file_name, "a")
+print_log = open("day_trading_algo_print/"+file_name, "a")
 sys.stdout = print_log # set to sys.__stdout__ if you want to print to console
 
 # Replace these with your API connection info from the dashboard
