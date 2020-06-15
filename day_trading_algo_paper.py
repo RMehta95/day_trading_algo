@@ -40,7 +40,7 @@ file_name_format = '{year:04d}{month:02d}{day:02d}-'\
 file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
                                     hour=t.hour, minute=t.minute, second=t.second)
 
-print_log = open("day_trading_algo_log/"+file_name, "a")
+print_log = open("day_trading_algo_paper_log/"+file_name, "a")
 sys.stdout = print_log # set to sys.__stdout__ if you want to print to console
 
 # Replace these with your API connection info from the dashboard
