@@ -346,8 +346,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=12,
-                    n_slow=26,
-                    n_sign=9
+                    n_slow=26
                 )
                 if (
                         hist[-1] < 0 or
@@ -357,9 +356,8 @@ def run(tickers, market_open_dt, market_close_dt):
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=40,
-                    n_slow=60,
-                    n_sign=9
-                ) # check slower / less sensitive MACD
+                    n_slow=60
+                )  # check slower / less sensitive MACD
                 if hist[-1] < 0 or np.diff(hist)[-1] < 0:  # exit if MACD < 0 or 2nd order derivative shows slowing
                     return
 
@@ -437,8 +435,7 @@ def run(tickers, market_open_dt, market_close_dt):
             hist = macd(
                 minute_history[symbol]['close'].dropna(),
                 n_fast=19,
-                n_slow=39,
-                n_sign=9
+                n_slow=39
             )  # using a slightly slower MACD for exit
             if (
                     data.close <= stop_prices[symbol] or
