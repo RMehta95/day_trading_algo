@@ -1,0 +1,482 @@
+06-19 14:24 DEBUG    Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/calendar?start=2020-06-19&end=2020-06-19 HTTP/1.1" 200 99
+06-19 14:24 INFO     Current time: 2020-06-19 14:24:05.414401-04:00
+06-19 14:24 INFO     Market open time: 2020-06-19 09:30:00.092460-04:00
+06-19 14:24 INFO     Time since market open: 4:54:05.321941
+06-19 14:24 INFO     Getting current ticker data...
+06-19 14:24 DEBUG    Starting new HTTPS connection (1): api.polygon.io:443
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/snapshot/locale/us/markets/stocks/tickers?apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     Success.
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/assets HTTP/1.1" 200 None
+06-19 14:24 DEBUG    Using selector: KqueueSelector
+06-19 14:24 INFO       WKHS - previous day close: $    4.54; volume today:     10940359
+06-19 14:24 INFO       HMHC - previous day close: $    2.04; volume today:      1282131
+06-19 14:24 INFO         BE - previous day close: $    9.09; volume today:      2509746
+06-19 14:24 INFO        HMI - previous day close: $   11.02; volume today:       392258
+06-19 14:24 INFO       EDNT - previous day close: $    2.51; volume today:      1956148
+06-19 14:24 INFO       GNSS - previous day close: $    5.45; volume today:        68259
+06-19 14:24 INFO       ANVS - previous day close: $    5.31; volume today:        46672
+06-19 14:24 INFO       TLSA - previous day close: $    6.03; volume today:      1269548
+06-19 14:24 INFO       ATEC - previous day close: $    4.78; volume today:       418128
+06-19 14:24 INFO        GSB - previous day close: $   10.06; volume today:        65672
+06-19 14:24 INFO        BVN - previous day close: $    8.40; volume today:      1416898
+06-19 14:24 INFO         OR - previous day close: $    8.94; volume today:       695571
+06-19 14:24 INFO       UGAZ - previous day close: $   10.25; volume today:     12292101
+06-19 14:24 INFO       XCUR - previous day close: $    2.68; volume today:       271525
+06-19 14:24 INFO       VERU - previous day close: $    3.26; volume today:       718944
+06-19 14:24 INFO       RTIX - previous day close: $    2.97; volume today:       435421
+06-19 14:24 INFO       AFMD - previous day close: $    3.57; volume today:      1558592
+06-19 14:24 INFO       SPNE - previous day close: $   10.91; volume today:        98978
+06-19 14:24 INFO       APTX - previous day close: $    4.15; volume today:       370660
+06-19 14:24 INFO        XRF - previous day close: $    2.33; volume today:       712818
+06-19 14:24 INFO       HIBS - previous day close: $    6.71; volume today:      1347787
+06-19 14:24 INFO       AVDL - previous day close: $    8.77; volume today:       598304
+06-19 14:24 INFO        HMY - previous day close: $    3.03; volume today:      6292506
+06-19 14:24 INFO         SY - previous day close: $   10.39; volume today:      1766375
+06-19 14:24 INFO       ALPN - previous day close: $   10.95; volume today:      4890137
+06-19 14:24 INFO       MCRB - previous day close: $    4.40; volume today:      1724512
+06-19 14:24 INFO       SELB - previous day close: $    2.70; volume today:      6021587
+06-19 14:24 INFO       CLDX - previous day close: $   10.38; volume today:      5341907
+06-19 14:24 INFO       APPS - previous day close: $   10.11; volume today:      1965461
+06-19 14:24 INFO       FBIO - previous day close: $    2.79; volume today:       526585
+06-19 14:24 INFO       CHCI - previous day close: $    2.45; volume today:      4967453
+06-19 14:24 INFO       CASI - previous day close: $    2.51; volume today:       204641
+06-19 14:24 INFO       SOHU - previous day close: $    8.74; volume today:       604440
+06-19 14:24 INFO       NVGS - previous day close: $    7.43; volume today:        95654
+06-19 14:24 INFO       RYAM - previous day close: $    2.45; volume today:      1700919
+06-19 14:24 INFO       CRDF - previous day close: $    2.95; volume today:       599461
+06-19 14:24 INFO       SNCR - previous day close: $    3.07; volume today:       458215
+06-19 14:24 INFO       CAMP - previous day close: $    7.79; volume today:       309283
+06-19 14:24 INFO        CBD - previous day close: $   12.35; volume today:       200010
+06-19 14:24 INFO        TKC - previous day close: $    5.87; volume today:      1149159
+06-19 14:24 INFO       IMRN - previous day close: $    7.75; volume today:      4443603
+06-19 14:24 INFO       ADRO - previous day close: $    2.21; volume today:       860918
+06-19 14:24 INFO       NURO - previous day close: $    1.81; volume today:      2023743
+06-19 14:24 INFO       STKL - previous day close: $    4.54; volume today:       321941
+06-19 14:24 INFO       VXRT - previous day close: $    2.57; volume today:      2871953
+06-19 14:24 INFO       BBAR - previous day close: $    3.50; volume today:      1369358
+06-19 14:24 INFO       AGLE - previous day close: $    9.07; volume today:       550936
+06-19 14:24 INFO       AHPI - previous day close: $    9.88; volume today:      1563334
+06-19 14:24 INFO       DGLY - previous day close: $    4.04; volume today:      3343745
+06-19 14:24 INFO       DVAX - previous day close: $    6.13; volume today:      6758796
+06-19 14:24 INFO         NG - previous day close: $    7.99; volume today:      3457301
+06-19 14:24 INFO       SLDB - previous day close: $    2.97; volume today:       455021
+06-19 14:24 INFO        PAE - previous day close: $   10.49; volume today:      1153305
+06-19 14:24 INFO       SBBP - previous day close: $    3.60; volume today:      1085975
+06-19 14:24 INFO        SBS - previous day close: $   10.58; volume today:      1053560
+06-19 14:24 INFO        EGO - previous day close: $    8.15; volume today:      1451555
+06-19 14:24 INFO       DRRX - previous day close: $    2.26; volume today:       744582
+06-19 14:24 INFO       NBLX - previous day close: $   10.05; volume today:       347711
+06-19 14:24 INFO       KODK - previous day close: $    2.24; volume today:       137994
+06-19 14:24 INFO       MDRX - previous day close: $    6.88; volume today:      2355675
+06-19 14:24 INFO       NYMX - previous day close: $    3.14; volume today:       469661
+06-19 14:24 INFO       BCLI - previous day close: $    9.71; volume today:       272738
+06-19 14:24 INFO       LUNA - previous day close: $    5.99; volume today:       133268
+06-19 14:24 INFO       PCOM - previous day close: $    9.45; volume today:        39687
+06-19 14:24 INFO       PAYS - previous day close: $    7.71; volume today:       756155
+06-19 14:24 INFO        DBD - previous day close: $    5.44; volume today:      1363594
+06-19 14:24 INFO       AGFS - previous day close: $    3.16; volume today:        89442
+06-19 14:24 INFO        MAG - previous day close: $   11.79; volume today:       425225
+06-19 14:24 INFO       CNCE - previous day close: $   10.08; volume today:       118255
+06-19 14:24 INFO       BLNK - previous day close: $    2.39; volume today:       867027
+06-19 14:24 INFO        MTA - previous day close: $    5.67; volume today:       105682
+06-19 14:24 INFO       PBYI - previous day close: $   10.14; volume today:      1111313
+06-19 14:24 INFO        TGS - previous day close: $    5.19; volume today:        48035
+06-19 14:24 INFO       DMAC - previous day close: $    6.00; volume today:       556103
+06-19 14:24 INFO       COHN - previous day close: $    7.70; volume today:     12637618
+06-19 14:24 INFO       BYFC - previous day close: $    1.70; volume today:    152906101
+06-19 14:24 INFO        TWO - previous day close: $    4.92; volume today:     12586318
+06-19 14:24 INFO       OBSV - previous day close: $    5.59; volume today:       733829
+06-19 14:24 INFO       RKDA - previous day close: $    4.16; volume today:       821078
+06-19 14:24 INFO       BMRA - previous day close: $    5.65; volume today:       238503
+06-19 14:24 INFO        PVG - previous day close: $    7.79; volume today:      1426111
+06-19 14:24 INFO       GEOS - previous day close: $    6.65; volume today:        77535
+06-19 14:24 INFO      UONEK - previous day close: $    3.63; volume today:     63115416
+06-19 14:24 INFO       CERC - previous day close: $    2.51; volume today:       260408
+06-19 14:24 INFO        PAM - previous day close: $    9.72; volume today:       353936
+06-19 14:24 INFO        EVC - previous day close: $    1.75; volume today:      9807848
+06-19 14:24 INFO       ALIM - previous day close: $    6.70; volume today:        92787
+06-19 14:24 INFO        AMS - previous day close: $    2.74; volume today:      2822124
+06-19 14:24 INFO       SUPV - previous day close: $    2.07; volume today:      1131710
+06-19 14:24 INFO       XENE - previous day close: $   12.05; volume today:       152331
+06-19 14:24 INFO       LQDA - previous day close: $    9.08; volume today:       159811
+06-19 14:24 INFO       AAME - previous day close: $    1.85; volume today:        19793
+06-19 14:24 INFO       FPRX - previous day close: $    4.16; volume today:       249707
+06-19 14:24 INFO        GTT - previous day close: $    7.66; volume today:       525495
+06-19 14:24 INFO        RFP - previous day close: $    1.94; volume today:       330024
+06-19 14:24 INFO       CRMD - previous day close: $    6.01; volume today:       321821
+06-19 14:24 INFO       OPHC - previous day close: $    3.15; volume today:      3134364
+06-19 14:24 INFO       OTIC - previous day close: $    3.28; volume today:       174671
+06-19 14:24 INFO        QTT - previous day close: $    2.60; volume today:      1901652
+06-19 14:24 INFO       CAPR - previous day close: $    4.97; volume today:       832187
+06-19 14:24 INFO       SPPI - previous day close: $    3.10; volume today:       947683
+06-19 14:24 INFO       ADMS - previous day close: $    2.66; volume today:       473580
+06-19 14:24 INFO       GLUU - previous day close: $    9.00; volume today:      3039549
+06-19 14:24 INFO       KALV - previous day close: $   10.15; volume today:       215936
+06-19 14:24 INFO        GFI - previous day close: $    7.54; volume today:      7234362
+06-19 14:24 INFO        TEO - previous day close: $    8.93; volume today:        74740
+06-19 14:24 INFO       MEIP - previous day close: $    3.72; volume today:      2786030
+06-19 14:24 INFO       VLRS - previous day close: $    5.53; volume today:       414011
+06-19 14:24 INFO        BBX - previous day close: $    2.23; volume today:       496607
+06-19 14:24 INFO       SLCA - previous day close: $    3.44; volume today:      2282978
+06-19 14:24 INFO        EVH - previous day close: $    6.00; volume today:      1205785
+06-19 14:24 INFO       RESI - previous day close: $    8.27; volume today:       737090
+06-19 14:24 INFO       HBIO - previous day close: $    2.87; volume today:       647151
+06-19 14:24 INFO       PCTI - previous day close: $    6.35; volume today:       244871
+06-19 14:24 INFO       XNET - previous day close: $    3.41; volume today:       579819
+06-19 14:24 INFO         LX - previous day close: $   11.20; volume today:      2572393
+06-19 14:24 INFO       OBCI - previous day close: $    7.24; volume today:       355426
+06-19 14:24 INFO       ISEE - previous day close: $    6.13; volume today:      3581835
+06-19 14:24 INFO       MREO - previous day close: $    2.75; volume today:      1057289
+06-19 14:24 INFO       SMED - previous day close: $    7.07; volume today:        65530
+06-19 14:24 INFO        OCX - previous day close: $    2.75; volume today:       777741
+06-19 14:24 INFO       CBAY - previous day close: $    3.66; volume today:      2356421
+06-19 14:24 INFO       NAVB - previous day close: $    3.45; volume today:       347791
+06-19 14:24 INFO       OPTN - previous day close: $    5.95; volume today:       179850
+06-19 14:24 INFO       ZIOP - previous day close: $    3.29; volume today:      3418019
+06-19 14:24 INFO       CYCN - previous day close: $    4.49; volume today:       203020
+06-19 14:24 INFO        JAX - previous day close: $    5.18; volume today:       383255
+06-19 14:24 INFO       AGTC - previous day close: $    5.63; volume today:       331825
+06-19 14:24 INFO         NM - previous day close: $    2.15; volume today:       205141
+06-19 14:24 INFO       SIEB - previous day close: $    5.41; volume today:       173780
+06-19 14:24 INFO       DRIP - previous day close: $    4.62; volume today:      7786176
+06-19 14:24 INFO       BBGI - previous day close: $    2.66; volume today:     22139819
+06-19 14:24 INFO       RCEL - previous day close: $    6.00; volume today:       268087
+06-19 14:24 INFO       HCHC - previous day close: $    3.64; volume today:       336850
+06-19 14:24 INFO       SURF - previous day close: $    4.38; volume today:       558906
+06-19 14:24 INFO       SIEN - previous day close: $    3.99; volume today:       787713
+06-19 14:24 INFO       PGEN - previous day close: $    4.14; volume today:      2419545
+06-19 14:24 INFO        FWP - previous day close: $    6.90; volume today:       549497
+06-19 14:24 INFO       PRTK - previous day close: $    4.67; volume today:       364049
+06-19 14:24 INFO       SPWR - previous day close: $    7.08; volume today:      6028990
+06-19 14:24 INFO         NK - previous day close: $    8.15; volume today:      1488023
+06-19 14:24 INFO        NEX - previous day close: $    2.85; volume today:      1542994
+06-19 14:24 INFO        ZVO - previous day close: $    2.49; volume today:       127125
+06-19 14:24 INFO       AGRX - previous day close: $    2.77; volume today:      1927186
+06-19 14:24 INFO       TTPH - previous day close: $    2.50; volume today:       421856
+06-19 14:24 INFO       GMDA - previous day close: $    4.76; volume today:       177688
+06-19 14:24 INFO       AVCT - previous day close: $    3.52; volume today:      1208604
+06-19 14:24 INFO        AGI - previous day close: $    7.41; volume today:      2679946
+06-19 14:24 INFO       LOMA - previous day close: $    4.07; volume today:       226696
+06-19 14:24 INFO       CMRE - previous day close: $    5.00; volume today:      1316953
+06-19 14:24 INFO       GGAL - previous day close: $    9.33; volume today:      1529871
+06-19 14:24 INFO     Tracking 151 symbols.
+06-19 14:24 INFO     Getting historical data...
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/WKHS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     1/151 : WKHS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HMHC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     2/151 : HMHC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     3/151 : BE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HMI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     4/151 : HMI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EDNT/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     5/151 : EDNT
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GNSS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     6/151 : GNSS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ANVS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     7/151 : ANVS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TLSA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     8/151 : TLSA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ATEC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     9/151 : ATEC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GSB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     10/151 : GSB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BVN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     11/151 : BVN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     12/151 : OR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/UGAZ/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     13/151 : UGAZ
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/XCUR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     14/151 : XCUR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/VERU/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     15/151 : VERU
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RTIX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     16/151 : RTIX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AFMD/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     17/151 : AFMD
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SPNE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     18/151 : SPNE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/APTX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     19/151 : APTX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/XRF/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     20/151 : XRF
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HIBS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     21/151 : HIBS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AVDL/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     22/151 : AVDL
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HMY/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     23/151 : HMY
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SY/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     24/151 : SY
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ALPN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     25/151 : ALPN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MCRB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     26/151 : MCRB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SELB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     27/151 : SELB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLDX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     28/151 : CLDX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/APPS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     29/151 : APPS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/FBIO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     30/151 : FBIO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CHCI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     31/151 : CHCI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CASI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     32/151 : CASI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SOHU/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     33/151 : SOHU
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NVGS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     34/151 : NVGS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RYAM/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     35/151 : RYAM
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CRDF/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     36/151 : CRDF
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SNCR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     37/151 : SNCR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CAMP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     38/151 : CAMP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CBD/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     39/151 : CBD
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TKC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     40/151 : TKC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IMRN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     41/151 : IMRN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ADRO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     42/151 : ADRO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NURO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     43/151 : NURO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/STKL/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     44/151 : STKL
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/VXRT/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     45/151 : VXRT
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BBAR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     46/151 : BBAR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AGLE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     47/151 : AGLE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AHPI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     48/151 : AHPI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DGLY/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     49/151 : DGLY
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DVAX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     50/151 : DVAX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NG/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     51/151 : NG
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SLDB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     52/151 : SLDB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PAE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     53/151 : PAE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SBBP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     54/151 : SBBP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SBS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     55/151 : SBS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EGO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     56/151 : EGO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DRRX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     57/151 : DRRX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NBLX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     58/151 : NBLX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/KODK/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     59/151 : KODK
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MDRX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     60/151 : MDRX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NYMX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     61/151 : NYMX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BCLI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     62/151 : BCLI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LUNA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     63/151 : LUNA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PCOM/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     64/151 : PCOM
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PAYS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     65/151 : PAYS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DBD/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     66/151 : DBD
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AGFS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     67/151 : AGFS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MAG/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     68/151 : MAG
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CNCE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     69/151 : CNCE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BLNK/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     70/151 : BLNK
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MTA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     71/151 : MTA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PBYI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     72/151 : PBYI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TGS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     73/151 : TGS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DMAC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     74/151 : DMAC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/COHN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     75/151 : COHN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BYFC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     76/151 : BYFC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TWO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     77/151 : TWO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OBSV/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     78/151 : OBSV
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RKDA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     79/151 : RKDA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BMRA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     80/151 : BMRA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PVG/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     81/151 : PVG
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GEOS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     82/151 : GEOS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/UONEK/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     83/151 : UONEK
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CERC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     84/151 : CERC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PAM/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     85/151 : PAM
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EVC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     86/151 : EVC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ALIM/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     87/151 : ALIM
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AMS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     88/151 : AMS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SUPV/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     89/151 : SUPV
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/XENE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     90/151 : XENE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LQDA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     91/151 : LQDA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AAME/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     92/151 : AAME
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/FPRX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     93/151 : FPRX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GTT/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     94/151 : GTT
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RFP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     95/151 : RFP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CRMD/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     96/151 : CRMD
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OPHC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     97/151 : OPHC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OTIC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     98/151 : OTIC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/QTT/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     99/151 : QTT
+06-19 14:24 DEBUG    Resetting dropped connection: api.polygon.io
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CAPR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     100/151 : CAPR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SPPI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     101/151 : SPPI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ADMS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     102/151 : ADMS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GLUU/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     103/151 : GLUU
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/KALV/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     104/151 : KALV
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GFI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     105/151 : GFI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TEO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     106/151 : TEO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MEIP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     107/151 : MEIP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/VLRS/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     108/151 : VLRS
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BBX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     109/151 : BBX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SLCA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     110/151 : SLCA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EVH/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     111/151 : EVH
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RESI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     112/151 : RESI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HBIO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     113/151 : HBIO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PCTI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     114/151 : PCTI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/XNET/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     115/151 : XNET
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     116/151 : LX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OBCI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     117/151 : OBCI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ISEE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     118/151 : ISEE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MREO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     119/151 : MREO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SMED/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     120/151 : SMED
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OCX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     121/151 : OCX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CBAY/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     122/151 : CBAY
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NAVB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     123/151 : NAVB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OPTN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     124/151 : OPTN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ZIOP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     125/151 : ZIOP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CYCN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     126/151 : CYCN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/JAX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     127/151 : JAX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AGTC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     128/151 : AGTC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NM/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     129/151 : NM
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SIEB/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     130/151 : SIEB
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DRIP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     131/151 : DRIP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BBGI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     132/151 : BBGI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RCEL/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     133/151 : RCEL
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HCHC/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     134/151 : HCHC
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SURF/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     135/151 : SURF
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SIEN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     136/151 : SIEN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PGEN/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     137/151 : PGEN
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/FWP/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     138/151 : FWP
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PRTK/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     139/151 : PRTK
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SPWR/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     140/151 : SPWR
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NK/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     141/151 : NK
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NEX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     142/151 : NEX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ZVO/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     143/151 : ZVO
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AGRX/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     144/151 : AGRX
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TTPH/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     145/151 : TTPH
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GMDA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     146/151 : GMDA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AVCT/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     147/151 : AVCT
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AGI/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     148/151 : AGI
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LOMA/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     149/151 : LOMA
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CMRE/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     150/151 : CMRE
+06-19 14:24 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GGAL/range/1/minute/2020-06-17/2020-06-19?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-19 14:24 INFO     151/151 : GGAL
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 687
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 687
+06-19 14:24 INFO     Portfolio value = $24331.51
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/orders?limit=500 HTTP/1.1" 200 2
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/positions HTTP/1.1" 200 None
+06-19 14:24 INFO     Currently holding 147 qty of stock ZIOP
+06-19 14:24 INFO     Currently holding 171 qty of stock XRF
+06-19 14:24 INFO     Currently holding 152 qty of stock UONEK
+06-19 14:24 INFO     Currently holding 173 qty of stock SELB
+06-19 14:24 INFO     Currently holding 160 qty of stock RYAM
+06-19 14:24 INFO     Currently holding 228 qty of stock RFP
+06-19 14:24 INFO     Currently holding 99 qty of stock PGNX
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 687
+06-19 14:24 INFO     Submitting sell for 99 shares of PGNX at market price
+06-19 14:24 DEBUG    https://paper-api.alpaca.markets:443 "POST /v2/orders HTTP/1.1" 403 80
