@@ -66,16 +66,17 @@ api = tradeapi.REST(
 session = requests.session()
 
 # We only consider stocks with per-share prices inside this range
-min_share_price = 2.0
+min_share_price = 3.0
 max_share_price = 13.0
 # Minimum previous-day dollar volume for a stock we might consider
 min_last_dv = 500000
 # Stop limit to default to
-default_stop = .95
+default_stop = 0.95
 # How much of our portfolio to allocate to any one position
 risk = 0.05  # can change parameter to adjust; e.g. 0.05 * 30K = max of 1.5K going to any one position until we run out of cash
-max_to_trade_with = 100000  # max to trade with, or limit to portfolio value
-
+max_to_trade_with = 1000000  # max to trade with, or limit to portfolio value. arbitrarily high right now
+# Minutes to wait before trading
+min_to_wait = 10
 
 def send_email(subject, body):
     signature = '''\n\nThis is an automated notification from a Python script.'''
@@ -113,7 +114,7 @@ def get_1000m_history_data(symbols):
         ).df
         c += 1
 
-        logging.info('%d/%d : %s',c, len(symbols), symbol)
+        logging.info('%d/%d : %s', c, len(symbols), symbol)
     return minute_history
 
 
@@ -161,10 +162,11 @@ def run(tickers, market_open_dt, market_close_dt):
         symbol = ticker.ticker
         prev_closes[symbol] = ticker.prevDay['c']
         volume_today[symbol] = ticker.day['v']
-        logging.info('%6s - previous day close: $%8.2f; volume today: %12d',symbol, prev_closes[symbol], volume_today[symbol])
+        logging.info('%6s - previous day close: $%8.2f; volume today: %12d', symbol, prev_closes[symbol],
+                     volume_today[symbol])
 
     symbols = [ticker.ticker for ticker in tickers]
-    logging.info('Tracking %d symbols.',len(symbols))
+    logging.info('Tracking %d symbols.', len(symbols))
     minute_history = get_1000m_history_data(symbols)
     # logging.info(minute_history) # prints top and bottom 10 if you want to see open, close, etc.
 
@@ -188,7 +190,7 @@ def run(tickers, market_open_dt, market_close_dt):
     # Track any positions bought during previous executions
     existing_positions = api.list_positions()
     for position in existing_positions:
-        logging.info('Currently holding %d qty of stock %s',int(position.qty), position.symbol)
+        logging.info('Currently holding %d qty of stock %s', int(position.qty), position.symbol)
 
         if position.symbol in symbols:
             positions[position.symbol] = float(position.qty)
@@ -199,6 +201,7 @@ def run(tickers, market_open_dt, market_close_dt):
             )
         else:
             # if stock we hold isn't making it on the day trading list for today, let's sell it
+            logging.info('Stock is not in symbol tracking list')
             sell_subj = 'Submitting sell for {:.0f} shares of {} at market price'.format(
                 int(position.qty), position.symbol
             )
@@ -308,7 +311,7 @@ def run(tickers, market_open_dt, market_close_dt):
         until_market_close = market_close_dt - ts
         if (
                 since_market_open.seconds // 60 < 60 and
-                since_market_open.seconds // 60 > 15 and
+                since_market_open.seconds // 60 > min_to_wait and
                 1 == 1
         ):
             # Check for buy signals
@@ -318,9 +321,9 @@ def run(tickers, market_open_dt, market_close_dt):
             if position > 0:
                 return
 
-            # See how high the price went during the first 15 minutes
+            # See how high the price went during the first 10-15 minutes
             lbound = market_open_dt
-            ubound = lbound + timedelta(minutes=15)
+            ubound = lbound + timedelta(minutes=min_to_wait)
             high_15m = 0
             try:
                 high_15m = minute_history[symbol][lbound:ubound]['high'].max()
@@ -336,14 +339,15 @@ def run(tickers, market_open_dt, market_close_dt):
             # logging.info('Daily change: %1.2f %%',daily_pct_change)
             if (
                     daily_pct_change > 4 and
-                    data.close > high_15m and
+                    data.close > 0.95 * high_15m and  # at 95% of 15m high
                     volume_today[symbol] > 30000
             ):
                 # check for a positive, increasing MACD
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=12,
-                    n_slow=26
+                    n_slow=26,
+                    n_sign=9
                 )
                 if (
                         hist[-1] < 0 or
@@ -353,9 +357,10 @@ def run(tickers, market_open_dt, market_close_dt):
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=40,
-                    n_slow=60
-                )
-                if hist[-1] < 0 or np.diff(hist)[-1] < 0:
+                    n_slow=60,
+                    n_sign=9
+                ) # check slower / less sensitive MACD
+                if hist[-1] < 0 or np.diff(hist)[-1] < 0:  # exit if MACD < 0 or 2nd order derivative shows slowing
                     return
 
                 # Stock has passed all checks; figure out how much to buy
@@ -364,12 +369,18 @@ def run(tickers, market_open_dt, market_close_dt):
                 )
 
                 stop_prices[symbol] = stop_price
-                target_prices[symbol] = data.close + (
-                        (data.close - stop_price) * 3  # goal is to sell 3x more than downside threshold
-                )
+                if data.close < 5:
+                    target_prices[symbol] = data.close + (
+                            (data.close - stop_price) * 3  # goal is to sell 3x more than downside threshold (more volatile)
+                    )
+                else:
+                    target_prices[symbol] = data.close + (
+                            (data.close - stop_price) * 2  # goal is to sell 2x more than downside threshold
+                    )
 
-                logging.info('Stop price for %s: %1.2f', symbol, stop_prices[symbol])
-                logging.info('Target price for %s: %1.2f}', symbol, target_prices[symbol])
+                logging.info('Last 3 MACD values for %s: %1.2f, %1.2f, %1.2f', symbol, hist[-3], hist[-2], hist[-1])
+                logging.info('Stop price for %s: $%1.2f', symbol, stop_prices[symbol])
+                logging.info('Target price for %s: $%1.2f}', symbol, target_prices[symbol])
 
                 # current cash on hand
                 curr_cash = float(api.get_account().cash)
@@ -400,8 +411,9 @@ def run(tickers, market_open_dt, market_close_dt):
                 try:
                     o = api.submit_order(
                         symbol=symbol, qty=str(shares_to_buy), side='buy',
-                        type='limit', time_in_force='day',
-                        limit_price=str(data.close)
+                        type='stop_limit', time_in_force='day',
+                        limit_price=str(data.close),
+                        stop_price=str(stop_price)
                     )
                     open_orders[symbol] = o
                     latest_cost_basis[symbol] = data.close
@@ -410,7 +422,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 return
         if (
                 since_market_open.seconds // 60 >= 24 and  # has been at least 24 mins since market opened
-                until_market_close.seconds // 60 > 30  # greater than 30 minutes before market closes
+                until_market_close.seconds // 60 > 20  # greater than 20 minutes before market closes
         ):
             # Check for liquidation signals
 
@@ -424,13 +436,14 @@ def run(tickers, market_open_dt, market_close_dt):
             # Sell for a profit if it's above our target price
             hist = macd(
                 minute_history[symbol]['close'].dropna(),
-                n_fast=13,
-                n_slow=21
-            )
+                n_fast=19,
+                n_slow=39,
+                n_sign=9
+            )  # using a slightly slower MACD for exit
             if (
                     data.close <= stop_prices[symbol] or
-                    (data.close >= target_prices[symbol] and hist[-1] <= 0) or
-                    (data.close <= latest_cost_basis[symbol] and hist[-1] <= 0)
+                    (data.close >= target_prices[symbol] and hist[-1] < 0) or
+                    (data.close <= latest_cost_basis[symbol] and hist[-1] < 0)
             ):
                 sell_subj = 'Submitting sell for {:.0f} shares of {} at ${:0,.2f}'.format(
                     position, symbol, data.close
@@ -455,12 +468,12 @@ def run(tickers, market_open_dt, market_close_dt):
                     logging.info(e)
             return
         elif (
-                until_market_close.seconds // 60 <= 30
+                until_market_close.seconds // 60 <= 20
         ):
             # Liquidate remaining positions on watched symbols at market
             try:
                 position = api.get_position(symbol)
-                logging.info('Trading over, liquidating remaining position in %s',symbol)
+                logging.info('Trading over, liquidating remaining position in %s', symbol)
 
                 api.submit_order(
                     symbol=symbol, qty=position.qty, side='sell',
@@ -504,7 +517,7 @@ def run(tickers, market_open_dt, market_close_dt):
         channels += symbol_channels
 
     # logging.info('Channels being watched: ',channels)
-    logging.info('Watching %d symbols.',len(symbols))
+    logging.info('Watching %d symbols.', len(symbols))
 
     run_ws(conn, channels)
 
@@ -570,23 +583,23 @@ if __name__ == "__main__":
 
     # Wait until just before we might want to trade
     current_dt = datetime.today().astimezone(nyc)
-    logging.info('Current time: %s',current_dt)
-    logging.info('Market open time: %s',market_open)
-    logging.info('Market close time: %s',market_close)
+    logging.info('Current time: %s', current_dt)
+    logging.info('Market open time: %s', market_open)
+    logging.info('Market close time: %s', market_close)
     since_market_open = current_dt - market_open
     if (current_dt < market_open):
-        logging.info('Time until market opens: %s',market_open - current_dt)
+        logging.info('Time until market opens: %s', market_open - current_dt)
     else:
-        logging.info('Time since market open: %s',since_market_open)
+        logging.info('Time since market open: %s', since_market_open)
 
     while (
-            since_market_open.seconds // 60 <= 14 or since_market_open.days != 0):  # sleep until we're 14 mins before we might want to trade
+            since_market_open.seconds // 60 < (min_to_wait - 1) or since_market_open.days != 0):  # sleep until we're 10-15 mins before we might want to trade
         time.sleep(30)
         current_dt = datetime.today().astimezone(nyc)
         since_market_open = current_dt - market_open
         if (current_dt < market_open):
-            logging.info('Time until market opens: %f',market_open - current_dt)
+            logging.info('Time until market opens: %f', market_open - current_dt)
         else:
-            logging.info('Time since market open: %f',since_market_open)
+            logging.info('Time since market open: %f', since_market_open)
 
     run(get_tickers(), market_open, market_close)
