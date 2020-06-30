@@ -32,7 +32,7 @@ file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
 if not os.path.exists("day_trading_algo_paper_log"):
     os.makedirs("day_trading_algo_paper_log")
 
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)-8s %(message)s',
                     datefmt='%m-%d %H:%M',
                     filename='day_trading_algo_paper_log/' + file_name,
@@ -74,7 +74,7 @@ min_last_dv = 500000
 default_stop = .95
 # How much of our portfolio to allocate to any one position
 risk = 0.05  # can change parameter to adjust; e.g. 0.05 * 30K = max of 1.5K going to any one position until we run out of cash
-max_to_trade_with = 10000  # max to trade with, or limit to portfolio value
+max_to_trade_with = 100000  # max to trade with, or limit to portfolio value
 
 
 def send_email(subject, body):
@@ -114,8 +114,6 @@ def get_1000m_history_data(symbols):
         c += 1
 
         logging.info('%d/%d : %s',c, len(symbols), symbol)
-        # logging.info(minute_history[symbol])
-        logging.info('Success.')
     return minute_history
 
 
@@ -125,7 +123,7 @@ def get_tickers():
     logging.info('Success.')
     assets = api.list_assets()
     symbols = [asset.symbol for asset in assets if
-               asset.tradable]  # Can test AA American Airlines to make sure it's functioning correctly
+               asset.tradable]
     # logging.info(symbols) # if we want to see all symbols available
     # logging.info(tickers) - if we want to see all the tickers returned by polygons API
 
@@ -135,7 +133,6 @@ def get_tickers():
             ticker.lastTrade['p'] <= max_share_price and
             ticker.prevDay['v'] * ticker.lastTrade['p'] > min_last_dv and
             ticker.todaysChangePerc >= 3.5
-        # comment if we're working on this over the weekend
     )]
 
 
@@ -191,7 +188,7 @@ def run(tickers, market_open_dt, market_close_dt):
     # Track any positions bought during previous executions
     existing_positions = api.list_positions()
     for position in existing_positions:
-        logging.info('Currently holding %d qty of stock %s',position.qty, position.symbol)
+        logging.info('Currently holding %d qty of stock %s',int(position.qty), position.symbol)
 
         if position.symbol in symbols:
             positions[position.symbol] = float(position.qty)
@@ -377,8 +374,8 @@ def run(tickers, market_open_dt, market_close_dt):
                 # current cash on hand
                 curr_cash = float(api.get_account().cash)
 
-                # trade quantity = cash on hand (or min to trade with) / close price
-                # if we don't have any cash, don't buy anything!
+                # use risk * starting cash value as your leading indicator,
+                # but make sure this is below max to trade with and the amount of cash in your account
                 shares_to_buy = min(
                     min(cash_value, max_to_trade_with) * risk
                     , curr_cash) // data.close
@@ -413,7 +410,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 return
         if (
                 since_market_open.seconds // 60 >= 24 and  # has been at least 24 mins since market opened
-                until_market_close.seconds // 60 > 15  # greater than 15 minutes before market closes
+                until_market_close.seconds // 60 > 30  # greater than 30 minutes before market closes
         ):
             # Check for liquidation signals
 
@@ -458,13 +455,13 @@ def run(tickers, market_open_dt, market_close_dt):
                     logging.info(e)
             return
         elif (
-                until_market_close.seconds // 60 <= 15
+                until_market_close.seconds // 60 <= 30
         ):
             # Liquidate remaining positions on watched symbols at market
             try:
                 position = api.get_position(symbol)
                 logging.info('Trading over, liquidating remaining position in %s',symbol)
-                
+
                 api.submit_order(
                     symbol=symbol, qty=position.qty, side='sell',
                     type='market', time_in_force='day'
@@ -488,7 +485,7 @@ def run(tickers, market_open_dt, market_close_dt):
         # if ((current_dt - market_close_dt).seconds // 60) > 15:
         #     conn.close('Market has closed')
 
-        # logging.info('Connecting to minute-level data, watching:', data.symbol)
+        logging.info('Connecting to minute-level data, watching:', data.symbol)
 
         ts = data.start
         ts -= timedelta(microseconds=ts.microsecond)
@@ -575,6 +572,7 @@ if __name__ == "__main__":
     current_dt = datetime.today().astimezone(nyc)
     logging.info('Current time: %s',current_dt)
     logging.info('Market open time: %s',market_open)
+    logging.info('Market close time: %s',market_close)
     since_market_open = current_dt - market_open
     if (current_dt < market_open):
         logging.info('Time until market opens: %s',market_open - current_dt)

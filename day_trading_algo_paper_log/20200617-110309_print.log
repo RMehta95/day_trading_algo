@@ -1,0 +1,655 @@
+06-17 11:03 DEBUG    Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+06-17 11:03 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/calendar?start=2020-06-17&end=2020-06-17 HTTP/1.1" 200 99
+06-17 11:03 INFO     Current time: 2020-06-17 11:03:10.092475-04:00
+06-17 11:03 INFO     Market open time: 2020-06-17 09:30:00.822027-04:00
+06-17 11:03 INFO     Time since market open: 1:33:09.270448
+06-17 11:03 INFO     Getting current ticker data...
+06-17 11:03 DEBUG    Starting new HTTPS connection (1): api.polygon.io:443
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/snapshot/locale/us/markets/stocks/tickers?apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/assets HTTP/1.1" 200 None
+06-17 11:03 DEBUG    Using selector: KqueueSelector
+06-17 11:03 INFO        IEA - previous day close: $    2.55; volume today:        85579
+06-17 11:03 INFO         LX - previous day close: $   10.76; volume today:      1790858
+06-17 11:03 INFO       ATRA - previous day close: $   10.54; volume today:       471294
+06-17 11:03 INFO       CRBP - previous day close: $    7.58; volume today:       635054
+06-17 11:03 INFO       CLDX - previous day close: $   10.25; volume today:      1033123
+06-17 11:03 INFO       HIBS - previous day close: $    6.24; volume today:       727304
+06-17 11:03 INFO        NLS - previous day close: $    6.94; volume today:       928513
+06-17 11:03 INFO       RKDA - previous day close: $    3.95; volume today:       169957
+06-17 11:03 INFO       RMBL - previous day close: $    9.50; volume today:       142628
+06-17 11:03 INFO        ORN - previous day close: $    2.93; volume today:       154632
+06-17 11:03 INFO      UONEK - previous day close: $    2.74; volume today:     57714513
+06-17 11:03 INFO       NBLX - previous day close: $    9.81; volume today:       176855
+06-17 11:03 INFO       HCCH - previous day close: $   11.00; volume today:       467066
+06-17 11:03 INFO       ATOM - previous day close: $    9.30; volume today:       312019
+06-17 11:03 INFO        HTZ - previous day close: $    1.95; volume today:     54857783
+06-17 11:03 INFO       WBAI - previous day close: $    4.13; volume today:       111095
+06-17 11:03 INFO       BSGM - previous day close: $   10.21; volume today:       540899
+06-17 11:03 INFO       ETRN - previous day close: $    8.78; volume today:      3631879
+06-17 11:03 INFO       IKNX - previous day close: $    3.75; volume today:       159496
+06-17 11:03 INFO       AVXL - previous day close: $    4.15; volume today:       557516
+06-17 11:03 INFO       BATL - previous day close: $   10.87; volume today:        32641
+06-17 11:03 INFO       TCCO - previous day close: $    3.60; volume today:       332925
+06-17 11:03 INFO       REDU - previous day close: $    3.69; volume today:       149017
+06-17 11:03 INFO       CMBM - previous day close: $    6.25; volume today:        19613
+06-17 11:03 INFO       IMUX - previous day close: $   11.61; volume today:       160382
+06-17 11:03 INFO         NK - previous day close: $    8.05; volume today:       845872
+06-17 11:03 INFO       QMCO - previous day close: $    4.20; volume today:       153043
+06-17 11:03 INFO       IMTE - previous day close: $    4.40; volume today:      2519916
+06-17 11:03 INFO       GPAQ - previous day close: $   11.72; volume today:      1065921
+06-17 11:03 INFO       AAOI - previous day close: $    9.19; volume today:       271456
+06-17 11:03 INFO       PSTV - previous day close: $    2.11; volume today:       215707
+06-17 11:03 INFO       BDRY - previous day close: $    7.22; volume today:       333242
+06-17 11:03 INFO       CLSN - previous day close: $    4.88; volume today:      5898984
+06-17 11:03 INFO       CLWT - previous day close: $    2.93; volume today:       141320
+06-17 11:03 INFO       INSE - previous day close: $    3.04; volume today:        80710
+06-17 11:03 INFO        EBR - previous day close: $    5.59; volume today:       438325
+06-17 11:03 INFO       WATT - previous day close: $    2.21; volume today:     18216137
+06-17 11:03 INFO       CAPR - previous day close: $    4.73; volume today:       512737
+06-17 11:03 INFO       MBIO - previous day close: $    3.40; volume today:       918037
+06-17 11:03 INFO       SRTY - previous day close: $   10.73; volume today:      3349373
+06-17 11:03 INFO       TIGR - previous day close: $    3.88; volume today:       179551
+06-17 11:03 INFO       DRIP - previous day close: $    4.27; volume today:      4951193
+06-17 11:03 INFO       HBIO - previous day close: $    2.94; volume today:       105943
+06-17 11:03 INFO        JAX - previous day close: $    4.93; volume today:       142484
+06-17 11:03 INFO       CRDF - previous day close: $    2.60; volume today:       137293
+06-17 11:03 INFO       DOYU - previous day close: $   10.53; volume today:      1378322
+06-17 11:03 INFO       IRWD - previous day close: $    9.53; volume today:       552528
+06-17 11:03 INFO       CMCM - previous day close: $    3.12; volume today:       434876
+06-17 11:03 INFO       CLIR - previous day close: $    2.37; volume today:     36341355
+06-17 11:03 INFO       ALIM - previous day close: $    5.18; volume today:        36747
+06-17 11:03 INFO       OSMT - previous day close: $    5.48; volume today:       248599
+06-17 11:03 INFO       EYEN - previous day close: $    3.25; volume today:        56200
+06-17 11:03 INFO       AHPI - previous day close: $    8.65; volume today:       277945
+06-17 11:03 INFO       SECO - previous day close: $    3.32; volume today:       202493
+06-17 11:03 INFO       KMDA - previous day close: $    8.41; volume today:       609158
+06-17 11:03 INFO       PAVM - previous day close: $    2.17; volume today:       688740
+06-17 11:03 INFO       GOGL - previous day close: $    4.01; volume today:       333383
+06-17 11:03 INFO       MLND - previous day close: $    2.38; volume today:      4862794
+06-17 11:03 INFO       KORU - previous day close: $   11.81; volume today:       113790
+06-17 11:03 INFO         SY - previous day close: $   10.10; volume today:       544779
+06-17 11:03 INFO       TUFN - previous day close: $   10.45; volume today:        45007
+06-17 11:03 INFO       MDWD - previous day close: $    2.17; volume today:       130261
+06-17 11:03 INFO       VBIV - previous day close: $    2.62; volume today:      3587414
+06-17 11:03 INFO       CLDR - previous day close: $   12.26; volume today:      3501423
+06-17 11:03 INFO       VOXX - previous day close: $    5.84; volume today:        55512
+06-17 11:03 INFO       ETTX - previous day close: $    3.04; volume today:        86864
+06-17 11:03 INFO       OPRA - previous day close: $    7.54; volume today:       319010
+06-17 11:03 INFO       LEAF - previous day close: $    2.90; volume today:       165718
+06-17 11:03 INFO       AXDX - previous day close: $   11.29; volume today:       185356
+06-17 11:03 INFO        XRF - previous day close: $    2.12; volume today:      1302078
+06-17 11:03 INFO       CSPR - previous day close: $    8.65; volume today:       139402
+06-17 11:03 INFO       DLNG - previous day close: $    3.11; volume today:       407432
+06-17 11:03 INFO       WISA - previous day close: $    2.21; volume today:      1027046
+06-17 11:03 INFO       ALSK - previous day close: $    2.51; volume today:        33886
+06-17 11:03 INFO     Tracking 74 symbols.
+06-17 11:03 INFO     Getting historical data...
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IEA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     1/74 : IEA
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     2/74 : LX
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ATRA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     3/74 : ATRA
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CRBP/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     4/74 : CRBP
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLDX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     5/74 : CLDX
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HIBS/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     6/74 : HIBS
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NLS/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     7/74 : NLS
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RKDA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     8/74 : RKDA
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/RMBL/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     9/74 : RMBL
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ORN/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     10/74 : ORN
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/UONEK/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     11/74 : UONEK
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NBLX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     12/74 : NBLX
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HCCH/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     13/74 : HCCH
+06-17 11:03 INFO     Success.
+06-17 11:03 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ATOM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:03 INFO     14/74 : ATOM
+06-17 11:03 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HTZ/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     15/74 : HTZ
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/WBAI/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     16/74 : WBAI
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BSGM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     17/74 : BSGM
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ETRN/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     18/74 : ETRN
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IKNX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     19/74 : IKNX
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AVXL/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     20/74 : AVXL
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BATL/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     21/74 : BATL
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TCCO/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     22/74 : TCCO
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/REDU/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     23/74 : REDU
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CMBM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     24/74 : CMBM
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IMUX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     25/74 : IMUX
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/NK/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     26/74 : NK
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/QMCO/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     27/74 : QMCO
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IMTE/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     28/74 : IMTE
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GPAQ/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     29/74 : GPAQ
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AAOI/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     30/74 : AAOI
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PSTV/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     31/74 : PSTV
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/BDRY/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     32/74 : BDRY
+06-17 11:04 INFO     Success.
+06-17 11:04 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLSN/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:04 INFO     33/74 : CLSN
+06-17 11:04 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLWT/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     34/74 : CLWT
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/INSE/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     35/74 : INSE
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EBR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     36/74 : EBR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/WATT/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     37/74 : WATT
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CAPR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     38/74 : CAPR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MBIO/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     39/74 : MBIO
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SRTY/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     40/74 : SRTY
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TIGR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     41/74 : TIGR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DRIP/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     42/74 : DRIP
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/HBIO/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     43/74 : HBIO
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/JAX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     44/74 : JAX
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CRDF/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     45/74 : CRDF
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DOYU/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     46/74 : DOYU
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/IRWD/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     47/74 : IRWD
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CMCM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     48/74 : CMCM
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLIR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     49/74 : CLIR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ALIM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     50/74 : ALIM
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OSMT/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     51/74 : OSMT
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/EYEN/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     52/74 : EYEN
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AHPI/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     53/74 : AHPI
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SECO/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     54/74 : SECO
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/KMDA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     55/74 : KMDA
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/PAVM/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     56/74 : PAVM
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/GOGL/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     57/74 : GOGL
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MLND/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     58/74 : MLND
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/KORU/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     59/74 : KORU
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/SY/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     60/74 : SY
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/TUFN/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     61/74 : TUFN
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/MDWD/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     62/74 : MDWD
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/VBIV/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     63/74 : VBIV
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CLDR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     64/74 : CLDR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/VOXX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     65/74 : VOXX
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ETTX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     66/74 : ETTX
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/OPRA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     67/74 : OPRA
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/LEAF/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     68/74 : LEAF
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/AXDX/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     69/74 : AXDX
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/XRF/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     70/74 : XRF
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/CSPR/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     71/74 : CSPR
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/DLNG/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     72/74 : DLNG
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/WISA/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     73/74 : WISA
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    https://api.polygon.io:443 "GET /v2/aggs/ticker/ALSK/range/1/minute/2020-06-15/2020-06-17?unadjusted=False&limit=1000&apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 11:05 INFO     74/74 : ALSK
+06-17 11:05 INFO     Success.
+06-17 11:05 DEBUG    Resetting dropped connection: paper-api.alpaca.markets
+06-17 11:05 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 670
+06-17 11:05 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/account HTTP/1.1" 200 670
+06-17 11:05 INFO     Portfolio value = $23876.74
+06-17 11:05 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/orders?limit=500 HTTP/1.1" 200 2
+06-17 11:05 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/positions HTTP/1.1" 200 2
+06-17 11:05 INFO     Watching 74 symbols.
+06-17 11:05 DEBUG    client - state = CONNECTING
+06-17 11:05 DEBUG    client - event = connection_made(<asyncio.sslproto._SSLProtocolTransport object at 0x7ff737587520>)
+06-17 11:05 DEBUG    client > GET /stream HTTP/1.1
+06-17 11:05 DEBUG    client > Headers([('Host', 'paper-api.alpaca.markets'), ('Upgrade', 'websocket'), ('Connection', 'Upgrade'), ('Sec-WebSocket-Key', '0pKzYM+bWYFYJWFwekKUqQ=='), ('Sec-WebSocket-Version', '13'), ('Sec-WebSocket-Extensions', 'permessage-deflate; client_max_window_bits'), ('User-Agent', 'Python/3.8 websockets/8.1')])
+06-17 11:05 DEBUG    client - event = data_received(<188 bytes>)
+06-17 11:05 DEBUG    client < HTTP/1.1 101 Switching Protocols
+06-17 11:05 DEBUG    client < Headers([('Server', 'nginx/1.16.1'), ('Date', 'Wed, 17 Jun 2020 15:05:22 GMT'), ('Connection', 'upgrade'), ('Upgrade', 'websocket'), ('Sec-WebSocket-Accept', 'ml7SWvxkH44azngcVlGnqw90tyM=')])
+06-17 11:05 DEBUG    client - state = OPEN
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=1, data=b'{"action": "authenticate", "data": {"key_id": "PK4GVNA38G1WX8T8EG4P", "secret_key": "zsz24SX1po8D9K5RBjAUffuO9vDZQ6WSI9g43whB"}}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<83 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=2, data=b'{"stream":"authorization","data":{"action":"authenticate","status":"authorized"}}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=1, data=b'{"action": "listen", "data": {"streams": ["trade_updates"]}}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<61 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=2, data=b'{"stream":"listening","data":{"streams":["trade_updates"]}}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - state = CONNECTING
+06-17 11:05 DEBUG    client - event = connection_made(<asyncio.sslproto._SSLProtocolTransport object at 0x7ff737587a60>)
+06-17 11:05 DEBUG    client > GET /stocks HTTP/1.1
+06-17 11:05 DEBUG    client > Headers([('Host', 'alpaca.socket.polygon.io'), ('Upgrade', 'websocket'), ('Connection', 'Upgrade'), ('Sec-WebSocket-Key', 'Q5OjqftpnDbaQCewf4Ef8A=='), ('Sec-WebSocket-Version', '13'), ('Sec-WebSocket-Extensions', 'permessage-deflate; client_max_window_bits'), ('User-Agent', 'Python/3.8 websockets/8.1')])
+06-17 11:05 DEBUG    client - event = data_received(<252 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<75 bytes>)
+06-17 11:05 DEBUG    client < HTTP/1.1 101 Switching Protocols
+06-17 11:05 DEBUG    client < Headers([('Server', 'nginx/1.17.8'), ('Date', 'Wed, 17 Jun 2020 15:05:22 GMT'), ('Connection', 'upgrade'), ('Upgrade', 'websocket'), ('Sec-WebSocket-Accept', 'ukGMzhh6nxBMRTd3U8ztw/LLP0A='), ('Strict-Transport-Security', 'max-age=15724800; includeSubDomains')])
+06-17 11:05 DEBUG    client - state = OPEN
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"connected","message":"Connected Successfully"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=1, data=b'{"action": "auth", "params": "PK4GVNA38G1WX8T8EG4P"}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<69 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"auth_success","message":"authenticated"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=1, data=b'{"action": "subscribe", "params": "A.IEA,AM.IEA,A.LX,AM.LX,A.ATRA,AM.ATRA,A.CRBP,AM.CRBP,A.CLDX,AM.CLDX,A.HIBS,AM.HIBS,A.NLS,AM.NLS,A.RKDA,AM.RKDA,A.RMBL,AM.RMBL,A.ORN,AM.ORN,A.UONEK,AM.UONEK,A.NBLX,AM.NBLX,A.HCCH,AM.HCCH,A.ATOM,AM.ATOM,A.HTZ,AM.HTZ,A.WBAI,AM.WBAI,A.BSGM,AM.BSGM,A.ETRN,AM.ETRN,A.IKNX,AM.IKNX,A.AVXL,AM.AVXL,A.BATL,AM.BATL,A.TCCO,AM.TCCO,A.REDU,AM.REDU,A.CMBM,AM.CMBM,A.IMUX,AM.IMUX,A.NK,AM.NK,A.QMCO,AM.QMCO,A.IMTE,AM.IMTE,A.GPAQ,AM.GPAQ,A.AAOI,AM.AAOI,A.PSTV,AM.PSTV,A.BDRY,AM.BDRY,A.CLSN,AM.CLSN,A.CLWT,AM.CLWT,A.INSE,AM.INSE,A.EBR,AM.EBR,A.WATT,AM.WATT,A.CAPR,AM.CAPR,A.MBIO,AM.MBIO,A.SRTY,AM.SRTY,A.TIGR,AM.TIGR,A.DRIP,AM.DRIP,A.HBIO,AM.HBIO,A.JAX,AM.JAX,A.CRDF,AM.CRDF,A.DOYU,AM.DOYU,A.IRWD,AM.IRWD,A.CMCM,AM.CMCM,A.CLIR,AM.CLIR,A.ALIM,AM.ALIM,A.OSMT,AM.OSMT,A.EYEN,AM.EYEN,A.AHPI,AM.AHPI,A.SECO,AM.SECO,A.KMDA,AM.KMDA,A.PAVM,AM.PAVM,A.GOGL,AM.GOGL,A.MLND,AM.MLND,A.KORU,AM.KORU,A.SY,AM.SY,A.TUFN,AM.TUFN,A.MDWD,AM.MDWD,A.VBIV,AM.VBIV,A.CLDR,AM.CLDR,A.VOXX,AM.VOXX,A.ETTX,AM.ETTX,A.OPRA,AM.OPRA,A.LEAF,AM.LEAF,A.AXDX,AM.AXDX,A.XRF,AM.XRF,A.CSPR,AM.CSPR,A.DLNG,AM.DLNG,A.WISA,AM.WISA,A.ALSK,AM.ALSK"}', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<70 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.IEA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.IEA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.LX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.LX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ATRA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ATRA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CRBP"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CRBP"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CLDX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CLDX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.HIBS"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.HIBS"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.NLS"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<145 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<74 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.NLS"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.RKDA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.RKDA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.RMBL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.RMBL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ORN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ORN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.UONEK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.UONEK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.NBLX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.NBLX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.HCCH"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.HCCH"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ATOM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ATOM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.HTZ"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.HTZ"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.WBAI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.WBAI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.BSGM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.BSGM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ETRN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ETRN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.IKNX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.IKNX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.AVXL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.AVXL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.BATL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.BATL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.TCCO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<286 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<145 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<145 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<143 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<145 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<145 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<70 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<71 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<72 bytes>)
+06-17 11:05 DEBUG    client - event = data_received(<73 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.TCCO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.REDU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.REDU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CMBM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CMBM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.IMUX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.IMUX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.NK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.NK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.QMCO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.QMCO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.IMTE"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.IMTE"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.GPAQ"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.GPAQ"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.AAOI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.AAOI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.PSTV"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.PSTV"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.BDRY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.BDRY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CLSN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CLSN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CLWT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CLWT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.INSE"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.INSE"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.EBR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.EBR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.WATT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.WATT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CAPR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CAPR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.MBIO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.MBIO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.SRTY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.SRTY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.TIGR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.TIGR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.DRIP"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.DRIP"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.HBIO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.HBIO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.JAX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.JAX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CRDF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CRDF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.DOYU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.DOYU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.IRWD"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.IRWD"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CMCM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CMCM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CLIR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CLIR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ALIM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ALIM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.OSMT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.OSMT"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.EYEN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.EYEN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.AHPI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.AHPI"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.SECO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.SECO"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.KMDA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.KMDA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.PAVM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.PAVM"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.GOGL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.GOGL"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.MLND"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.MLND"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.KORU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.KORU"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.SY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.SY"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.TUFN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.TUFN"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.MDWD"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.MDWD"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.VBIV"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.VBIV"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CLDR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CLDR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.VOXX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.VOXX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ETTX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ETTX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.OPRA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.OPRA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.LEAF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.LEAF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.AXDX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.AXDX"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.XRF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.XRF"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.CSPR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.CSPR"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.DLNG"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.DLNG"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.WISA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.WISA"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: A.ALSK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=1, data=b'[{"ev":"status","status":"success","message":"subscribed to: AM.ALSK"}]', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<2 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=9, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received ping, sending pong: [empty]
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=10, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<2 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=9, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received ping, sending pong: [empty]
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=10, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<2 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=9, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received ping, sending pong: [empty]
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=10, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=9, data=b'\xce\x8d\x00I', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<6 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=10, data=b'\xce\x8d\x00I', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received solicited pong: ce8d0049
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=9, data=b'\xba*\xd7\x9a', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<2 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=9, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received ping, sending pong: [empty]
+06-17 11:05 DEBUG    client > Frame(fin=True, opcode=10, data=b'', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - event = data_received(<6 bytes>)
+06-17 11:05 DEBUG    client < Frame(fin=True, opcode=10, data=b'\xba*\xd7\x9a', rsv1=False, rsv2=False, rsv3=False)
+06-17 11:05 DEBUG    client - received solicited pong: ba2ad79a

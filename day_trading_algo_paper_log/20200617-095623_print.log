@@ -1,0 +1,11 @@
+06-17 09:56 DEBUG    Starting new HTTPS connection (1): paper-api.alpaca.markets:443
+06-17 09:56 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/calendar?start=2020-06-17&end=2020-06-17 HTTP/1.1" 200 99
+06-17 09:56 INFO     Current time: 2020-06-17 09:56:24.131077-04:00
+06-17 09:56 INFO     Market open time: 2020-06-17 09:30:00.613562-04:00
+06-17 09:56 INFO     Time since market open: 0:26:23.517515
+06-17 09:56 INFO     Getting current ticker data...
+06-17 09:56 DEBUG    Starting new HTTPS connection (1): api.polygon.io:443
+06-17 09:56 DEBUG    https://api.polygon.io:443 "GET /v2/snapshot/locale/us/markets/stocks/tickers?apiKey=PK4GVNA38G1WX8T8EG4P HTTP/1.1" 200 None
+06-17 09:56 INFO     Success.
+06-17 09:56 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/assets HTTP/1.1" 200 None
+06-17 09:56 DEBUG    Using selector: KqueueSelector
