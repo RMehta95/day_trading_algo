@@ -3,3 +3,4 @@ __pycache__/
 historical_orders/.DS_Store
 config.py
 historical_orders
+day_trading_algo_paper_log
