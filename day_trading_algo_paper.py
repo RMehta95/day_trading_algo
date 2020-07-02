@@ -66,7 +66,7 @@ api = tradeapi.REST(
 session = requests.session()
 
 # We only consider stocks with per-share prices inside this range
-min_share_price = 3.0
+min_share_price = 2.0
 max_share_price = 13.0
 # Minimum previous-day dollar volume for a stock we might consider
 min_last_dv = 500000
@@ -76,7 +76,7 @@ default_stop = 0.95
 risk = 0.05  # can change parameter to adjust; e.g. 0.05 * 30K = max of 1.5K going to any one position until we run out of cash
 max_to_trade_with = 1000000  # max to trade with, or limit to portfolio value. arbitrarily high right now
 # Minutes to wait before trading
-min_to_wait = 10
+min_to_wait = 15
 
 def send_email(subject, body):
     signature = '''\n\nThis is an automated notification from a Python script.'''
@@ -369,11 +369,11 @@ def run(tickers, market_open_dt, market_close_dt):
                 stop_prices[symbol] = stop_price
                 if data.close < 5:
                     target_prices[symbol] = data.close + (
-                            (data.close - stop_price) * 3  # goal is to sell 3x more than downside threshold (more volatile)
+                            (data.close - stop_price) * 2  # goal is to sell 1x more than downside threshold (more volatile)
                     )
                 else:
                     target_prices[symbol] = data.close + (
-                            (data.close - stop_price) * 2  # goal is to sell 2x more than downside threshold
+                            (data.close - stop_price) * 1  # goal is to sell 1x more than downside threshold
                     )
 
                 logging.info('Last 3 MACD values for %s: %1.2f, %1.2f, %1.2f', symbol, hist[-3], hist[-2], hist[-1])
