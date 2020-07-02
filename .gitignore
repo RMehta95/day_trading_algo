@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/
 historical_orders/.DS_Store
+config.py
+historical_orders
