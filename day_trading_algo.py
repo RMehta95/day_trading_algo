@@ -3,6 +3,8 @@
 # Between 9:45 - 10:30am we'll look for stocks that have increased at least 4 % from their close on the previous day.
 # If they’ve done that and they meet some other criteria, we’ll buy them, and we’ll hold them until they either
 # rise high enough (meeting our price target) or fall too low (meeting our ‘stop’ level.)
+
+# This is really a gap-up strategy where we only try to capture momentum in the morning
 ###
 
 import sys

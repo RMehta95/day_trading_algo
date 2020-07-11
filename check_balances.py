@@ -2,15 +2,16 @@ import alpaca_trade_api as tradeapi
 import csv
 import pandas as pd
 from config import *  # link to other file
+from datetime import datetime
 
 api = tradeapi.REST(
-#    base_url=base_url,
+    base_url="https://api.alpaca.markets",
     key_id=LIVE_API_KEY,
     secret_key=LIVE_SECRET_KEY
 )
 
 api2 = tradeapi.REST(
-#    base_url=base_url,
+    base_url="https://paper-api.alpaca.markets",
     key_id=API_KEY,
     secret_key=SECRET_KEY
 )
@@ -49,10 +50,11 @@ print(closed_orders)
 # print(closed_aa_orders)
 
 # Write to .CSV
-csvFile = open('historical_orders.csv', 'w')
+t = datetime.today()
+csvFileName = 'historical_orders/historical_orders_{year:04d}{month:02d}{day:02d}.csv'.format(year=t.year, month=t.month, day=t.day)
 
 # Solution from StackExchange
-with open('historical_orders.csv', 'w', newline='') as csvfile:
+with open(csvFileName, 'w', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=closed_orders[0].__dict__['_raw'].keys())
     writer.writeheader()
     for order in closed_orders:
@@ -66,10 +68,10 @@ closed_orders2 = api2.list_orders(
 )
 
 # Write to .CSV
-csvFile2 = open('historical_orders_paper.csv', 'w')
+csvFileName2 = 'historical_orders/historical_orders_paper_{year:04d}{month:02d}{day:02d}.csv'.format(year=t.year, month=t.month, day=t.day)
 
 # Solution from StackExchange
-with open('historical_orders_paper.csv', 'w', newline='') as csvfile:
+with open(csvFileName2, 'w', newline='') as csvfile:
     writer2 = csv.DictWriter(csvfile, fieldnames=closed_orders2[0].__dict__['_raw'].keys())
     writer2.writeheader()
     for order in closed_orders2:

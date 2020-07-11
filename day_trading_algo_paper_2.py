@@ -11,6 +11,7 @@ import alpaca_trade_api as tradeapi
 import requests
 import time
 from ta.trend import macd
+from ta.momentum import rsi
 import numpy as np
 from datetime import datetime, timedelta
 from pytz import timezone
@@ -100,23 +101,26 @@ def send_email(subject, body):
 
 
 def get_1000m_history_data(symbols):
-    logging.info('Getting historical data...')
+    logging.info('Getting historical minute and daily data...')
     minute_history = {}
+    daily_history = {}
     nyc = timezone('America/New_York')
     today = datetime.today().astimezone(nyc)
     today_str = datetime.today().astimezone(nyc).strftime('%Y-%m-%d')
-    t_prev_str = (datetime.today().astimezone(nyc) - timedelta(days=2)).strftime('%Y-%m-%d')  # subtract 2 days
+    t_prev_str = (datetime.today().astimezone(nyc) - timedelta(days=15)).strftime('%Y-%m-%d')  # subtract 2 days
     c = 0
     for symbol in symbols:
         # https://pypi.org/project/alpaca-trade-api/
         minute_history[symbol] = api.polygon.historic_agg_v2(
             timespan="minute", symbol=symbol, limit=1000, multiplier=1, _from=t_prev_str, to=today_str
         ).df
+        daily_history[symbol] = api.polygon.historic_agg_v2(
+            timespan="day", symbol=symbol, limit=14, multiplier=1, _from=t_prev_str, to=today_str
+        ).df
         c += 1
 
         logging.info('%d/%d : %s', c, len(symbols), symbol)
-    return minute_history
-
+    return minute_history, daily_history
 
 def get_tickers():
     logging.info('Getting current ticker data...')
@@ -130,10 +134,10 @@ def get_tickers():
 
     return [ticker for ticker in tickers if (
             ticker.ticker in symbols and
-            ticker.lastTrade['p'] >= min_share_price and
-            ticker.lastTrade['p'] <= max_share_price and
-            ticker.prevDay['v'] * ticker.lastTrade['p'] > min_last_dv and
-            ticker.todaysChangePerc >= 3.5
+            ticker.lastTrade['p'] >= min_share_price and # don't buy if it's at a low
+            ticker.lastTrade['p'] <= max_share_price and # don't buy if it's at a high
+            ticker.prevDay['v'] * ticker.lastTrade['p'] > min_last_dv # $ volume should be above a certain amount
+            and ticker.todaysChangePerc >= 0 # previously 3.5%
     )]
 
 
@@ -167,7 +171,7 @@ def run(tickers, market_open_dt, market_close_dt):
 
     symbols = [ticker.ticker for ticker in tickers]
     logging.info('Tracking %d symbols.', len(symbols))
-    minute_history = get_1000m_history_data(symbols)
+    minute_history, daily_history = get_1000m_history_data(symbols)
     # logging.info(minute_history) # prints top and bottom 10 if you want to see open, close, etc.
 
     cash_value = float(api.get_account().cash)
@@ -269,6 +273,7 @@ def run(tickers, market_open_dt, market_close_dt):
         # First, aggregate 1s bars for up-to-date MACD calculations
         ts = data.start
         ts -= timedelta(seconds=ts.second, microseconds=ts.microsecond)
+
         try:
             current = minute_history[data.symbol].loc[ts]
         except KeyError:
@@ -310,9 +315,9 @@ def run(tickers, market_open_dt, market_close_dt):
         # logging.info('Time since market open: %s', since_market_open)
         until_market_close = market_close_dt - ts
         if (
-                since_market_open.seconds // 60 < 60 and
-                since_market_open.seconds // 60 > min_to_wait and
-                1 == 1
+                # since_market_open.seconds // 60 < 60  # by commenting out, we're allowing trades at all times of day
+                until_market_close.seconds // 60 > 60 and # let's not buy in the last hour of the day
+                since_market_open.seconds // 60 > min_to_wait
         ):
             # Check for buy signals
 
@@ -338,7 +343,7 @@ def run(tickers, market_open_dt, market_close_dt):
             )
             # logging.info('Daily change: %1.2f %%',daily_pct_change)
             if (
-                    daily_pct_change > 4 and
+                    daily_pct_change > 2 and # changed from 4
                     data.close > 0.95 * high_15m and  # at 95% of 15m high
                     volume_today[symbol] > 30000
             ):
@@ -348,11 +353,17 @@ def run(tickers, market_open_dt, market_close_dt):
                     n_fast=12,
                     n_slow=26
                 )
+
+                # Check RSI indicator to make sure it's not overbought (>= 70 overbought, <= 30 oversold/undervalued)
+                rsi_ind = rsi(daily_history[symbol]['close'].dropna())
+
                 if (
                         hist[-1] < 0 or
                         not (hist[-3] < hist[-2] < hist[-1])
+                        or rsi_ind[-1] > .33  # we only want below .33 to identify oversold stocks
                 ):
                     return
+
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=40,
@@ -360,6 +371,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 )  # check slower / less sensitive MACD
                 if hist[-1] < 0 or np.diff(hist)[-1] < 0:  # exit if MACD < 0 or 2nd order derivative shows slowing
                     return
+
 
                 # Stock has passed all checks; figure out how much to buy
                 stop_price = find_stop(
@@ -494,7 +506,7 @@ def run(tickers, market_open_dt, market_close_dt):
         # if ((current_dt - market_close_dt).seconds // 60) > 15:
         #     conn.close('Market has closed')
 
-        logging.info('Connecting to minute-level data, watching:', data.symbol)
+        logging.info('Connecting to minute-level data, watching: %s', data.symbol)
 
         ts = data.start
         ts -= timedelta(microseconds=ts.microsecond)
