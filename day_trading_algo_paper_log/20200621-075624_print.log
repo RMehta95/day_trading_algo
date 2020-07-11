@@ -1,5 +1,0 @@
-06-21 07:56 DEBUG    Starting new HTTPS connection (1): paper-api.alpaca.markets:443
-06-21 07:56 DEBUG    https://paper-api.alpaca.markets:443 "GET /v2/calendar?start=2020-06-21&end=2020-06-21 HTTP/1.1" 200 99
-06-21 07:56 INFO     Current time: 2020-06-21 07:56:24.672921-04:00
-06-21 07:56 INFO     Market open time: 2020-06-21 09:30:00.407072-04:00
-06-21 07:56 INFO     Time until market opens: 1:33:35.734151
