@@ -43,7 +43,7 @@ closed_orders = api.list_orders(
     nested=True  # show nested multi-leg orders
 )
 
-print(closed_orders)
+# print(closed_orders)
 
 # Get only the closed orders for a particular stock
 # closed_aa_orders = [o for o in closed_orders if o.symbol == 'AA']
@@ -53,9 +53,13 @@ print(closed_orders)
 t = datetime.today()
 csvFileName = 'historical_orders/historical_orders_{year:04d}{month:02d}{day:02d}.csv'.format(year=t.year, month=t.month, day=t.day)
 
+headers = ('submitted_at', 'filled_at', 'canceled_at', 'symbol', 'qty', 'filled_qty', 'filled_avg_price', 'order_type',
+           'side', 'time_in_force', 'limit_price', 'stop_price', 'status')
+
+
 # Solution from StackExchange
 with open(csvFileName, 'w', newline='') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=closed_orders[0].__dict__['_raw'].keys())
+    writer = csv.DictWriter(csvfile, headers, extrasaction='ignore')  # fieldnames=closed_orders[0].__dict__['_raw'].keys())
     writer.writeheader()
     for order in closed_orders:
         writer.writerow(order.__dict__['_raw'])
@@ -72,7 +76,7 @@ csvFileName2 = 'historical_orders/historical_orders_paper_{year:04d}{month:02d}{
 
 # Solution from StackExchange
 with open(csvFileName2, 'w', newline='') as csvfile:
-    writer2 = csv.DictWriter(csvfile, fieldnames=closed_orders2[0].__dict__['_raw'].keys())
+    writer2 = csv.DictWriter(csvfile, headers, extrasaction='ignore')  # fieldnames=closed_orders2[0].__dict__['_raw'].keys())
     writer2.writeheader()
     for order in closed_orders2:
         writer2.writerow(order.__dict__['_raw'])
