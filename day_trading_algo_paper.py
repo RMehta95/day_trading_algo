@@ -408,9 +408,9 @@ def run(tickers, market_open_dt, market_close_dt):
                 try:
                     o = api.submit_order(
                         symbol=symbol, qty=str(shares_to_buy), side='buy',
-                        type='stop_limit', time_in_force='day',
+                        type='limit', time_in_force='day',
                         limit_price=str(data.close),
-                        stop_price=str(stop_price)
+                        stop_loss = dict(stop_price=stop_price)
                     )
                     open_orders[symbol] = o
                     latest_cost_basis[symbol] = data.close

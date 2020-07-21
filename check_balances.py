@@ -3,6 +3,8 @@ import csv
 import pandas as pd
 from config import *  # link to other file
 from datetime import datetime, timedelta
+import numpy as np
+import math
 
 api = tradeapi.REST(
     base_url="https://api.alpaca.markets",
@@ -67,11 +69,15 @@ df1 = pd.read_csv(csvFileName, header=0)
 df1["submitted_at_date"] = df1.submitted_at.str[0:10]
 df1["submitted_at_time"] = df1.submitted_at.str[11:19]
 df1["submitted_at_time"] = df1["submitted_at_time"].map(lambda x: datetime.strftime(datetime.strptime(x, '%H:%M:%S') - timedelta(hours=4), '%H:%M:%S'))
+df1["filled_at"] = df1.filled_at.str[11:19]
+# syntax looks a little different for this one because there are some empty
+df1["filled_at"] = df1["filled_at"].map(lambda x: datetime.strftime(datetime.strptime(x, '%H:%M:%S') - timedelta(hours=4), '%H:%M:%S')
+                                        if np.all(pd.notnull(x)) else x)
+
 
 del df1['submitted_at']
-del df1['filled_at']
 del df1['canceled_at']
-df1 = df1.reindex(columns=["submitted_at_date", "submitted_at_time", "symbol", "qty", "filled_qty",
+df1 = df1.reindex(columns=["submitted_at_date", "submitted_at_time", "filled_at", "symbol", "qty", "filled_qty",
              "filled_avg_price", "order_type",
              "side", "time_in_force", "limit_price", "stop_price", "status"])
 df1.to_csv(csvFileName, index=False)
@@ -101,11 +107,14 @@ df2 = pd.read_csv(csvFileName2, header=0)
 df2["submitted_at_date"] = df2.submitted_at.str[0:10]
 df2["submitted_at_time"] = df2.submitted_at.str[11:19]
 df2["submitted_at_time"] = df2["submitted_at_time"].map(lambda x: datetime.strftime(datetime.strptime(x, '%H:%M:%S') - timedelta(hours=4), '%H:%M:%S'))
+df2["filled_at"] = df2.filled_at.str[11:19]
+# syntax looks a little different for this one because there are some empty
+df2["filled_at"] = df2["filled_at"].map(lambda x: datetime.strftime(datetime.strptime(x, '%H:%M:%S') - timedelta(hours=4), '%H:%M:%S')
+                                        if np.all(pd.notnull(x)) else x)
 
 del df2['submitted_at']
-del df2['filled_at']
 del df2['canceled_at']
-df2 = df2.reindex(columns=["submitted_at_date", "submitted_at_time", "symbol", "qty", "filled_qty",
+df2 = df2.reindex(columns=["submitted_at_date", "submitted_at_time", "filled_at", "symbol", "qty", "filled_qty",
              "filled_avg_price", "order_type",
              "side", "time_in_force", "limit_price", "stop_price", "status"])
 df2.to_csv(csvFileName2, index=False)
