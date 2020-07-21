@@ -35,14 +35,14 @@ file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
 if not os.path.exists("day_trading_algo_paper_log"):
     os.makedirs("day_trading_algo_paper_log")
 
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)-8s %(message)s',
                     datefmt='%m-%d %H:%M',
                     filename='day_trading_algo_paper_log/' + file_name,
                     filemode='w')
 # define a Handler which writes INFO messages or higher to the sys.stderr
 console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
+console.setLevel(logging.INFO)
 # set a format which is simpler for console use
 formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
 # tell the handler to use this format
