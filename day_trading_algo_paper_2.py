@@ -35,7 +35,7 @@ file_name = file_name_format.format(year=t.year, month=t.month, day=t.day,
 if not os.path.exists("day_trading_algo_paper_log"):
     os.makedirs("day_trading_algo_paper_log")
 
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)-8s %(message)s',
                     datefmt='%m-%d %H:%M',
                     filename='day_trading_algo_paper_log/' + file_name,
@@ -117,11 +117,12 @@ def get_1000m_history_data(symbols):
         minute_history[symbol] = api.polygon.historic_agg_v2(
             timespan="minute", symbol=symbol, limit=1000, multiplier=1, _from=t_prev_str, to=today_str
         ).df
-        logging.debug('Minute and daily history for symbol: %s', symbol)
+        logging.debug('Minute history for symbol: %s', symbol)
         logging.debug(minute_history[symbol])
         daily_history[symbol] = api.polygon.historic_agg_v2(
-            timespan="day", symbol=symbol, limit=60, multiplier=1, _from=t_prev_str, to=today_str
+            timespan="day", symbol=symbol, limit=61, multiplier=1, _from=t_prev_str, to=today_str
         ).df
+        logging.debug('Daily history for symbol: %s', symbol)
         logging.debug(daily_history[symbol])
         c += 1
 
@@ -136,6 +137,7 @@ def get_tickers():
     assets = api.list_assets()
     symbols = [asset.symbol for asset in assets if
                asset.tradable]
+    # symbols = ['AAL']  # test ®on American Airlines
     # logging.info(symbols) # if we want to see all symbols available
     # logging.info(tickers) - if we want to see all the tickers returned by polygons API
 
@@ -327,7 +329,7 @@ def run(tickers, market_open_dt, market_close_dt):
 
         # current cash on hand
         curr_cash = float(api.get_account().cash)
-        logging.debug('Current cash on hand: %$1.2f', curr_cash)
+        logging.debug('Current cash on hand: $%1.2f', curr_cash)
         # Check for buy signals
         if (
                 # since_market_open.seconds // 60 < 60  # by commenting out, we're allowing trades at all times of day
@@ -383,11 +385,11 @@ def run(tickers, market_open_dt, market_close_dt):
             # Check RSI indicator to make sure it's not overbought (>= 70 overbought, <= 30 oversold/undervalued)
             rsi_ind = rsi(daily_history[symbol]['close'].dropna())
 
-            logging.debug('Last 3 MACD (12,26,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_fast[-3],
+            logging.info('Last 3 MACD (12,26,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_fast[-3],
                          hist_fast[-2], hist_fast[-1])
-            logging.debug('Last 3 MACD (40,60,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_slow[-3],
+            logging.info('Last 3 MACD (40,60,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_slow[-3],
                           hist_slow[-2], hist_slow[-1])
-            logging.debug('Last 3 RSI values for %s: %1.2f, %1.2f, %1.2f', symbol, rsi_ind[-3], rsi_ind[-2], rsi_ind[-1])
+            logging.info('Last 3 RSI values for %s: %1.2f, %1.2f, %1.2f', symbol, rsi_ind[-3], rsi_ind[-2], rsi_ind[-1])
 
             if (
                     #  daily_pct_change > 2 and # since we're buying at all times of day, don't focus on daily % change
@@ -396,8 +398,8 @@ def run(tickers, market_open_dt, market_close_dt):
                     and hist_fast[-1] >= 0
                     and (hist_fast[-3] < hist_fast[-2] < hist_fast[-1])
                     and rsi_ind[-1] <= .33
-                    and hist_slow[-1] >= 0
-                    and np.diff(hist_slow)[-1] >= 0  # exit if MACD < 0 or 2nd order derivative shows slowing
+                    # and hist_slow[-1] >= 0
+                    # and np.diff(hist_slow)[-1] >= 0  # exit if MACD < 0 or 2nd order derivative shows slowing
             ):
 
                 # Stock has passed all checks; figure out how much to buy
@@ -469,6 +471,10 @@ def run(tickers, market_open_dt, market_close_dt):
                 n_slow=39,
                 n_sign=9
             )  # using a slightly slower MACD for exit
+
+            logging.info('Last 3 MACD (19, 39, 9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_med[-3],
+                          hist_med[-2], hist_med[-1])
+
             if (
                     data.close <= stop_prices[symbol] or
                     (data.close >= target_prices[symbol] and hist_med[-1] < 0) or
