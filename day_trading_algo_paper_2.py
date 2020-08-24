@@ -8,7 +8,6 @@
 
 import sys
 import alpaca_trade_api as tradeapi
-from retrying import retry
 import requests
 import time
 from ta.trend import macd, macd_diff, macd_signal
@@ -449,7 +448,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 else:
                     shares_to_buy -= positions.get(symbol, 0)
 
-                logging.info('Shares to buy for %s: $%1.2f}', symbol, shares_to_buy)
+                logging.info('Shares to buy for %s: $%1.2f', symbol, shares_to_buy)
 
                 buy_subj = 'Submitting buy for {:.0f} shares of {} at ${:0,.2f}'.format(
                     shares_to_buy, symbol, data.close
