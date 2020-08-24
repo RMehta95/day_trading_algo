@@ -10,7 +10,10 @@ import sys
 import alpaca_trade_api as tradeapi
 import requests
 import time
-from ta.trend import macd
+from ta.trend import macd, macd_diff, macd_signal
+from ta.momentum import rsi
+from ta.utils import dropna
+from ta.volatility import BollingerBands
 import numpy as np
 from datetime import datetime, timedelta
 from pytz import timezone
@@ -102,6 +105,7 @@ def send_email(subject, body):
 def get_1000m_history_data(symbols):
     logging.info('Getting historical data...')
     minute_history = {}
+    daily_history = {}
     nyc = timezone('America/New_York')
     today = datetime.today().astimezone(nyc)
     today_str = datetime.today().astimezone(nyc).strftime('%Y-%m-%d')
@@ -112,10 +116,17 @@ def get_1000m_history_data(symbols):
         minute_history[symbol] = api.polygon.historic_agg_v2(
             timespan="minute", symbol=symbol, limit=1000, multiplier=1, _from=t_prev_str, to=today_str
         ).df
+        logging.debug('Minute history for symbol: %s', symbol)
+        logging.debug(minute_history[symbol])
+        daily_history[symbol] = api.polygon.historic_agg_v2(
+            timespan="day", symbol=symbol, limit=61, multiplier=1, _from=t_prev_str, to=today_str
+        ).df
+        logging.debug('Daily history for symbol: %s', symbol)
+        logging.debug(daily_history[symbol])
         c += 1
 
         logging.info('%d/%d : %s', c, len(symbols), symbol)
-    return minute_history
+    return minute_history, daily_history
 
 
 def get_tickers():
@@ -167,7 +178,7 @@ def run(tickers, market_open_dt, market_close_dt):
 
     symbols = [ticker.ticker for ticker in tickers]
     logging.info('Tracking %d symbols.', len(symbols))
-    minute_history = get_1000m_history_data(symbols)
+    minute_history, daily_history = get_1000m_history_data(symbols)
     # logging.info(minute_history) # prints top and bottom 10 if you want to see open, close, etc.
 
     cash_value = float(api.get_account().cash)
@@ -269,8 +280,9 @@ def run(tickers, market_open_dt, market_close_dt):
         # First, aggregate 1s bars for up-to-date MACD calculations
         ts = data.start
         ts -= timedelta(seconds=ts.second, microseconds=ts.microsecond)
+
         try:
-            current = minute_history[data.symbol].loc[ts]
+            current = minute_history[symbol].loc[ts]
         except KeyError:
             current = None
         new_data = []
@@ -331,12 +343,14 @@ def run(tickers, market_open_dt, market_close_dt):
                 # Because we're aggregating on the fly, sometimes the datetime
                 # index can get messy until it's healed by the minute bars
                 return
-            # logging.info('High during first 15 minutes: %1.2f',high_15m)
+            logging.debug('High during first 15 minutes: %1.2f',high_15m)
+
             # Get the change since yesterday's market close
             daily_pct_change = (
                     100.0 * (data.close - prev_closes[symbol]) / prev_closes[symbol]
             )
-            # logging.info('Daily change: %1.2f %%',daily_pct_change)
+            logging.debug('Daily change: %1.2f %%',daily_pct_change)
+
             if (
                     daily_pct_change > 4 and
                     data.close > 0.95 * high_15m and  # at 95% of 15m high
@@ -348,11 +362,21 @@ def run(tickers, market_open_dt, market_close_dt):
                     n_fast=12,
                     n_slow=26
                 )
+                # Check RSI indicator to make sure it's not overbought (>= 70 overbought, <= 30 oversold/undervalued)
+                rsi_ind = rsi(daily_history[symbol]['close'].dropna())
+
+                logging.info('Last 3 MACD (12,26,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist[-3],
+                             hist[-2], hist[-1])
+                logging.info('Last 3 RSI values for %s: %1.2f, %1.2f, %1.2f', symbol, rsi_ind[-3], rsi_ind[-2],
+                             rsi_ind[-1])
+
                 if (
                         hist[-1] < 0 or
                         not (hist[-3] < hist[-2] < hist[-1])
+                        and rsi_ind[-1] > 70 # above 70% is overbought
                 ):
                     return
+
                 hist = macd(
                     minute_history[symbol]['close'].dropna(),
                     n_fast=40,
@@ -369,7 +393,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 stop_prices[symbol] = stop_price
                 if data.close < 5:
                     target_prices[symbol] = data.close + (
-                            (data.close - stop_price) * 2  # goal is to sell 1x more than downside threshold (more volatile)
+                            (data.close - stop_price) * 1.5  # goal is to sell 1.5x more than downside threshold (more volatile)
                     )
                 else:
                     target_prices[symbol] = data.close + (
@@ -494,7 +518,7 @@ def run(tickers, market_open_dt, market_close_dt):
         # if ((current_dt - market_close_dt).seconds // 60) > 15:
         #     conn.close('Market has closed')
 
-        logging.info('Connecting to minute-level data, watching:', data.symbol)
+        logging.info('Connecting to minute-level data, watching: %s', data.symbol)
 
         ts = data.start
         ts -= timedelta(microseconds=ts.microsecond)

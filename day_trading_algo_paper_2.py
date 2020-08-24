@@ -8,6 +8,7 @@
 
 import sys
 import alpaca_trade_api as tradeapi
+from retrying import retry
 import requests
 import time
 from ta.trend import macd, macd_diff, macd_signal
@@ -113,20 +114,35 @@ def get_1000m_history_data(symbols):
     t_prev_str = (datetime.today().astimezone(nyc) - timedelta(days=61)).strftime('%Y-%m-%d')
     c = 0
     for symbol in symbols:
-        # https://pypi.org/project/alpaca-trade-api/
-        minute_history[symbol] = api.polygon.historic_agg_v2(
-            timespan="minute", symbol=symbol, limit=1000, multiplier=1, _from=t_prev_str, to=today_str
-        ).df
-        logging.debug('Minute history for symbol: %s', symbol)
-        logging.debug(minute_history[symbol])
-        daily_history[symbol] = api.polygon.historic_agg_v2(
-            timespan="day", symbol=symbol, limit=61, multiplier=1, _from=t_prev_str, to=today_str
-        ).df
-        logging.debug('Daily history for symbol: %s', symbol)
-        logging.debug(daily_history[symbol])
-        c += 1
+
+        retry_limit = 3
+        retry_counter = 0
+        while retry_counter < retry_limit:
+            try:
+                # do stuff
+                # https://pypi.org/project/alpaca-trade-api/
+                minute_history[symbol] = api.polygon.historic_agg_v2(
+                    timespan="minute", symbol=symbol, limit=1000, multiplier=1, _from=t_prev_str, to=today_str
+                ).df
+                logging.debug('Minute history for symbol: %s', symbol)
+                logging.debug(minute_history[symbol])
+                daily_history[symbol] = api.polygon.historic_agg_v2(
+                    timespan="day", symbol=symbol, limit=7, multiplier=1, _from=t_prev_str, to=today_str
+                ).df
+                logging.debug('Daily history for symbol: %s', symbol)
+                logging.debug(daily_history[symbol])
+
+                break # only break if succeeds
+
+            except Exception as e:
+                retry_counter += 1
+                continue
+
+        c += 1 # increment to next symbol
 
         logging.info('%d/%d : %s', c, len(symbols), symbol)
+
+
     return minute_history, daily_history
 
 
@@ -330,6 +346,9 @@ def run(tickers, market_open_dt, market_close_dt):
         # current cash on hand
         curr_cash = float(api.get_account().cash)
         logging.debug('Current cash on hand: $%1.2f', curr_cash)
+        logging.debug('Minutes until market closes: %1.2f', until_market_close.seconds // 60)
+        logging.debug('Minutes since market opened: %1.2f', since_market_open.seconds // 60)
+
         # Check for buy signals
         if (
                 # since_market_open.seconds // 60 < 60  # by commenting out, we're allowing trades at all times of day
@@ -358,18 +377,18 @@ def run(tickers, market_open_dt, market_close_dt):
             daily_pct_change = (
                     100.0 * (data.close - prev_closes[symbol]) / prev_closes[symbol]
             )
-            logging.debug('Daily change: %1.2f %%',daily_pct_change)
+            logging.debug('Daily change: %1.2f %%', daily_pct_change)
 
             # check for a positive, increasing MACD
             hist_fast = macd_diff(
-                daily_history[symbol]['close'].dropna(),
+                minute_history[symbol]['close'].dropna(),
                 n_fast=12,
                 n_slow=26,
                 n_sign=9
             )
 
             hist_slow = macd_diff(
-                daily_history[symbol]['close'].dropna(),
+                minute_history[symbol]['close'].dropna(),
                 n_fast=40,
                 n_slow=60,
                 n_sign=9
@@ -383,13 +402,16 @@ def run(tickers, market_open_dt, market_close_dt):
             # )  # check fastest macd
 
             # Check RSI indicator to make sure it's not overbought (>= 70 overbought, <= 30 oversold/undervalued)
-            rsi_ind = rsi(daily_history[symbol]['close'].dropna())
+            rsi_ind = rsi(minute_history[symbol]['close'].dropna())
 
-            logging.info('Last 3 MACD (12,26,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_fast[-3],
+            logging.info('Last 3 MACD (12,26,9) values for %s: %1.2f, %1.2f, %1.2f; aiming for increasing', symbol,
+                         hist_fast[-3],
                          hist_fast[-2], hist_fast[-1])
-            logging.info('Last 3 MACD (40,60,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_slow[-3],
-                          hist_slow[-2], hist_slow[-1])
-            logging.info('Last 3 RSI values for %s: %1.2f, %1.2f, %1.2f', symbol, rsi_ind[-3], rsi_ind[-2], rsi_ind[-1])
+            # logging.info('Last 3 MACD (40,60,9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_slow[-3],
+            #               hist_slow[-2], hist_slow[-1])
+            logging.info('Last RSI value is %1.2f, aiming for <= 70', rsi_ind[-1])
+            logging.info('Volume today is %1.2f, aiming for > 30K', volume_today[symbol] / 1000.)
+            logging.info('Last MACD is %1.2f, aiming for >= 0', hist_fast[-1])
 
             if (
                     #  daily_pct_change > 2 and # since we're buying at all times of day, don't focus on daily % change
@@ -397,14 +419,14 @@ def run(tickers, market_open_dt, market_close_dt):
                     volume_today[symbol] > 30000
                     and hist_fast[-1] >= 0
                     and (hist_fast[-3] < hist_fast[-2] < hist_fast[-1])
-                    and rsi_ind[-1] <= .33
+                    and rsi_ind[-1] <= 70
                     # and hist_slow[-1] >= 0
                     # and np.diff(hist_slow)[-1] >= 0  # exit if MACD < 0 or 2nd order derivative shows slowing
             ):
 
                 # Stock has passed all checks; figure out how much to buy
                 stop_price = find_stop(
-                    data.close, daily_history[symbol], ts
+                    data.close, minute_history[symbol], ts
                 )
 
                 stop_prices[symbol] = stop_price
@@ -413,8 +435,8 @@ def run(tickers, market_open_dt, market_close_dt):
                         (data.close - stop_price) * 1.5  # goal is to sell 1.5x more than downside threshold
                 )
 
-                logging.debug('Stop price for %s: $%1.2f', symbol, stop_prices[symbol])
-                logging.debug('Target price for %s: $%1.2f}', symbol, target_prices[symbol])
+                logging.info('Stop price for %s: $%1.2f', symbol, stop_prices[symbol])
+                logging.info('Target price for %s: $%1.2f', symbol, target_prices[symbol])
 
                 # use risk * starting cash value as your leading indicator,
                 # but make sure this is below max to trade with and the amount of cash in your account
@@ -466,14 +488,14 @@ def run(tickers, market_open_dt, market_close_dt):
             # Sell for a loss if it's below our cost basis and MACD < 0
             # Sell for a profit if it's above our target price
             hist_med = macd_diff(
-                daily_history[symbol]['close'].dropna(),
+                minute_history[symbol]['close'].dropna(),
                 n_fast=19,
                 n_slow=39,
                 n_sign=9
             )  # using a slightly slower MACD for exit
 
-            logging.info('Last 3 MACD (19, 39, 9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_med[-3],
-                          hist_med[-2], hist_med[-1])
+            # logging.info('Last 3 MACD (19, 39, 9) values for %s: %1.2f, %1.2f, %1.2f', symbol, hist_med[-3],
+            #              hist_med[-2], hist_med[-1])
 
             if (
                     data.close <= stop_prices[symbol] or
@@ -586,7 +608,6 @@ def liquidate_current_positions():
         )
 
     sys.exit('Liquidated all positions, trading day over')
-
 
 
 # Handle failed websocket connections by reconnecting
